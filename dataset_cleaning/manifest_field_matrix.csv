@@ -1,0 +1,51 @@
+field_name,data_type,scan_manifest,audit_manifest,frozen_manifest,split_manifest,segment_manifest,ccmusic_default,chmusic_default,notes
+record_id,string,required,required,required,required,required,,,格式：{source}_{seq:06d}；扫描阶段分配，全流程主键
+sample_id,string,excluded,required,required,required,required,,,格式：{source}_{family_abbr}_{seq:04d}；冻结阶段分配；scan_manifest 无 sample_id；segment_manifest 中作为继承字段
+source_dataset,string,required,required,required,required,required,,,CCMusic | ChMusic
+source_path,string,required,required,required,required,excluded,,,原始文件绝对路径
+file_name,string,required,required,required,required,excluded,,,不含路径的原始文件名
+file_ext,string,required,required,required,required,excluded,,,.wav
+source_subtype_dir,string,excluded,required,required,required,excluded,,empty_string,CCMusic 为原始子目录名；ChMusic 填空字符串；scan_manifest 使用 raw_dir_label 代替
+raw_dir_label,string,required,excluded,excluded,excluded,excluded,,,原始目录名（CCMusic 为 source_subtype_dir，ChMusic 为 Musics）；仅在 scan_manifest 中使用
+scan_status,string,required,excluded,excluded,excluded,excluded,,,in_scope | out_of_scope | mapping_failed；仅在 scan_manifest 中使用
+mapped_family_label,string,required,excluded,excluded,excluded,excluded,,,scan_manifest 中的映射结果；in_scope 时填写 family_label 值，否则填空字符串
+family_label,string,excluded,required,required,required,required,,,主实验 6 类标签之一；scan_manifest 使用 mapped_family_label 代替
+subtype_label,string,excluded,required,required,required,excluded,,same_as_family_label,CCMusic 按白名单填写；ChMusic 填 family_label
+chmusic_class_id,integer,excluded,required,required,required,excluded,-1,,CCMusic 填 -1；ChMusic 填原始类别编号
+content_type,string,excluded,required,required,required,excluded,,phrase,CCMusic: controlled|technique|phrase；ChMusic 统一填 phrase
+normalized_base_name,string,excluded,required,required,required,excluded,,raw_stem_no_ext,CCMusic 自动生成；ChMusic 填不含扩展名的原始文件名
+audio_sha256,string,excluded,required,required,required,excluded,,,64-char hex；用于 D09 精确重复检测
+audio_fingerprint_id,string,excluded,optional,optional,optional,excluded,auto_or_empty,empty_string,CCMusic: fpcalc 输出的 SHA-256 哈希；ChMusic 填空字符串
+performer_or_recording_id,string,excluded,required,required,required,excluded,same_as_recording_group_id,same_as_recording_group_id,无独立演奏者信息时设为 recording_group_id
+recording_group_id,string,excluded,required,required,required,excluded,,,同一录音来源共享此 ID
+grouping_method,string,excluded,required,required,required,excluded,,unique_singleton,filename_rule | whitespace_variant_merge | fingerprint_merge | manual_merge | unique_singleton
+take_id,integer,excluded,required,required,required,excluded,0,0,0=唯一录音 1/2/3=第X遍
+is_near_duplicate,boolean,excluded,required,required,required,excluded,false,false,同 recording_group 多 take 时为 true
+duplicate_of,string,excluded,conditional,excluded,excluded,excluded,,,audit 中被 D09 剔除时必填（指向 canonical record_id）
+split_seed,integer,excluded,excluded,excluded,required,required,,,0 | 1 | 2
+split,string,excluded,excluded,excluded,required,required,,,train | val | test | external_test；ChMusic 固定为 external_test
+duration_sec,float,excluded,required,required,required,excluded,,,原始音频时长（秒）；scan_manifest 不含此字段；is_decodable=false 时填 -1.0
+sample_rate_hz,integer,excluded,required,required,required,excluded,,,原始采样率（Hz）；is_decodable=false 时填 -1
+channels,integer,excluded,required,required,required,excluded,,,1 | 2；is_decodable=false 时填 -1
+bit_depth,integer,excluded,required,required,required,excluded,,,16 | 24 | 32；未识别 subtype 或 is_decodable=false 时填 -1
+integrated_loudness_lufs,float,excluded,optional,optional,optional,excluded,,,整体响度（LUFS）；可选计算
+rms_db,float,excluded,optional,optional,optional,excluded,,,RMS 能量（dB）；可选计算
+silence_ratio,float,excluded,required,required,required,excluded,,,静音占比 0.0~1.0；is_decodable=false 时填 -1.0
+clipping_ratio,float,excluded,required,required,required,excluded,,,削波占比 0.0~1.0；is_decodable=false 时填 -1.0
+has_vocal,boolean,excluded,optional,optional,optional,excluded,false,false,是否包含明显人声
+is_decodable,boolean,excluded,required,required,required,excluded,,,文件是否可正常解码；scan_manifest 不含此字段；frozen/split 中恒为 true（D03 已剔除不可解码）
+manual_review_required,boolean,excluded,required,required,required,excluded,false,false,是否需要人工复核
+manual_review_status,string,excluded,conditional,conditional,conditional,excluded,,,"当 manual_review_required=true 时必填：pending | approved | rejected；frozen/split 中不允许 pending（冻结门禁拦截）"
+sample_status,string,excluded,required,required,required,excluded,,,keep | drop；二元最终状态，无中间态
+drop_reason,string,conditional,conditional,excluded,excluded,excluded,,,scan_manifest 中 scan_status!=in_scope 时必填；audit 中 sample_status=drop 时必填；见 cleaning_rule_table.csv
+applied_rule_ids,string,excluded,optional,optional,optional,excluded,,,逗号分隔的命中规则 ID；按执行步骤时序排列，同一 rule_id 不重复
+notes,string,excluded,optional,optional,optional,excluded,,,纯人工备注；不承载结构化数据
+segment_id,string,excluded,excluded,excluded,excluded,required,,,格式：{sample_id}_s{segment_index:02d}
+segment_index,integer,excluded,excluded,excluded,excluded,required,,,从 0 开始按 start_time_sec 升序分配
+start_time_sec,float,excluded,excluded,excluded,excluded,required,,,片段起始时间（秒）
+end_time_sec,float,excluded,excluded,excluded,excluded,required,,,片段结束时间（秒）
+segment_path,string,excluded,excluded,excluded,excluded,required,,,导出的 5 秒 WAV 片段相对路径（相对于 segments_seed{n}/ 根目录）
+is_padded,boolean,excluded,excluded,excluded,excluded,required,,,原始 3~5 秒样本零填充时为 true
+overlap_ratio,float,excluded,excluded,excluded,excluded,required,,,固定为 0.0（非重叠切片）
+selection_method,string,excluded,excluded,excluded,excluded,required,,,all_after_energy_filter_and_concentration_cap
+active_frame_ratio,float,excluded,excluded,excluded,excluded,required,,,片段有效发声帧占比（0.0~1.0）；24kHz 重采样后计算；低于 freeze_config 指定阈值（默认 0.20）的候选排除

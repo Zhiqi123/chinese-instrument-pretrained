@@ -1,0 +1,28 @@
+rule_id,priority,rule_stage,rule_category,apply_to,condition_type,condition_expression,decision,action,drop_reason,review_required,notes
+I01,10,mapping,inclusion,CCMusic,whitelist_match,family_label can be uniquely mapped from approved subtype_label,keep,candidate_pool,,false,Must map to one of the frozen family labels
+I04,40,decode,inclusion,all,decoder_check,file is decodable and not corrupted,keep,candidate_pool,,false,Failed decode triggers D03
+I05,50,duration,inclusion,all,numeric,duration_sec >= 3.0,keep,candidate_pool,,false,Shorter files excluded by D04
+I07,70,mapping,inclusion,CCMusic,whitelist_match,subtype_label is in the frozen whitelist,keep,candidate_pool,,false,Whitelist frozen in freeze_config.yaml
+I08,80,dedup,inclusion,all,duplicate_check,no exact duplicate found or current file selected as canonical copy,keep,candidate_pool,,false,Exact duplicates resolved before freeze
+I10,76,quality,inclusion,all,subtype_check,soundfile.info().subtype is in recognized set (PCM_16/PCM_24/PCM_32/FLOAT),keep,candidate_pool,,conditional,"Auto-pass: recognized subtype; auto-escalate: unrecognized → manual review (review_type=i10_encoding); approved with bit_depth_override"
+D03,160,decode,drop,all,decoder_check,file corrupted unreadable or abnormal duration metadata,drop,exclude,decode_failure,false,Direct automatic exclusion
+D04,170,duration,drop,all,numeric,duration_sec < 3.0,drop,exclude,too_short,false,Too short for stable identification
+D05a,180,quality,drop,all,threshold,silence_ratio > D05a_threshold (default 0.70; per-family override via freeze_config.yaml),drop,exclude,excessive_silence,false,"Direct automatic exclusion; threshold from freeze_config.yaml thresholds.d05a_default or threshold_overrides"
+D06a,190,quality,drop,all,threshold,clipping_ratio > D06a_threshold (default 0.02; per-family override via freeze_config.yaml),drop,exclude,severe_distortion,false,"Direct automatic exclusion; threshold from freeze_config.yaml"
+D07,200,mapping,drop,CCMusic,whitelist_miss,subtype_label not in frozen whitelist,drop,exclude,subtype_out_of_scope,false,Out-of-scope instrument subtype
+D08,210,mapping,drop,all,manual_judgement,classification requires subjective guessing rather than stable evidence,drop,exclude,label_requires_guess,true,Conservative exclusion
+D09,220,dedup,drop,all,duplicate_check,audio_sha256 matches an already kept file and current file is not canonical,drop,exclude,exact_duplicate,conditional,"Canonical = first by (source_dataset ASC, source_subtype_dir ASC, file_name ASC); same family + same dataset → automatic; cross-family or cross-dataset → manual review (review_type=d09_cross)"
+D10,230,dedup,drop,CCMusic,near_duplicate_check,redundant near-duplicate: if unique_recordings_count >= 35 keep only canonical per group; if < 35 keep all takes,drop,exclude,redundant_near_duplicate,false,Threshold: 35 = R01(25) * 1.4; ChMusic does not execute D10
+G01,240,grouping,group_control,CCMusic,filename_rule,build recording_group_id from source_subtype_dir plus normalized_base_name,keep,group_by_filename_rule,,false,High-precision automatic grouping; Step 2a detects whitespace variants
+G02,250,grouping,group_control,CCMusic,fingerprint_review,merge after fingerprint evidence and manual confirmation,keep,group_by_verified_merge,,true,"fpcalc bitwise hamming similarity >= 0.85 or sliding-window containment >= 0.90 → manual review (review_type=g02_fingerprint); approved → merge groups; rejected → no merge (no keep/drop change)"
+B01,260,balance,balance_control,CCMusic,class_ratio,phrase_recording_ratio_per_class <= 0.15,keep,downsample_phrase_if_needed,,false,"Downsampled rows: drop_reason=phrase_quota_downsampled; sort by (source_subtype_dir, normalized_base_name, file_name) before sampling"
+B02,270,balance,balance_monitoring,CCMusic,class_ratio,controlled_plus_technique_ratio_per_class >= 0.80,keep,evaluate_and_report,,false,Pure monitoring metric — no adjustment action
+B03,280,balance,balance_monitoring,CCMusic,class_count,min_max_recording_ratio >= 0.20 hard floor ideally >= 0.33,keep,evaluate_and_report,,false,Pure monitoring metric — no adjustment action
+B04,290,balance,balance_monitoring,CCMusic,class_count,segment_count_cv_across_classes <= 0.30,keep,evaluate_and_report,,false,CV = std/mean of per-class segment counts; monitoring only
+R01,300,balance,replace_trigger,CCMusic,dataset_count,kept_recordings_per_class < 25,keep,trigger_halt,,false,Halt production run; modify freeze_config.yaml and re-run
+R02,310,balance,replace_trigger,CCMusic,dataset_count,kept_recordings_per_class < 0.40 * median_kept_recordings_across_final_classes,keep,trigger_halt,,false,Halt production run; modify freeze_config.yaml and re-run
+R03,320,split,replace_trigger,CCMusic,group_count,unique_recording_groups_per_class < 7 or impossible to allocate at least one val and one test group,keep,trigger_halt,,false,Halt production run; modify freeze_config.yaml and re-run
+R04,325,balance,replace_control,all,metadata_match,family_label belongs to a class replaced out,drop,exclude,class_replaced,false,Applied when class replacement is confirmed in freeze_config.yaml
+R05,326,balance,freeze_gate,ChMusic,dataset_count,kept_recordings_per_family_in_chmusic >= 4,keep,halt_if_below,,false,"Hard gate: if < 4 kept recordings, require decision in freeze_config.yaml chmusic_r05_decisions (accept_limited or threshold_override)"
+S01,330,split,split_control,all,group_constraint,same recording_group_id must stay in one split,keep,groupwise_split,,false,Primary leakage prevention
+S02,340,split,split_control,all,group_constraint,all segments from one original recording stay in one split,keep,groupwise_split,,false,Split before segmentation

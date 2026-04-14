@@ -1,0 +1,51 @@
+field_name,data_type,required,allowed_values_or_range,default,description
+record_id,string,yes,auto-generated unique ID,,"每个原始音频的唯一标识符，格式：{source}_{seq:06d}，其中 source 为 ccm（CCMusic）或 chm（ChMusic）；seq 在同一 source_dataset 内按 (source_subtype_dir ASC, file_name ASC) 排序后从 000001 开始连续分配（CCMusic 用 Unicode code point 排序；ChMusic 用点分数字排序，见 v3 附录 B）；record_id 与类别无关——类别替换不影响已分配的 record_id；全流程主键，贯穿 scan/audit/frozen/split/segment 所有 manifest"
+sample_id,string,yes,auto-generated unique ID,,"每条原始音频的可读标识符，格式：{source}_{family_abbr}_{seq:04d}；仅在冻结阶段（Step 7）分配；seq 在同一 (source_dataset, family_label) 组合内从 0001 开始按 (source_subtype_dir, recording_group_id, file_name) 升序连续分配；audit_manifest 中被剔除样本也必须分配"
+source_dataset,string,yes,CCMusic | ChMusic,,数据来源
+source_path,string,yes,原始文件的完整路径,,原始音频文件在磁盘上的绝对路径
+file_name,string,yes,原始文件名,,不含路径的文件名
+file_ext,string,yes,.wav,,文件扩展名
+source_subtype_dir,string,yes,原始子目录名,,CCMusic 为原始子目录名（用于 subtype 映射）；ChMusic 填空字符串；audit_manifest 及后续 manifest 使用
+raw_dir_label,string,yes for scan_manifest,原始目录名,,仅在 scan_manifest 中使用：CCMusic 为 source_subtype_dir 值，ChMusic 为 Musics
+scan_status,string,yes for scan_manifest,in_scope | out_of_scope | mapping_failed,,仅在 scan_manifest 中使用：in_scope 表示成功映射到当前冻结 family_label 集合；out_of_scope 表示无法映射但解析未异常；mapping_failed 表示映射逻辑异常
+mapped_family_label,string,conditional for scan_manifest,见 family_label 允许值或空字符串,,仅在 scan_manifest 中使用：scan_status=in_scope 时填写映射后的 family_label，否则填空字符串
+family_label,string,yes,二胡 | 琵琶 | 古筝 | 笛子 | 唢呐 | 笙 | 扬琴 | 三弦 | 柳琴 | 中阮,,最终冻结的主实验 family 标签；默认 6 类，替换时从备选类中补入
+subtype_label,string,yes,见 freeze_config.yaml 白名单,,CCMusic 按白名单填写子类标签（如 A调曲笛、传统笙）；ChMusic 统一填 family_label
+chmusic_class_id,integer,yes,1 | 2 | 3 | 4 | 5 | 7 | 8 | 9 | 10 | 11 | -1,,ChMusic 的原始类别编号；CCMusic 填 -1
+content_type,string,yes,controlled | technique | phrase,,内容类型标注；CCMusic 按文件名关键词标注（优先级 phrase > technique > controlled），未命中时人工补标；ChMusic 统一填 phrase
+normalized_base_name,string,yes,auto-generated for CCMusic | raw stem (no ext) for ChMusic,,去除扩展名和末尾第X遍后的规范化文件名；CCMusic 自动生成（见 v3 §9.1 Stage A Step 1）；ChMusic 填不含扩展名的原始文件名
+audio_sha256,string,yes,64-char hex string,,原始文件二进制 SHA-256 哈希，用于精确重复检测
+audio_fingerprint_id,string,no,64-char hex string or empty,,"CCMusic 声学指纹摘要：对 fpcalc -raw -length 120 输出的 uint32 整数序列按十进制逗号分隔拼接为字符串后取 SHA-256 哈希；ChMusic 填空字符串"
+performer_or_recording_id,string,yes,与 recording_group_id 格式一致,,演奏者标识；无独立信息时设为与 recording_group_id 相同
+recording_group_id,string,yes,auto-generated,,"同一录音来源共享此 ID；CCMusic 格式：ccm_<family_abbr>_G<seq:04d>；ChMusic 格式：chm_<family_abbr>_G<seq:04d>；每条 ChMusic 录音独立"
+grouping_method,string,yes,filename_rule | whitespace_variant_merge | fingerprint_merge | manual_merge | unique_singleton,,recording_group_id 的建立依据；ChMusic 固定填 unique_singleton
+take_id,integer,yes,0 | 1 | 2 | 3,0,take 编号：0=唯一录音，1=第一遍，2=第二遍，3=第三遍
+is_near_duplicate,boolean,yes,true | false,false,是否为同一 recording_group 中的多 take
+duplicate_of,string,no (conditional per matrix),另一 record_id 或空,,若为精确重复则指向被保留的 canonical record_id；audit_manifest 中被 D09 剔除时必填
+split_seed,integer,yes for split_manifest and segment_manifest,0 | 1 | 2,,使用的随机种子编号
+split,string,yes for split_manifest and segment_manifest,train | val | test | external_test,,数据划分标签；ChMusic 固定为 external_test
+duration_sec,float,yes,>= 0 or -1.0,,原始音频时长（秒）；is_decodable=false 时填 -1.0；scan_manifest 不含此字段
+sample_rate_hz,integer,yes,> 0 or -1,,原始采样率（Hz）；is_decodable=false 时填 -1
+channels,integer,yes,1 | 2 | -1,,原始声道数；is_decodable=false 时填 -1
+bit_depth,integer,yes,16 | 24 | 32 | -1,,"原始位深度，由 soundfile.info().subtype 映射：PCM_16→16、PCM_24→24、PCM_32→32、FLOAT→32、未识别→-1；I10 人工裁决可通过 bit_depth_override 回填"
+integrated_loudness_lufs,float,no,<= 0,,整体响度（LUFS）
+rms_db,float,no,任意负值或 0,,RMS 能量（dB）
+silence_ratio,float,yes,0.0 ~ 1.0 or -1.0,,静音占比：原始采样率单声道浮点波形，25ms 帧 / 10ms hop，帧级 RMS < -40 dBFS 为静音帧；is_decodable=false 时填 -1.0
+clipping_ratio,float,yes,0.0 ~ 1.0 or -1.0,,"削波占比：归一化 [-1,1] 浮点波形上 abs(sample) >= 0.998 的采样点比例；is_decodable=false 时填 -1.0"
+has_vocal,boolean,no,true | false,false,是否包含明显人声
+is_decodable,boolean,yes,true | false,,文件是否可正常解码；scan_manifest 不含此字段
+manual_review_required,boolean,yes,true | false,false,是否需要人工复核
+manual_review_status,string,no (conditional per matrix),pending | approved | rejected,,"人工复核结果；当 manual_review_required=true 时必填；frozen/split 中不允许 pending（冻结门禁拦截）"
+sample_status,string,yes,keep | drop,,最终保留/剔除决定；二元状态，无中间态
+drop_reason,string,no (conditional per matrix),"见 cleaning_rule_table.csv 及 class_replaced、phrase_quota_downsampled、mapping_failed、unrecognized_encoding、class_out_of_scope、class_excluded",,scan_manifest 中 scan_status!=in_scope 时必填；audit 中 sample_status=drop 时必填
+applied_rule_ids,string,no,逗号分隔的 rule_id 列表,,"所有 triggered 规则 ID，按执行步骤时序排列，同一 rule_id 不重复"
+notes,string,no,自由文本,,纯人工备注；不承载结构化数据
+segment_id,string,yes for segment_manifest,auto-generated,,格式：{sample_id}_s{segment_index:02d}
+segment_index,integer,yes for segment_manifest,>= 0,,从 0 开始的片段序号
+start_time_sec,float,yes for segment_manifest,>= 0.0,,片段起始时间（秒）
+end_time_sec,float,yes for segment_manifest,> start_time_sec,,片段结束时间（秒）
+segment_path,string,yes for segment_manifest,相对路径,,导出的 5 秒 WAV 片段的相对路径
+is_padded,boolean,yes for segment_manifest,true | false,,原始 3~5 秒样本零填充时为 true
+overlap_ratio,float,yes for segment_manifest,0.0,0.0,固定为 0.0（非重叠切片）
+selection_method,string,yes for segment_manifest,all_after_energy_filter_and_concentration_cap,,通过能量筛查 + 浓度裁剪后保留的候选片段
+active_frame_ratio,float,yes for segment_manifest,0.0 ~ 1.0,,片段有效发声帧占比；24kHz 重采样后计算；低于 freeze_config 指定阈值（默认 0.20）的候选排除

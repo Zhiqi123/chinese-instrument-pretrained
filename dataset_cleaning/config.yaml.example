@@ -1,0 +1,7 @@
+python_interpreter: python3.12
+
+data_root_paths:
+  CCMusic: ./ccmusic_ctis_audio
+  ChMusic: ./ChMusic
+
+output_dir: ./output
