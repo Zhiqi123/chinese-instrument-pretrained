@@ -1,0 +1,20 @@
+# Phase 3 train subsampling rules
+# Defines sampling unit, ratio tiers, seed offsets, and rounding.
+
+sampling_unit: recording_group_id
+
+ratio_definitions:
+  train10: 0.10
+  train25: 0.25
+  train50: 0.50
+  train100: 1.00
+
+ratio_offsets:
+  train10: 1010
+  train25: 1025
+  train50: 1050
+  train100: 1100
+
+rounding_rule: ceil_with_min1
+
+stratify_by: family_label

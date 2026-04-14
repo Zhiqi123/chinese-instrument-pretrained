@@ -1,0 +1,26 @@
+# MERT layer-wise probing config
+# Phase 4: the only new training experiment in this phase.
+
+version: mert_layer_probe_v1
+phase: 4
+experiment_id: exp04_mert_layer_probe
+method: mert_layer_probe
+method_short: mert_layer_probe
+model: mert_v1_95m
+
+data:
+  dataset_config: configs/data/dataset_v1.yaml
+
+model_config:
+  model_name: m-a-p/MERT-v1-95M
+  model_cache_dir: model_cache/huggingface
+  encoder_mode: frozen
+  use_hidden_states: true
+  pooling: mean
+
+training:
+  train_config_ref: configs/train/default_supervised.yaml
+
+output:
+  base_dir: runs/exp04_layer_probe
+  cache_dir: artifacts/exp04_analysis/layer_embeddings

@@ -1,0 +1,8 @@
+# seed2 data entry config
+
+seed_name: seed2
+seed_index: 2
+base_seed: 9413
+
+split_manifest: dataset_cleaning/output/split_manifest_seed2.csv
+segment_manifest: dataset_cleaning/output/segment_manifest_seed2.csv

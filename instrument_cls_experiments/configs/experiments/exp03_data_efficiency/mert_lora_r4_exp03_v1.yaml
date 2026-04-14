@@ -1,0 +1,34 @@
+# Phase 3 MERT + LoRA (rank=4) config
+# Same model/hyperparams as Phase 2; adds Phase 3 subset fields.
+
+version: mert_lora_r4_exp03_v1
+method: mert_lora
+method_short: mert_lora_r4
+model: mert_v1_95m
+experiment_id: exp03_mert_lora_r4
+phase: 3
+
+data:
+  dataset_config: configs/data/dataset_v1.yaml
+
+model_config:
+  model_name: m-a-p/MERT-v1-95M
+  model_cache_dir: model_cache/huggingface
+  adaptation_mode: lora
+  lora:
+    rank: 4
+    lora_alpha: 8
+    lora_dropout: 0.1
+    target_modules:
+      - q_proj
+      - v_proj
+
+training:
+  inherit_from: configs/train/default_adaptation.yaml
+  optimizer:
+    lr: 1.0e-4
+
+subset_config: configs/data/phase3_subsample_v1.yaml
+
+output:
+  base_dir: runs/exp03_data_efficiency/mert_lora_r4

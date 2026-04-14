@@ -1,0 +1,17 @@
+# inference-only task config
+
+# Inference
+inference:
+  batch_size: 32
+  num_workers: 4
+
+# Device
+device: auto  # cuda > mps > cpu
+
+# Smoke test config
+smoke:
+  max_segments: 16  # max segments per split
+
+# Output
+output:
+  base_dir: runs

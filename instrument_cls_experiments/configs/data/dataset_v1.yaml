@@ -1,0 +1,68 @@
+# frozen dataset version config
+# Single source of truth for label mapping across all runners.
+
+version: v1
+
+# Frozen class order and label_id mapping
+classes:
+  - family_label: 二胡
+    label_id: 0
+    english_name: erhu
+  - family_label: 琵琶
+    label_id: 1
+    english_name: pipa
+  - family_label: 中阮
+    label_id: 2
+    english_name: zhongruan
+  - family_label: 笛子
+    label_id: 3
+    english_name: dizi
+  - family_label: 唢呐
+    label_id: 4
+    english_name: suona
+  - family_label: 笙
+    label_id: 5
+    english_name: sheng
+
+num_classes: 6
+
+# Valid split whitelist
+valid_splits:
+  - train
+  - val
+  - test
+  - external_test
+
+# Split-to-source constraints
+source_split_rules:
+  CCMusic: [train, val, test]
+  ChMusic: [external_test]
+
+# Seed definitions
+seeds:
+  - seed_name: seed0
+    seed_index: 0
+    base_seed: 3407
+  - seed_name: seed1
+    seed_index: 1
+    base_seed: 2027
+  - seed_name: seed2
+    seed_index: 2
+    base_seed: 9413
+
+# Manifest paths (relative to project root)
+manifest_paths:
+  frozen_summary: dataset_cleaning/output/frozen_summary.json
+  split_manifest_template: "dataset_cleaning/output/split_manifest_seed{seed_index}.csv"
+  segment_manifest_template: "dataset_cleaning/output/segment_manifest_seed{seed_index}.csv"
+
+# Segment absolute path resolution
+# segment_abs_path = project_root / segment_root_template.format(...) / segment_path
+segment_root_template: "dataset_cleaning/output/segments_seed{split_seed}"
+
+# Audio spec (enforced during cleaning)
+audio_spec:
+  sample_rate: 24000
+  channels: 1
+  duration_sec: 5.0
+  duration_tolerance_samples: 1

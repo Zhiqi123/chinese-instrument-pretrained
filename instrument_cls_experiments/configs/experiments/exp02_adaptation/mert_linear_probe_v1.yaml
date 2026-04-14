@@ -1,0 +1,24 @@
+# mert_linear_probe_v1.yaml — Phase 2 MERT linear probe config
+# Same model, pooling, and hyperparams as Phase 1;
+# adds exp02 output dir, registry, and cost tracking.
+
+version: mert_linear_probe_v1
+method: mert_linear
+method_short: mert_linear
+model: mert_v1_95m
+experiment_id: exp02_mert_linear
+
+data:
+  dataset_config: configs/data/dataset_v1.yaml
+
+model_config:
+  model_name: m-a-p/MERT-v1-95M
+  model_cache_dir: model_cache/huggingface
+  freeze_encoder: true
+  source_sr: 24000
+
+training:
+  inherit_from: configs/train/default_supervised.yaml
+
+output:
+  base_dir: runs/exp02_adaptation/mert_linear

@@ -1,0 +1,24 @@
+# CLAP linear probe config
+# Phase 1: frozen CLAP encoder + linear head
+
+version: clap_linear_probe_v1
+method: clap_linear
+model: clap_htsat_unfused
+experiment_id: exp01_clap_linear
+
+data:
+  dataset_config: configs/data/dataset_v1.yaml
+
+model_config:
+  model_name: laion/clap-htsat-unfused
+  model_cache_dir: model_cache/huggingface
+  freeze_encoder: true
+  source_sr: 24000
+  target_sr: 48000
+
+training:
+  # Shares default training hyperparams with MERT linear probe for fair comparison
+  inherit_from: configs/train/default_supervised.yaml
+
+output:
+  base_dir: runs/exp01_transfer/clap_linear

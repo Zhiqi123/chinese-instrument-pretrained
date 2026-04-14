@@ -1,0 +1,26 @@
+# Phase 3 MERT linear probe config
+# Same model/hyperparams as Phase 2; adds Phase 3 subset fields.
+
+version: mert_linear_probe_exp03_v1
+method: mert_linear
+method_short: mert_linear
+model: mert_v1_95m
+experiment_id: exp03_mert_linear
+phase: 3
+
+data:
+  dataset_config: configs/data/dataset_v1.yaml
+
+model_config:
+  model_name: m-a-p/MERT-v1-95M
+  model_cache_dir: model_cache/huggingface
+  freeze_encoder: true
+  source_sr: 24000
+
+training:
+  inherit_from: configs/train/default_supervised.yaml
+
+subset_config: configs/data/phase3_subsample_v1.yaml
+
+output:
+  base_dir: runs/exp03_data_efficiency/mert_linear

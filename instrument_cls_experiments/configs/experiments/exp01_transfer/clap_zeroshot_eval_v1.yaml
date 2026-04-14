@@ -1,0 +1,26 @@
+# CLAP zero-shot eval config
+# Phase 1: cross-modal pretrained model zero-shot
+
+version: clap_zeroshot_eval_v1
+method: clap_zeroshot
+model: clap_htsat_unfused
+experiment_id: exp01_clap_zeroshot
+
+data:
+  dataset_config: configs/data/dataset_v1.yaml
+
+model_config:
+  model_name: laion/clap-htsat-unfused
+  model_cache_dir: model_cache/huggingface
+  prompt_config: configs/prompts/clap_zeroshot_v1.yaml
+
+inference:
+  batch_size: 32
+  num_workers: 4
+
+eval_splits:
+  - test
+  - external_test
+
+output:
+  base_dir: runs/exp01_transfer/clap_zeroshot

@@ -1,0 +1,40 @@
+# supervised model default config
+
+# Training
+training:
+  batch_size: 16
+  num_workers: 4
+  max_epochs: 50
+  early_stopping:
+    monitor: val_macro_f1
+    mode: max
+    patience: 7
+  optimizer:
+    name: AdamW
+    lr: 1.0e-3
+    weight_decay: 1.0e-4
+  scheduler:
+    name: CosineAnnealingLR
+    T_max: 50
+
+# Evaluation
+evaluation:
+  batch_size: 32
+  num_workers: 4
+
+# Device
+device: auto  # cuda > mps > cpu
+
+# Class balance
+class_balance:
+  enabled: false  # only applies to train split when enabled
+
+# Smoke test config
+smoke:
+  max_train_batches: 2
+  max_train_steps: 1
+  max_eval_batches: 1
+
+# Output
+output:
+  base_dir: runs

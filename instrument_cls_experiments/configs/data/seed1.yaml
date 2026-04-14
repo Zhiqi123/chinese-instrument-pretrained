@@ -1,0 +1,8 @@
+# seed1 data entry config
+
+seed_name: seed1
+seed_index: 1
+base_seed: 2027
+
+split_manifest: dataset_cleaning/output/split_manifest_seed1.csv
+segment_manifest: dataset_cleaning/output/segment_manifest_seed1.csv

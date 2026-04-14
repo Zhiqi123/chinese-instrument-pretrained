@@ -1,0 +1,23 @@
+# MERT linear probe config
+# Phase 1: frozen MERT encoder + linear head
+
+version: mert_linear_probe_v1
+method: mert_linear
+model: mert_v1_95m
+experiment_id: exp01_mert_linear
+
+data:
+  dataset_config: configs/data/dataset_v1.yaml
+
+model_config:
+  model_name: m-a-p/MERT-v1-95M
+  model_cache_dir: model_cache/huggingface
+  freeze_encoder: true
+  source_sr: 24000
+
+training:
+  # Shares default training hyperparams with CLAP linear probe for fair comparison
+  inherit_from: configs/train/default_supervised.yaml
+
+output:
+  base_dir: runs/exp01_transfer/mert_linear

@@ -1,0 +1,28 @@
+# MFCC + SVM config
+# Phase 1: traditional baseline
+
+version: mfcc_svm_v1
+method: mfcc_svm
+model: mfcc_svm
+experiment_id: exp01_mfcc_svm
+
+data:
+  dataset_config: configs/data/dataset_v1.yaml
+  # Seed config resolved at runtime via --seed-name
+
+feature_extraction:
+  n_mfcc: 40
+  n_fft: 1024
+  hop_length: 256
+  sample_rate: 24000
+  pooling: mean_std  # temporal mean+std concat -> 80-dim
+
+classifier:
+  type: SVC
+  kernel: rbf
+  C: 1.0
+  gamma: scale
+  # random_state injected from seed config by runner
+
+output:
+  base_dir: runs/exp01_transfer/mfcc_svm

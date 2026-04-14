@@ -1,0 +1,26 @@
+# frozen CLAP zero-shot prompt config
+# Shared by all CLAP inference from Phase 1 onward; immutable at runtime.
+
+version: clap_zeroshot_v1
+
+# Instrument English names (aligned with dataset_v1.yaml classes)
+instrument_names:
+  二胡: erhu
+  琵琶: pipa
+  中阮: zhongruan
+  笛子: dizi
+  唢呐: suona
+  笙: sheng
+
+# Prompt templates; {instrument} replaced at runtime
+templates:
+  - "a recording of {instrument}"
+  - "a performance of Chinese traditional instrument {instrument}"
+  - "{instrument} solo"
+
+# Multi-template aggregation: average logits across templates, then argmax
+aggregation:
+  method: arithmetic_mean_logits
+  description: >
+    For each template, compute text-audio similarity logits across all classes.
+    Average the logits across templates. Take argmax as prediction.

@@ -1,0 +1,31 @@
+# mert_lora_r8_v1.yaml — MERT + LoRA (rank=8) config
+# Phase 2 adaptation comparison
+
+version: mert_lora_r8_v1
+method: mert_lora
+method_short: mert_lora_r8
+model: mert_v1_95m
+experiment_id: exp02_mert_lora_r8
+
+data:
+  dataset_config: configs/data/dataset_v1.yaml
+
+model_config:
+  model_name: m-a-p/MERT-v1-95M
+  model_cache_dir: model_cache/huggingface
+  adaptation_mode: lora
+  lora:
+    rank: 8
+    lora_alpha: 16
+    lora_dropout: 0.1
+    target_modules:
+      - q_proj
+      - v_proj
+
+training:
+  inherit_from: configs/train/default_adaptation.yaml
+  optimizer:
+    lr: 1.0e-4
+
+output:
+  base_dir: runs/exp02_adaptation/mert_lora_r8

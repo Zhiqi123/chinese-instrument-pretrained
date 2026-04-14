@@ -1,0 +1,87 @@
+# phase4_analysis_v1.yaml — Phase 4 analysis config (frozen)
+# Single source of truth for all downstream analysis scripts.
+
+phase: 4
+version: phase4_analysis_v1
+
+# Qualitative analysis params
+qualitative_seed_name: seed1
+umap_split: test
+error_case_split: external_test
+error_case_top_k: 5
+
+# Quantitative selection params
+selection_metric: test_macro_f1_mean
+ddof: 1
+
+# Phase 2 method name mapping (display name -> short name)
+phase2_method_display_to_short:
+  "MERT linear probe": mert_linear
+  "MERT+LoRA (r=4)": mert_lora_r4
+  "MERT+LoRA (r=8)": mert_lora_r8
+  "MERT full fine-tuning": mert_full_ft
+
+# short name -> display name (single source for figure labels)
+method_display_map:
+  mfcc_svm: "MFCC+SVM"
+  clap_zeroshot: "CLAP zero-shot"
+  clap_linear: "CLAP linear probe"
+  mert_linear: "MERT linear probe"
+  mert_lora_r4: "MERT+LoRA (r=4)"
+  mert_lora_r8: "MERT+LoRA (r=8)"
+  mert_full_ft: "MERT full fine-tuning"
+  mert_layer_probe: "MERT layer-wise probe"
+
+# Phase 1 short -> display
+phase1_method_short_to_display:
+  mfcc_svm: "MFCC+SVM"
+  clap_zeroshot: "CLAP zero-shot"
+  clap_linear: "CLAP linear probe"
+  mert_linear: "MERT linear probe"
+
+# Method order (tiebreaker)
+method_order:
+  - mert_linear
+  - mert_lora_r4
+  - mert_lora_r8
+  - mert_full_ft
+
+# LoRA method set (for best_lora selection)
+lora_method_displays:
+  - "MERT+LoRA (r=4)"
+  - "MERT+LoRA (r=8)"
+
+# UMAP params
+umap_params:
+  n_neighbors: 15
+  min_dist: 0.1
+  metric: cosine
+  random_state: 2027
+
+# UMAP representation spaces (single source for audit)
+# best_lora method_short/method_display/source_run_id populated at runtime from manifest
+umap_representations:
+  - key: frozen_mert
+    method_short: frozen_mert
+    method_display: "Frozen MERT"
+    source_run_id_template: "frozen_mert_{seed_name}"
+    source: layer_cache_last_layer
+  - key: best_lora
+    method_short: null          # resolved at runtime from manifest
+    method_display: null        # resolved at runtime from manifest
+    source_run_id_template: "run_exp02_{method_short}_{seed_name}"
+    source: adaptation_checkpoint
+  - key: mert_full_ft
+    method_short: mert_full_ft
+    method_display: "MERT full fine-tuning"
+    source_run_id_template: "run_exp02_mert_full_ft_{seed_name}"
+    source: adaptation_checkpoint
+
+# Figure defaults
+figure_defaults:
+  dpi: 150
+  figsize: [10, 5]
+  title_fontsize: 13
+  label_fontsize: 11
+  tick_fontsize: 10
+  legend_fontsize: 9

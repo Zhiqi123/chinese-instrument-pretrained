@@ -1,0 +1,24 @@
+# mert_full_finetune_v1.yaml — MERT full fine-tuning config
+# Phase 2 adaptation comparison
+
+version: mert_full_finetune_v1
+method: mert_full_ft
+method_short: mert_full_ft
+model: mert_v1_95m
+experiment_id: exp02_mert_full_ft
+
+data:
+  dataset_config: configs/data/dataset_v1.yaml
+
+model_config:
+  model_name: m-a-p/MERT-v1-95M
+  model_cache_dir: model_cache/huggingface
+  adaptation_mode: full_ft
+
+training:
+  inherit_from: configs/train/default_adaptation.yaml
+  optimizer:
+    lr: 5.0e-5
+
+output:
+  base_dir: runs/exp02_adaptation/mert_full_ft
