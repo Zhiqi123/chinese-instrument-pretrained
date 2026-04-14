@@ -1,0 +1,364 @@
+{
+  "passed": true,
+  "total_checks": 51,
+  "failed_checks": 0,
+  "checks": [
+    {
+      "ratio": "train10",
+      "seed": "seed0",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed0",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed0",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed0",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=23 meta=23, segments: actual=97 meta=97"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed1",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed1",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed1",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed1",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=23 meta=23, segments: actual=114 meta=114"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed2",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed2",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed2",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train10",
+      "seed": "seed2",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=23 meta=23, segments: actual=151 meta=151"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed0",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed0",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed0",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed0",
+      "check": "train100_groups_match",
+      "passed": true,
+      "detail": "full=192 subset=192"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed0",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=192 meta=192, segments: actual=1067 meta=1067"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed1",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed1",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed1",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed1",
+      "check": "train100_groups_match",
+      "passed": true,
+      "detail": "full=192 subset=192"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed1",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=192 meta=192, segments: actual=1065 meta=1065"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed2",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed2",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed2",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed2",
+      "check": "train100_groups_match",
+      "passed": true,
+      "detail": "full=195 subset=195"
+    },
+    {
+      "ratio": "train100",
+      "seed": "seed2",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=195 meta=195, segments: actual=1029 meta=1029"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed0",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed0",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed0",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed0",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=50 meta=50, segments: actual=231 meta=231"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed1",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed1",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed1",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed1",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=50 meta=50, segments: actual=314 meta=314"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed2",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed2",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed2",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train25",
+      "seed": "seed2",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=51 meta=51, segments: actual=271 meta=271"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed0",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed0",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed0",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed0",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=97 meta=97, segments: actual=553 meta=553"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed1",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed1",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed1",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed1",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=98 meta=98, segments: actual=482 meta=482"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed2",
+      "check": "only_train",
+      "passed": true,
+      "detail": "splits=['train']"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed2",
+      "check": "all_from_train",
+      "passed": true,
+      "detail": "missing=0"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed2",
+      "check": "has_6_classes",
+      "passed": true,
+      "detail": "actual=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子'], expected=['中阮', '二胡', '唢呐', '琵琶', '笙', '笛子']"
+    },
+    {
+      "ratio": "train50",
+      "seed": "seed2",
+      "check": "counts_match_meta",
+      "passed": true,
+      "detail": "groups: actual=99 meta=99, segments: actual=490 meta=490"
+    }
+  ]
+}
