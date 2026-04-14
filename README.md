@@ -22,7 +22,6 @@ instrument_cls_experiments/
     tables/                 Aggregated result CSVs
     figures/                Generated paper figures (PDF)
 
-paper_figs_tables/          LaTeX table generation helpers
 requirements.txt            Python dependencies
 ```
 
