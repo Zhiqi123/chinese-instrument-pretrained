@@ -1,0 +1,69 @@
+{
+  "seed_name": "seed2",
+  "base_seed": 9413,
+  "ratio_name": "train100",
+  "ratio_value": 1.0,
+  "subset_seed": 10513,
+  "sampling_unit": "recording_group_id",
+  "rounding_rule": "max(1, ceil(n_full * ratio))",
+  "full_train_group_count": 195,
+  "full_train_record_count": 229,
+  "full_train_segment_count": 1029,
+  "subset_train_group_count": 195,
+  "subset_train_record_count": 229,
+  "subset_train_segment_count": 1029,
+  "actual_group_ratio_overall": 1.0,
+  "actual_segment_ratio_overall": 1.0,
+  "per_class_group_counts": {
+    "二胡": {
+      "full": 31,
+      "subset": 31
+    },
+    "琵琶": {
+      "full": 12,
+      "subset": 12
+    },
+    "中阮": {
+      "full": 13,
+      "subset": 13
+    },
+    "笛子": {
+      "full": 25,
+      "subset": 25
+    },
+    "唢呐": {
+      "full": 76,
+      "subset": 76
+    },
+    "笙": {
+      "full": 38,
+      "subset": 38
+    }
+  },
+  "per_class_segment_counts": {
+    "二胡": {
+      "full": 135,
+      "subset": 135
+    },
+    "琵琶": {
+      "full": 72,
+      "subset": 72
+    },
+    "中阮": {
+      "full": 248,
+      "subset": 248
+    },
+    "笛子": {
+      "full": 126,
+      "subset": 126
+    },
+    "唢呐": {
+      "full": 197,
+      "subset": 197
+    },
+    "笙": {
+      "full": 251,
+      "subset": 251
+    }
+  }
+}
