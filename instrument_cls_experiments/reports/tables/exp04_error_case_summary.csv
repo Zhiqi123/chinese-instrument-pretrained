@@ -1,0 +1,13 @@
+true_label,pred_label,error_pair,count,mean_score,min_score,max_score,method_short,method_display,source_phase,seed_name,split
+笙,唢呐,笙 → 唢呐,167,0.9916774120159492,0.687262773513794,0.9997615218162536,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+笛子,唢呐,笛子 → 唢呐,94,0.9945908271251841,0.5632978081703186,0.999750554561615,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+二胡,唢呐,二胡 → 唢呐,70,0.9442120432853699,0.5093197822570801,0.9996252059936525,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+中阮,琵琶,中阮 → 琵琶,54,0.9708809046833603,0.7122744917869568,0.9998225569725036,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+中阮,唢呐,中阮 → 唢呐,39,0.9342731986290369,0.477940559387207,0.9997279047966005,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+琵琶,唢呐,琵琶 → 唢呐,39,0.9677077623514029,0.5717318058013916,0.9997578263282776,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+二胡,笛子,二胡 → 笛子,13,0.8334204967205341,0.2978747487068176,0.9976481795310974,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+笙,二胡,笙 → 二胡,8,0.9906161949038506,0.960978388786316,0.999541401863098,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+笙,琵琶,笙 → 琵琶,2,0.8969314396381378,0.8655000329017639,0.9283628463745116,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+笙,笛子,笙 → 笛子,2,0.9788442552089691,0.9579695463180542,0.999718964099884,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+中阮,笙,中阮 → 笙,1,0.5789352655410767,0.5789352655410767,0.5789352655410767,mert_full_ft,MERT full fine-tuning,2,seed1,external_test
+二胡,琵琶,二胡 → 琵琶,1,0.9890205264091492,0.9890205264091492,0.9890205264091492,mert_full_ft,MERT full fine-tuning,2,seed1,external_test

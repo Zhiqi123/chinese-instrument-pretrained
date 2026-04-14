@@ -1,0 +1,13 @@
+experiment_id,run_id,method,model,seed_name,device_type,total_params,trainable_params,trainable_ratio,feature_prep_time_sec,train_wall_time_sec,total_method_time_sec,mean_epoch_time_sec,mean_train_step_time_ms,peak_device_memory_mb,memory_metric_available
+exp02_mert_linear,run_exp02_mert_linear_seed0,MERT linear probe,mert_v1_95m,seed0,mps,94376326,4614,4.888937931319768e-05,159.258,6.761,166.019,0.157,0.625,,False
+exp02_mert_linear,run_exp02_mert_linear_seed1,MERT linear probe,mert_v1_95m,seed1,mps,94376326,4614,4.888937931319768e-05,143.575,2.439,146.014,0.097,0.514,,False
+exp02_mert_linear,run_exp02_mert_linear_seed2,MERT linear probe,mert_v1_95m,seed2,mps,94376326,4614,4.888937931319768e-05,160.864,4.459,165.323,0.164,0.717,,False
+exp02_mert_lora_r4,run_exp02_mert_lora_r4_seed0,MERT+LoRA (r=4),mert_v1_95m,seed0,mps,94523782,152070,0.0016088014760137295,0.0,966.809,966.809,120.831,160.024,,False
+exp02_mert_lora_r4,run_exp02_mert_lora_r4_seed1,MERT+LoRA (r=4),mert_v1_95m,seed1,mps,94523782,152070,0.0016088014760137295,0.0,1566.942,1566.942,120.516,160.046,,False
+exp02_mert_lora_r4,run_exp02_mert_lora_r4_seed2,MERT+LoRA (r=4),mert_v1_95m,seed2,mps,94523782,152070,0.0016088014760137295,0.0,1301.695,1301.695,118.317,157.12,,False
+exp02_mert_lora_r8,run_exp02_mert_lora_r8_seed0,MERT+LoRA (r=8),mert_v1_95m,seed0,mps,94671238,299526,0.0031638542637416446,0.0,1338.608,1338.608,121.668,161.911,,False
+exp02_mert_lora_r8,run_exp02_mert_lora_r8_seed1,MERT+LoRA (r=8),mert_v1_95m,seed1,mps,94671238,299526,0.0031638542637416446,0.0,2426.747,2426.747,121.317,163.288,,False
+exp02_mert_lora_r8,run_exp02_mert_lora_r8_seed2,MERT+LoRA (r=8),mert_v1_95m,seed2,mps,94671238,299526,0.0031638542637416446,0.0,1072.367,1072.367,119.133,159.842,,False
+exp02_mert_full_ft,run_exp02_mert_full_ft_seed0,MERT full fine-tuning,mert_v1_95m,seed0,mps,94376326,94376326,1.0,0.0,918.479,918.479,152.963,334.756,,False
+exp02_mert_full_ft,run_exp02_mert_full_ft_seed1,MERT full fine-tuning,mert_v1_95m,seed1,mps,94376326,94376326,1.0,0.0,1966.133,1966.133,151.083,327.741,,False
+exp02_mert_full_ft,run_exp02_mert_full_ft_seed2,MERT full fine-tuning,mert_v1_95m,seed2,mps,94376326,94376326,1.0,0.0,1192.446,1192.446,148.857,330.487,,False

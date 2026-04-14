@@ -1,0 +1,727 @@
+segment_id,label_id,label,method_short,method_display,seed_name,split,umap_x,umap_y,source_run_id
+ccm_dizi_0032_s00,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.1438570022583,13.459409713745117,frozen_mert_seed1
+ccm_dizi_0033_s00,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.139849662780762,13.463342666625977,frozen_mert_seed1
+ccm_dizi_0042_s00,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.542600631713867,11.535064697265625,frozen_mert_seed1
+ccm_dizi_0042_s01,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.388455390930176,11.033927917480469,frozen_mert_seed1
+ccm_dizi_0042_s02,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.592391014099121,10.301908493041992,frozen_mert_seed1
+ccm_dizi_0042_s03,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.625255584716797,10.90183162689209,frozen_mert_seed1
+ccm_dizi_0042_s04,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.96257495880127,11.188209533691406,frozen_mert_seed1
+ccm_dizi_0043_s00,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.713296890258789,11.165254592895508,frozen_mert_seed1
+ccm_dizi_0043_s01,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.307433128356934,10.98386001586914,frozen_mert_seed1
+ccm_dizi_0043_s02,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.37285327911377,10.519174575805664,frozen_mert_seed1
+ccm_dizi_0043_s03,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.543869972229004,10.800426483154297,frozen_mert_seed1
+ccm_dizi_0043_s04,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.97275161743164,11.140541076660156,frozen_mert_seed1
+ccm_dizi_0046_s00,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.576589584350586,11.478739738464355,frozen_mert_seed1
+ccm_dizi_0046_s01,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.111791610717773,11.12043571472168,frozen_mert_seed1
+ccm_dizi_0046_s02,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.890179634094238,10.794032096862793,frozen_mert_seed1
+ccm_dizi_0046_s03,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.973348617553711,10.738346099853516,frozen_mert_seed1
+ccm_dizi_0047_s00,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.688691139221191,11.373827934265137,frozen_mert_seed1
+ccm_dizi_0047_s01,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.506077766418457,10.744216918945312,frozen_mert_seed1
+ccm_dizi_0047_s02,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.928860664367676,10.933732032775879,frozen_mert_seed1
+ccm_dizi_0064_s00,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.802716255187988,11.15902328491211,frozen_mert_seed1
+ccm_dizi_0064_s01,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.866754531860352,11.122264862060547,frozen_mert_seed1
+ccm_dizi_0064_s02,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.45591926574707,10.960897445678711,frozen_mert_seed1
+ccm_dizi_0064_s03,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.138854026794434,10.776016235351562,frozen_mert_seed1
+ccm_dizi_0064_s04,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.343451499938965,10.9220552444458,frozen_mert_seed1
+ccm_dizi_0064_s05,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.108834266662598,10.67457389831543,frozen_mert_seed1
+ccm_dizi_0064_s06,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.591477394104004,10.496350288391113,frozen_mert_seed1
+ccm_dizi_0064_s07,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.649460792541504,10.74699592590332,frozen_mert_seed1
+ccm_dizi_0064_s08,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.559196472167969,10.544464111328125,frozen_mert_seed1
+ccm_dizi_0064_s09,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.24609661102295,11.302618980407715,frozen_mert_seed1
+ccm_dizi_0064_s10,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.645800590515137,10.965343475341797,frozen_mert_seed1
+ccm_dizi_0064_s11,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.620180130004883,11.68307876586914,frozen_mert_seed1
+ccm_dizi_0064_s12,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.778984069824219,11.635939598083496,frozen_mert_seed1
+ccm_dizi_0064_s13,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.696078300476074,11.64741325378418,frozen_mert_seed1
+ccm_dizi_0064_s14,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.15124797821045,11.967498779296875,frozen_mert_seed1
+ccm_dizi_0065_s00,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.14591121673584,11.395684242248535,frozen_mert_seed1
+ccm_dizi_0065_s01,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.957777976989746,11.034096717834473,frozen_mert_seed1
+ccm_dizi_0065_s02,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.482980728149414,11.124603271484375,frozen_mert_seed1
+ccm_dizi_0065_s03,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.176262855529785,10.771370887756348,frozen_mert_seed1
+ccm_dizi_0065_s04,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.306448936462402,10.918374061584473,frozen_mert_seed1
+ccm_dizi_0065_s05,3,笛子,frozen_mert,Frozen MERT,seed1,test,10.753445625305176,10.831069946289062,frozen_mert_seed1
+ccm_dizi_0065_s06,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.497556686401367,10.478415489196777,frozen_mert_seed1
+ccm_dizi_0065_s07,3,笛子,frozen_mert,Frozen MERT,seed1,test,11.360039710998535,10.507173538208008,frozen_mert_seed1
+ccm_dizi_0065_s08,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.115900993347168,11.434367179870605,frozen_mert_seed1
+ccm_dizi_0065_s09,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.220293998718262,11.491491317749023,frozen_mert_seed1
+ccm_dizi_0065_s10,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.533629417419434,11.641059875488281,frozen_mert_seed1
+ccm_dizi_0065_s11,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.776341438293457,11.730749130249023,frozen_mert_seed1
+ccm_dizi_0065_s12,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.472859382629395,11.839293479919434,frozen_mert_seed1
+ccm_dizi_0065_s13,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.155420303344727,11.782244682312012,frozen_mert_seed1
+ccm_dizi_0065_s14,3,笛子,frozen_mert,Frozen MERT,seed1,test,12.062009811401367,11.890668869018555,frozen_mert_seed1
+ccm_erhu_0003_s00,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.119470596313477,12.974101066589355,frozen_mert_seed1
+ccm_erhu_0003_s01,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.937029838562012,13.160536766052246,frozen_mert_seed1
+ccm_erhu_0003_s02,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.7373046875,12.417197227478027,frozen_mert_seed1
+ccm_erhu_0003_s03,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.992480278015137,12.738428115844727,frozen_mert_seed1
+ccm_erhu_0003_s04,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.03389835357666,13.571916580200195,frozen_mert_seed1
+ccm_erhu_0003_s05,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.934208869934082,12.350198745727539,frozen_mert_seed1
+ccm_erhu_0003_s06,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.829644203186035,12.960745811462402,frozen_mert_seed1
+ccm_erhu_0003_s07,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.688342094421387,14.188261032104492,frozen_mert_seed1
+ccm_erhu_0003_s08,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.661579132080078,13.835538864135742,frozen_mert_seed1
+ccm_erhu_0009_s00,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.235942840576172,13.149565696716309,frozen_mert_seed1
+ccm_erhu_0009_s01,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.05563735961914,13.48666000366211,frozen_mert_seed1
+ccm_erhu_0009_s02,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.843461036682129,12.357065200805664,frozen_mert_seed1
+ccm_erhu_0009_s03,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.673113822937012,12.788585662841797,frozen_mert_seed1
+ccm_erhu_0009_s04,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.858129501342773,12.956377029418945,frozen_mert_seed1
+ccm_erhu_0009_s05,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.842519760131836,13.338890075683594,frozen_mert_seed1
+ccm_erhu_0009_s06,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.096455574035645,12.329733848571777,frozen_mert_seed1
+ccm_erhu_0009_s07,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.928085327148438,13.337423324584961,frozen_mert_seed1
+ccm_erhu_0009_s08,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.709524154663086,13.680947303771973,frozen_mert_seed1
+ccm_erhu_0009_s09,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.65052318572998,14.113348007202148,frozen_mert_seed1
+ccm_erhu_0009_s10,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.526406288146973,13.900907516479492,frozen_mert_seed1
+ccm_erhu_0009_s11,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.768576622009277,14.160226821899414,frozen_mert_seed1
+ccm_erhu_0023_s00,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.254903793334961,13.094350814819336,frozen_mert_seed1
+ccm_erhu_0023_s01,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.72227668762207,12.9362211227417,frozen_mert_seed1
+ccm_erhu_0051_s00,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.46086311340332,13.418633460998535,frozen_mert_seed1
+ccm_erhu_0051_s01,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.475549697875977,13.74095344543457,frozen_mert_seed1
+ccm_erhu_0051_s02,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.482308387756348,13.56686782836914,frozen_mert_seed1
+ccm_erhu_0051_s03,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.533918380737305,13.711562156677246,frozen_mert_seed1
+ccm_erhu_0051_s04,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.3588285446167,13.89686107635498,frozen_mert_seed1
+ccm_erhu_0051_s05,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.383872032165527,13.836713790893555,frozen_mert_seed1
+ccm_erhu_0053_s00,0,二胡,frozen_mert,Frozen MERT,seed1,test,10.84533405303955,13.528935432434082,frozen_mert_seed1
+ccm_erhu_0101_s00,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.49281120300293,13.213464736938477,frozen_mert_seed1
+ccm_erhu_0101_s01,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.5088472366333,12.645645141601562,frozen_mert_seed1
+ccm_erhu_0101_s02,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.616087913513184,12.98404312133789,frozen_mert_seed1
+ccm_erhu_0101_s03,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.44082260131836,13.185956001281738,frozen_mert_seed1
+ccm_erhu_0101_s04,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.332496643066406,13.453652381896973,frozen_mert_seed1
+ccm_erhu_0101_s05,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.627594947814941,14.113228797912598,frozen_mert_seed1
+ccm_erhu_0101_s06,0,二胡,frozen_mert,Frozen MERT,seed1,test,9.664359092712402,14.069137573242188,frozen_mert_seed1
+ccm_pipa_0003_s00,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.278529167175293,1.8078715801239014,frozen_mert_seed1
+ccm_pipa_0003_s01,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.180871963500977,1.5866165161132812,frozen_mert_seed1
+ccm_pipa_0041_s00,1,琵琶,frozen_mert,Frozen MERT,seed1,test,12.061346054077148,0.8121930360794067,frozen_mert_seed1
+ccm_pipa_0041_s01,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.862629890441895,1.052066445350647,frozen_mert_seed1
+ccm_pipa_0041_s02,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.582420349121094,1.0690199136734009,frozen_mert_seed1
+ccm_pipa_0041_s03,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.07628345489502,1.273264765739441,frozen_mert_seed1
+ccm_pipa_0041_s04,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.45317268371582,1.7627124786376953,frozen_mert_seed1
+ccm_pipa_0041_s05,1,琵琶,frozen_mert,Frozen MERT,seed1,test,10.780879974365234,1.5808463096618652,frozen_mert_seed1
+ccm_pipa_0041_s06,1,琵琶,frozen_mert,Frozen MERT,seed1,test,10.512308120727539,1.342634916305542,frozen_mert_seed1
+ccm_pipa_0042_s00,1,琵琶,frozen_mert,Frozen MERT,seed1,test,12.062220573425293,0.8136070966720581,frozen_mert_seed1
+ccm_pipa_0042_s01,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.874513626098633,1.0471197366714478,frozen_mert_seed1
+ccm_pipa_0042_s02,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.46909236907959,1.2348617315292358,frozen_mert_seed1
+ccm_pipa_0042_s03,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.154897689819336,1.248863935470581,frozen_mert_seed1
+ccm_pipa_0042_s04,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.485827445983887,1.7171928882598877,frozen_mert_seed1
+ccm_pipa_0042_s05,1,琵琶,frozen_mert,Frozen MERT,seed1,test,10.858179092407227,1.447479009628296,frozen_mert_seed1
+ccm_pipa_0042_s06,1,琵琶,frozen_mert,Frozen MERT,seed1,test,10.497867584228516,1.380057454109192,frozen_mert_seed1
+ccm_pipa_0049_s00,1,琵琶,frozen_mert,Frozen MERT,seed1,test,12.138778686523438,0.7529405355453491,frozen_mert_seed1
+ccm_pipa_0049_s01,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.913249015808105,1.109404444694519,frozen_mert_seed1
+ccm_pipa_0049_s02,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.616972923278809,1.108439326286316,frozen_mert_seed1
+ccm_pipa_0049_s03,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.65217113494873,0.957508385181427,frozen_mert_seed1
+ccm_pipa_0049_s04,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.103267669677734,1.2232557535171509,frozen_mert_seed1
+ccm_pipa_0049_s05,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.640485763549805,1.5915639400482178,frozen_mert_seed1
+ccm_pipa_0049_s06,1,琵琶,frozen_mert,Frozen MERT,seed1,test,10.924420356750488,1.512650728225708,frozen_mert_seed1
+ccm_pipa_0049_s07,1,琵琶,frozen_mert,Frozen MERT,seed1,test,10.571467399597168,1.347990870475769,frozen_mert_seed1
+ccm_pipa_0050_s00,1,琵琶,frozen_mert,Frozen MERT,seed1,test,12.1568603515625,0.7280073165893555,frozen_mert_seed1
+ccm_pipa_0050_s01,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.97368049621582,0.9356332421302795,frozen_mert_seed1
+ccm_pipa_0050_s02,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.540552139282227,1.0940073728561401,frozen_mert_seed1
+ccm_pipa_0050_s03,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.60939884185791,1.0550620555877686,frozen_mert_seed1
+ccm_pipa_0050_s04,1,琵琶,frozen_mert,Frozen MERT,seed1,test,10.998226165771484,1.2791575193405151,frozen_mert_seed1
+ccm_pipa_0050_s05,1,琵琶,frozen_mert,Frozen MERT,seed1,test,11.600582122802734,1.646685242652893,frozen_mert_seed1
+ccm_pipa_0050_s06,1,琵琶,frozen_mert,Frozen MERT,seed1,test,10.849377632141113,1.4438847303390503,frozen_mert_seed1
+ccm_pipa_0050_s07,1,琵琶,frozen_mert,Frozen MERT,seed1,test,10.491288185119629,1.2592545747756958,frozen_mert_seed1
+ccm_sheng_0003_s00,5,笙,frozen_mert,Frozen MERT,seed1,test,11.262959480285645,8.931680679321289,frozen_mert_seed1
+ccm_sheng_0003_s01,5,笙,frozen_mert,Frozen MERT,seed1,test,11.094613075256348,8.906743049621582,frozen_mert_seed1
+ccm_sheng_0003_s02,5,笙,frozen_mert,Frozen MERT,seed1,test,11.267539978027344,8.935150146484375,frozen_mert_seed1
+ccm_sheng_0015_s00,5,笙,frozen_mert,Frozen MERT,seed1,test,1.550114631652832,10.71126937866211,frozen_mert_seed1
+ccm_sheng_0015_s01,5,笙,frozen_mert,Frozen MERT,seed1,test,1.5986988544464111,10.56246566772461,frozen_mert_seed1
+ccm_sheng_0015_s02,5,笙,frozen_mert,Frozen MERT,seed1,test,1.5253510475158691,10.626972198486328,frozen_mert_seed1
+ccm_sheng_0015_s03,5,笙,frozen_mert,Frozen MERT,seed1,test,1.405042052268982,10.667981147766113,frozen_mert_seed1
+ccm_sheng_0015_s04,5,笙,frozen_mert,Frozen MERT,seed1,test,9.829407691955566,10.100794792175293,frozen_mert_seed1
+ccm_sheng_0015_s05,5,笙,frozen_mert,Frozen MERT,seed1,test,9.842581748962402,10.006120681762695,frozen_mert_seed1
+ccm_sheng_0015_s06,5,笙,frozen_mert,Frozen MERT,seed1,test,9.797744750976562,10.009017944335938,frozen_mert_seed1
+ccm_sheng_0015_s07,5,笙,frozen_mert,Frozen MERT,seed1,test,9.878063201904297,9.827402114868164,frozen_mert_seed1
+ccm_sheng_0015_s08,5,笙,frozen_mert,Frozen MERT,seed1,test,10.240472793579102,9.534601211547852,frozen_mert_seed1
+ccm_sheng_0015_s09,5,笙,frozen_mert,Frozen MERT,seed1,test,10.022661209106445,9.626107215881348,frozen_mert_seed1
+ccm_sheng_0015_s10,5,笙,frozen_mert,Frozen MERT,seed1,test,10.043789863586426,9.593245506286621,frozen_mert_seed1
+ccm_sheng_0015_s11,5,笙,frozen_mert,Frozen MERT,seed1,test,10.105348587036133,9.537665367126465,frozen_mert_seed1
+ccm_sheng_0023_s00,5,笙,frozen_mert,Frozen MERT,seed1,test,1.6628714799880981,10.646611213684082,frozen_mert_seed1
+ccm_sheng_0023_s01,5,笙,frozen_mert,Frozen MERT,seed1,test,1.6634244918823242,10.647719383239746,frozen_mert_seed1
+ccm_sheng_0023_s02,5,笙,frozen_mert,Frozen MERT,seed1,test,9.978835105895996,10.412396430969238,frozen_mert_seed1
+ccm_sheng_0023_s03,5,笙,frozen_mert,Frozen MERT,seed1,test,10.212444305419922,10.240327835083008,frozen_mert_seed1
+ccm_sheng_0023_s04,5,笙,frozen_mert,Frozen MERT,seed1,test,10.495579719543457,9.646543502807617,frozen_mert_seed1
+ccm_sheng_0060_s00,5,笙,frozen_mert,Frozen MERT,seed1,test,11.768754005432129,9.107942581176758,frozen_mert_seed1
+ccm_sheng_0060_s01,5,笙,frozen_mert,Frozen MERT,seed1,test,11.903059959411621,9.049938201904297,frozen_mert_seed1
+ccm_sheng_0060_s02,5,笙,frozen_mert,Frozen MERT,seed1,test,12.086691856384277,9.142776489257812,frozen_mert_seed1
+ccm_sheng_0060_s03,5,笙,frozen_mert,Frozen MERT,seed1,test,12.208693504333496,9.201359748840332,frozen_mert_seed1
+ccm_sheng_0060_s04,5,笙,frozen_mert,Frozen MERT,seed1,test,12.149754524230957,9.162446022033691,frozen_mert_seed1
+ccm_sheng_0066_s00,5,笙,frozen_mert,Frozen MERT,seed1,test,11.07219409942627,13.397370338439941,frozen_mert_seed1
+ccm_sheng_0066_s01,5,笙,frozen_mert,Frozen MERT,seed1,test,11.108963966369629,13.11700439453125,frozen_mert_seed1
+ccm_sheng_0071_s00,5,笙,frozen_mert,Frozen MERT,seed1,test,10.492049217224121,12.53554630279541,frozen_mert_seed1
+ccm_sheng_0071_s01,5,笙,frozen_mert,Frozen MERT,seed1,test,11.706727027893066,9.244294166564941,frozen_mert_seed1
+ccm_sheng_0071_s02,5,笙,frozen_mert,Frozen MERT,seed1,test,11.809927940368652,9.3363037109375,frozen_mert_seed1
+ccm_sheng_0071_s03,5,笙,frozen_mert,Frozen MERT,seed1,test,12.270621299743652,9.301424026489258,frozen_mert_seed1
+ccm_sheng_0071_s04,5,笙,frozen_mert,Frozen MERT,seed1,test,12.066043853759766,9.139508247375488,frozen_mert_seed1
+ccm_sheng_0072_s00,5,笙,frozen_mert,Frozen MERT,seed1,test,11.76171875,9.77477741241455,frozen_mert_seed1
+ccm_sheng_0072_s01,5,笙,frozen_mert,Frozen MERT,seed1,test,11.550646781921387,9.54336929321289,frozen_mert_seed1
+ccm_sheng_0072_s02,5,笙,frozen_mert,Frozen MERT,seed1,test,11.544299125671387,9.553349494934082,frozen_mert_seed1
+ccm_sheng_0072_s03,5,笙,frozen_mert,Frozen MERT,seed1,test,11.650689125061035,9.382198333740234,frozen_mert_seed1
+ccm_sheng_0089_s00,5,笙,frozen_mert,Frozen MERT,seed1,test,10.749002456665039,9.021305084228516,frozen_mert_seed1
+ccm_sheng_0089_s01,5,笙,frozen_mert,Frozen MERT,seed1,test,10.010396003723145,10.489814758300781,frozen_mert_seed1
+ccm_sheng_0089_s02,5,笙,frozen_mert,Frozen MERT,seed1,test,10.991668701171875,9.552229881286621,frozen_mert_seed1
+ccm_suona_0004_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.411541938781738,9.992948532104492,frozen_mert_seed1
+ccm_suona_0004_s01,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.653942108154297,9.710933685302734,frozen_mert_seed1
+ccm_suona_0034_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,10.961151123046875,11.730463027954102,frozen_mert_seed1
+ccm_suona_0042_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.216155052185059,12.383750915527344,frozen_mert_seed1
+ccm_suona_0046_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.316404342651367,12.231267929077148,frozen_mert_seed1
+ccm_suona_0060_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.32409954071045,9.955122947692871,frozen_mert_seed1
+ccm_suona_0060_s01,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.571773529052734,9.920340538024902,frozen_mert_seed1
+ccm_suona_0060_s02,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.555231094360352,9.834246635437012,frozen_mert_seed1
+ccm_suona_0062_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.099668502807617,10.291108131408691,frozen_mert_seed1
+ccm_suona_0091_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,12.940130233764648,10.278818130493164,frozen_mert_seed1
+ccm_suona_0113_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,12.818435668945312,10.111580848693848,frozen_mert_seed1
+ccm_suona_0113_s01,4,唢呐,frozen_mert,Frozen MERT,seed1,test,13.019299507141113,9.834763526916504,frozen_mert_seed1
+ccm_suona_0118_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.34504508972168,13.29812240600586,frozen_mert_seed1
+ccm_suona_0122_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,12.975255966186523,10.226180076599121,frozen_mert_seed1
+ccm_suona_0123_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,12.654030799865723,9.528240203857422,frozen_mert_seed1
+ccm_suona_0123_s01,4,唢呐,frozen_mert,Frozen MERT,seed1,test,12.832535743713379,9.838364601135254,frozen_mert_seed1
+ccm_suona_0123_s02,4,唢呐,frozen_mert,Frozen MERT,seed1,test,12.393268585205078,9.44714641571045,frozen_mert_seed1
+ccm_suona_0123_s03,4,唢呐,frozen_mert,Frozen MERT,seed1,test,12.529193878173828,9.59554386138916,frozen_mert_seed1
+ccm_suona_0125_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.58674430847168,13.06495475769043,frozen_mert_seed1
+ccm_suona_0129_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,12.959817886352539,9.89913558959961,frozen_mert_seed1
+ccm_suona_0129_s01,4,唢呐,frozen_mert,Frozen MERT,seed1,test,12.91585636138916,9.867853164672852,frozen_mert_seed1
+ccm_suona_0149_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,10.669097900390625,12.06196117401123,frozen_mert_seed1
+ccm_suona_0149_s01,4,唢呐,frozen_mert,Frozen MERT,seed1,test,10.533578872680664,11.962055206298828,frozen_mert_seed1
+ccm_suona_0149_s02,4,唢呐,frozen_mert,Frozen MERT,seed1,test,10.477280616760254,11.817047119140625,frozen_mert_seed1
+ccm_suona_0169_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.006113052368164,12.383837699890137,frozen_mert_seed1
+ccm_suona_0169_s01,4,唢呐,frozen_mert,Frozen MERT,seed1,test,10.786426544189453,12.371711730957031,frozen_mert_seed1
+ccm_suona_0169_s02,4,唢呐,frozen_mert,Frozen MERT,seed1,test,10.751066207885742,12.170096397399902,frozen_mert_seed1
+ccm_suona_0169_s03,4,唢呐,frozen_mert,Frozen MERT,seed1,test,10.923129081726074,12.091462135314941,frozen_mert_seed1
+ccm_suona_0169_s04,4,唢呐,frozen_mert,Frozen MERT,seed1,test,10.955153465270996,12.459281921386719,frozen_mert_seed1
+ccm_suona_0169_s05,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.079779624938965,12.460171699523926,frozen_mert_seed1
+ccm_suona_0169_s06,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.174006462097168,11.96182632446289,frozen_mert_seed1
+ccm_suona_0169_s07,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.325165748596191,12.052841186523438,frozen_mert_seed1
+ccm_suona_0169_s08,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.503402709960938,12.138165473937988,frozen_mert_seed1
+ccm_suona_0183_s00,4,唢呐,frozen_mert,Frozen MERT,seed1,test,11.22221851348877,12.470075607299805,frozen_mert_seed1
+ccm_zhongruan_0039_s00,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.7237398028373718,9.172874450683594,frozen_mert_seed1
+ccm_zhongruan_0039_s01,2,中阮,frozen_mert,Frozen MERT,seed1,test,-0.2228778749704361,10.272510528564453,frozen_mert_seed1
+ccm_zhongruan_0039_s02,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.5323600172996521,9.698183059692383,frozen_mert_seed1
+ccm_zhongruan_0039_s03,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.2673241198062897,10.667074203491211,frozen_mert_seed1
+ccm_zhongruan_0039_s04,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.4017755687236786,10.635747909545898,frozen_mert_seed1
+ccm_zhongruan_0039_s05,2,中阮,frozen_mert,Frozen MERT,seed1,test,1.0409644842147827,9.338434219360352,frozen_mert_seed1
+ccm_zhongruan_0039_s06,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.8870846629142761,9.250251770019531,frozen_mert_seed1
+ccm_zhongruan_0040_s00,2,中阮,frozen_mert,Frozen MERT,seed1,test,-0.24701836705207825,10.093978881835938,frozen_mert_seed1
+ccm_zhongruan_0040_s01,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.1792493462562561,10.594499588012695,frozen_mert_seed1
+ccm_zhongruan_0040_s02,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.2617676556110382,10.674522399902344,frozen_mert_seed1
+ccm_zhongruan_0040_s03,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.9883581399917603,10.09660530090332,frozen_mert_seed1
+ccm_zhongruan_0040_s04,2,中阮,frozen_mert,Frozen MERT,seed1,test,1.2633376121520996,9.083123207092285,frozen_mert_seed1
+ccm_zhongruan_0040_s05,2,中阮,frozen_mert,Frozen MERT,seed1,test,1.1836917400360107,9.18319034576416,frozen_mert_seed1
+ccm_zhongruan_0040_s06,2,中阮,frozen_mert,Frozen MERT,seed1,test,1.1819961071014404,9.228096008300781,frozen_mert_seed1
+ccm_zhongruan_0040_s07,2,中阮,frozen_mert,Frozen MERT,seed1,test,1.2021725177764893,9.15881061553955,frozen_mert_seed1
+ccm_zhongruan_0040_s08,2,中阮,frozen_mert,Frozen MERT,seed1,test,1.2628366947174072,9.147125244140625,frozen_mert_seed1
+ccm_zhongruan_0041_s00,2,中阮,frozen_mert,Frozen MERT,seed1,test,-0.18257488310337067,10.311222076416016,frozen_mert_seed1
+ccm_zhongruan_0041_s01,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.4525603950023651,9.800061225891113,frozen_mert_seed1
+ccm_zhongruan_0041_s02,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.20446275174617767,9.86362361907959,frozen_mert_seed1
+ccm_zhongruan_0041_s03,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.46095597743988037,10.880241394042969,frozen_mert_seed1
+ccm_zhongruan_0041_s04,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.6021687984466553,10.503829002380371,frozen_mert_seed1
+ccm_zhongruan_0041_s05,2,中阮,frozen_mert,Frozen MERT,seed1,test,1.19035804271698,9.408997535705566,frozen_mert_seed1
+ccm_zhongruan_0041_s06,2,中阮,frozen_mert,Frozen MERT,seed1,test,1.2489434480667114,8.991887092590332,frozen_mert_seed1
+ccm_zhongruan_0041_s07,2,中阮,frozen_mert,Frozen MERT,seed1,test,1.103969693183899,9.033849716186523,frozen_mert_seed1
+ccm_zhongruan_0048_s00,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.10148172080516815,8.948616027832031,frozen_mert_seed1
+ccm_zhongruan_0048_s01,2,中阮,frozen_mert,Frozen MERT,seed1,test,-0.13313835859298706,9.464950561523438,frozen_mert_seed1
+ccm_zhongruan_0048_s02,2,中阮,frozen_mert,Frozen MERT,seed1,test,-0.1965988278388977,10.197474479675293,frozen_mert_seed1
+ccm_zhongruan_0048_s03,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.39415717124938965,9.747519493103027,frozen_mert_seed1
+ccm_zhongruan_0048_s04,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.1574949324131012,9.610282897949219,frozen_mert_seed1
+ccm_zhongruan_0048_s05,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.4703153967857361,10.548675537109375,frozen_mert_seed1
+ccm_zhongruan_0048_s06,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.5733424425125122,10.489234924316406,frozen_mert_seed1
+ccm_zhongruan_0048_s07,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.8291091918945312,9.844926834106445,frozen_mert_seed1
+ccm_zhongruan_0048_s08,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.26734602451324463,8.699828147888184,frozen_mert_seed1
+ccm_zhongruan_0048_s09,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.24046802520751953,8.846444129943848,frozen_mert_seed1
+ccm_zhongruan_0048_s10,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.5009296536445618,9.04033374786377,frozen_mert_seed1
+ccm_zhongruan_0048_s11,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.4914260506629944,8.804019927978516,frozen_mert_seed1
+ccm_zhongruan_0048_s12,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.68735671043396,8.966544151306152,frozen_mert_seed1
+ccm_zhongruan_0049_s00,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.15397964417934418,9.080493927001953,frozen_mert_seed1
+ccm_zhongruan_0049_s01,2,中阮,frozen_mert,Frozen MERT,seed1,test,-0.14580324292182922,9.38809871673584,frozen_mert_seed1
+ccm_zhongruan_0049_s02,2,中阮,frozen_mert,Frozen MERT,seed1,test,-0.20547375082969666,10.212480545043945,frozen_mert_seed1
+ccm_zhongruan_0049_s03,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.36436694860458374,9.762377738952637,frozen_mert_seed1
+ccm_zhongruan_0049_s04,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.24946355819702148,9.512059211730957,frozen_mert_seed1
+ccm_zhongruan_0049_s05,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.44320741295814514,10.762450218200684,frozen_mert_seed1
+ccm_zhongruan_0049_s06,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.5093362927436829,10.413773536682129,frozen_mert_seed1
+ccm_zhongruan_0049_s07,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.7329909801483154,10.309796333312988,frozen_mert_seed1
+ccm_zhongruan_0049_s08,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.4085231423377991,8.621676445007324,frozen_mert_seed1
+ccm_zhongruan_0049_s09,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.39860549569129944,8.87545108795166,frozen_mert_seed1
+ccm_zhongruan_0049_s10,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.1983526200056076,8.613405227661133,frozen_mert_seed1
+ccm_zhongruan_0049_s11,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.3996167480945587,8.706497192382812,frozen_mert_seed1
+ccm_zhongruan_0049_s12,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.06913622468709946,8.742303848266602,frozen_mert_seed1
+ccm_zhongruan_0049_s13,2,中阮,frozen_mert,Frozen MERT,seed1,test,0.11289246380329132,8.706944465637207,frozen_mert_seed1
+ccm_dizi_0032_s00,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.335046768188477,-0.304658979177475,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0033_s00,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.427412033081055,-0.265042245388031,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0042_s00,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.749937057495117,-2.4942400455474854,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0042_s01,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.94371509552002,-0.9411481618881226,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0042_s02,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.705686569213867,-0.44374457001686096,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0042_s03,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.981542587280273,-1.121070146560669,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0042_s04,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.885929107666016,-1.2760491371154785,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0043_s00,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.762774467468262,-2.4480247497558594,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0043_s01,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.967300415039062,-0.9991592764854431,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0043_s02,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.568384170532227,-0.3458153307437897,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0043_s03,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.72192096710205,-1.0247029066085815,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0043_s04,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.394067764282227,-1.8998923301696777,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0046_s00,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.157638549804688,-1.2372277975082397,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0046_s01,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.276369094848633,-0.9507500529289246,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0046_s02,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.558470726013184,-0.4344254732131958,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0046_s03,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.106301307678223,-0.34927576780319214,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0047_s00,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.202999114990234,-1.1102733612060547,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0047_s01,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.683961868286133,-1.1279058456420898,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0047_s02,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.934680938720703,-0.7058810591697693,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s00,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.71578598022461,-0.9282481074333191,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s01,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.919922828674316,-0.8967729210853577,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s02,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.742244720458984,-0.7199710607528687,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s03,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.094137191772461,-1.2973374128341675,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s04,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.11951732635498,-2.0731589794158936,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s05,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.896578788757324,-0.9785869121551514,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s06,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.050436019897461,-1.7584980726242065,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s07,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.483004570007324,-1.310423493385315,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s08,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.737923622131348,-1.2768768072128296,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s09,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.321786880493164,-4.942188262939453,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s10,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.598712921142578,-1.0885891914367676,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s11,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.321142196655273,-1.2078132629394531,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s12,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.91146469116211,-1.7833620309829712,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s13,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.006869316101074,-0.34388092160224915,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0064_s14,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,9.928253173828125,-0.21546773612499237,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s00,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.4461088180542,-2.2447896003723145,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s01,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.813425064086914,-1.0490305423736572,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s02,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.712178230285645,-1.8976035118103027,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s03,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.697427749633789,-1.8607114553451538,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s04,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.60427188873291,-2.3377816677093506,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s05,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.508703231811523,-2.2654712200164795,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s06,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.527689933776855,-2.120272636413574,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s07,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,11.890461921691895,-1.6624839305877686,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s08,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.246603012084961,-4.748597145080566,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s09,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.702300071716309,-2.3954739570617676,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s10,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.226068496704102,-2.0730791091918945,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s11,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,12.066731452941895,-1.95648193359375,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s12,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.158598899841309,-0.5107479095458984,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s13,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.161368370056152,-0.4482935965061188,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0065_s14,3,笛子,mert_lora_r8,MERT+LoRA (r=8),seed1,test,10.651579856872559,-0.9121266603469849,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0003_s00,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.825551986694336,1.1396526098251343,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0003_s01,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.849680423736572,1.0478886365890503,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0003_s02,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.091324806213379,2.1412272453308105,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0003_s03,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.477771282196045,1.902812123298645,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0003_s04,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,5.74555778503418,1.8120023012161255,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0003_s05,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,5.615301132202148,2.004171848297119,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0003_s06,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.421982288360596,1.9798861742019653,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0003_s07,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,5.531332015991211,1.941383719444275,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0003_s08,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,5.700453758239746,1.6857194900512695,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s00,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.789538860321045,1.1240605115890503,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s01,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.782506942749023,1.1519083976745605,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s02,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.8788161277771,1.08041250705719,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s03,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,5.869815826416016,1.972736120223999,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s04,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.063111782073975,1.9737200736999512,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s05,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.115173816680908,1.898099660873413,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s06,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.482584476470947,1.5113521814346313,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s07,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.344463348388672,1.483979344367981,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s08,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.35322904586792,1.3849124908447266,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s09,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,5.9413628578186035,1.5506904125213623,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s10,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,5.652730941772461,1.8877809047698975,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0009_s11,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.22467041015625,1.5239988565444946,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0023_s00,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.011624813079834,1.9763703346252441,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0023_s01,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.813888072967529,1.4110398292541504,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0051_s00,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.668675422668457,1.2049838304519653,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0051_s01,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.817631244659424,1.4466335773468018,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0051_s02,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.301318645477295,1.860106110572815,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0051_s03,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.258959770202637,1.2979234457015991,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0051_s04,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.385738849639893,1.2061024904251099,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0051_s05,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.933161735534668,1.344918131828308,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0053_s00,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.693960189819336,1.1740578413009644,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0101_s00,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.6594557762146,1.156368374824524,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0101_s01,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.2865142822265625,1.308335542678833,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0101_s02,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,7.109234809875488,1.4223809242248535,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0101_s03,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.198653697967529,2.0010974407196045,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0101_s04,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.506253719329834,1.5840613842010498,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0101_s05,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,5.397228717803955,1.9361107349395752,run_exp02_mert_lora_r8_seed1
+ccm_erhu_0101_s06,0,二胡,mert_lora_r8,MERT+LoRA (r=8),seed1,test,6.071959972381592,1.4693644046783447,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0003_s00,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.6051745414733887,-9.390536308288574,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0003_s01,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.6496503353118896,-9.345904350280762,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0041_s00,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-3.867084264755249,-7.74525785446167,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0041_s01,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-3.915501117706299,-7.693326473236084,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0041_s02,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.6394741535186768,-9.272963523864746,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0041_s03,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.5542898178100586,-9.439603805541992,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0041_s04,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.730868101119995,-9.293856620788574,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0041_s05,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-3.590278148651123,-8.083832740783691,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0041_s06,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,20.670364379882812,3.349639892578125,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0042_s00,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-3.9564990997314453,-7.648020267486572,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0042_s01,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,20.8219051361084,3.4880709648132324,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0042_s02,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.760122776031494,-9.299257278442383,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0042_s03,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.813950300216675,-9.210658073425293,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0042_s04,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.8871960639953613,-9.094253540039062,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0042_s05,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-3.70137619972229,-7.935871601104736,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0042_s06,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,20.70810317993164,3.4390501976013184,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0049_s00,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.126977920532227,3.5965821743011475,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0049_s01,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,20.983150482177734,3.6818573474884033,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0049_s02,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.018945693969727,3.6520938873291016,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0049_s03,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-3.896801471710205,-7.712214946746826,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0049_s04,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-3.835644006729126,-7.782373905181885,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0049_s05,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.8533995151519775,-9.121602058410645,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0049_s06,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-3.5169718265533447,-8.168976783752441,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0049_s07,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,20.665081024169922,3.42175555229187,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0050_s00,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.049638748168945,3.6087968349456787,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0050_s01,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.180938720703125,3.6179823875427246,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0050_s02,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.156038284301758,3.5455803871154785,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0050_s03,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-3.643822431564331,-7.996048450469971,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0050_s04,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.746288776397705,-9.175358772277832,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0050_s05,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-2.908129930496216,-9.059605598449707,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0050_s06,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-3.8623576164245605,-7.749931812286377,run_exp02_mert_lora_r8_seed1
+ccm_pipa_0050_s07,1,琵琶,mert_lora_r8,MERT+LoRA (r=8),seed1,test,20.64240264892578,3.5384457111358643,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0003_s00,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.184763431549072,16.636198043823242,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0003_s01,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.091619491577148,16.5830078125,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0003_s02,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.401869297027588,16.69130516052246,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s00,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.799091339111328,17.347047805786133,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s01,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.074521541595459,17.70876121520996,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s02,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.162705898284912,17.606101989746094,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s03,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.170487880706787,17.6024227142334,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s04,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.252514839172363,16.961320877075195,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s05,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.422965049743652,17.150110244750977,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s06,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.103378772735596,17.065624237060547,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s07,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.139449596405029,16.924814224243164,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s08,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.317180156707764,16.449609756469727,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s09,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.617086887359619,16.69551658630371,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s10,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.697381973266602,16.952011108398438,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0015_s11,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.775079250335693,16.734661102294922,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0023_s00,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.3950886726379395,17.411434173583984,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0023_s01,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.454318523406982,16.598342895507812,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0023_s02,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.245756149291992,17.518718719482422,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0023_s03,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.838538646697998,17.18821907043457,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0023_s04,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.3993353843688965,17.46221923828125,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0060_s00,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.354281902313232,17.2602596282959,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0060_s01,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.500195503234863,16.91702651977539,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0060_s02,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.987144947052002,16.470640182495117,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0060_s03,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.1911420822143555,16.30732536315918,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0060_s04,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.078913688659668,16.312633514404297,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0066_s00,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.100522518157959,17.219053268432617,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0066_s01,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.885440349578857,17.363649368286133,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0071_s00,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.776003360748291,16.86810302734375,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0071_s01,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.140038967132568,16.4470157623291,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0071_s02,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.978116989135742,16.51020050048828,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0071_s03,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.679901123046875,16.772111892700195,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0071_s04,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.212853908538818,17.091106414794922,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0072_s00,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.484386920928955,16.826457977294922,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0072_s01,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.685212135314941,17.064088821411133,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0072_s02,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.014578819274902,16.390409469604492,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0072_s03,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.640754699707031,16.830751419067383,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0089_s00,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.311636924743652,17.21651840209961,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0089_s01,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-6.9045000076293945,17.2246036529541,run_exp02_mert_lora_r8_seed1
+ccm_sheng_0089_s02,5,笙,mert_lora_r8,MERT+LoRA (r=8),seed1,test,-7.774779796600342,17.05731773376465,run_exp02_mert_lora_r8_seed1
+ccm_suona_0004_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.970401763916016,-5.1243367195129395,run_exp02_mert_lora_r8_seed1
+ccm_suona_0004_s01,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.752735137939453,-5.027618885040283,run_exp02_mert_lora_r8_seed1
+ccm_suona_0034_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.762147903442383,-5.453399658203125,run_exp02_mert_lora_r8_seed1
+ccm_suona_0042_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.853891372680664,-5.411255836486816,run_exp02_mert_lora_r8_seed1
+ccm_suona_0046_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.021349906921387,-5.659151554107666,run_exp02_mert_lora_r8_seed1
+ccm_suona_0060_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.471879005432129,-5.146323204040527,run_exp02_mert_lora_r8_seed1
+ccm_suona_0060_s01,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.136187553405762,-4.6940202713012695,run_exp02_mert_lora_r8_seed1
+ccm_suona_0060_s02,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.900714874267578,-4.671842098236084,run_exp02_mert_lora_r8_seed1
+ccm_suona_0062_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.91761302947998,-5.035609722137451,run_exp02_mert_lora_r8_seed1
+ccm_suona_0091_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.274953842163086,-5.587568759918213,run_exp02_mert_lora_r8_seed1
+ccm_suona_0113_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.711223602294922,-5.551267147064209,run_exp02_mert_lora_r8_seed1
+ccm_suona_0113_s01,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.458128929138184,-5.362206935882568,run_exp02_mert_lora_r8_seed1
+ccm_suona_0118_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.81224250793457,-5.018070697784424,run_exp02_mert_lora_r8_seed1
+ccm_suona_0122_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.194616317749023,-4.950082778930664,run_exp02_mert_lora_r8_seed1
+ccm_suona_0123_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.40710735321045,-4.999793529510498,run_exp02_mert_lora_r8_seed1
+ccm_suona_0123_s01,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.289505958557129,-4.7544474601745605,run_exp02_mert_lora_r8_seed1
+ccm_suona_0123_s02,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.260095596313477,-4.556880950927734,run_exp02_mert_lora_r8_seed1
+ccm_suona_0123_s03,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.197380065917969,-4.581952095031738,run_exp02_mert_lora_r8_seed1
+ccm_suona_0125_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.716426849365234,-5.65964937210083,run_exp02_mert_lora_r8_seed1
+ccm_suona_0129_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.175533294677734,-5.713332176208496,run_exp02_mert_lora_r8_seed1
+ccm_suona_0129_s01,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.273428916931152,-5.490128993988037,run_exp02_mert_lora_r8_seed1
+ccm_suona_0149_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.70199966430664,-5.569838523864746,run_exp02_mert_lora_r8_seed1
+ccm_suona_0149_s01,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.767973899841309,-5.4806389808654785,run_exp02_mert_lora_r8_seed1
+ccm_suona_0149_s02,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.74792194366455,-5.359534740447998,run_exp02_mert_lora_r8_seed1
+ccm_suona_0169_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.154474258422852,-5.435675144195557,run_exp02_mert_lora_r8_seed1
+ccm_suona_0169_s01,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.946946144104004,-4.851378440856934,run_exp02_mert_lora_r8_seed1
+ccm_suona_0169_s02,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.635940551757812,-5.692702770233154,run_exp02_mert_lora_r8_seed1
+ccm_suona_0169_s03,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,15.576236724853516,-5.788177013397217,run_exp02_mert_lora_r8_seed1
+ccm_suona_0169_s04,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.644368171691895,-4.623166561126709,run_exp02_mert_lora_r8_seed1
+ccm_suona_0169_s05,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.313650131225586,-4.767735481262207,run_exp02_mert_lora_r8_seed1
+ccm_suona_0169_s06,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.58215618133545,-4.925509452819824,run_exp02_mert_lora_r8_seed1
+ccm_suona_0169_s07,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.539230346679688,-4.822427749633789,run_exp02_mert_lora_r8_seed1
+ccm_suona_0169_s08,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.430274963378906,-5.037378311157227,run_exp02_mert_lora_r8_seed1
+ccm_suona_0183_s00,4,唢呐,mert_lora_r8,MERT+LoRA (r=8),seed1,test,14.967814445495605,-5.540136337280273,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0039_s00,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.34587287902832,4.709386348724365,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0039_s01,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.588712692260742,5.172036170959473,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0039_s02,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.746246337890625,5.129523754119873,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0039_s03,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.50869369506836,5.53027868270874,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0039_s04,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.327823638916016,5.509789943695068,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0039_s05,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.134458541870117,4.611367702484131,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0039_s06,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.145179748535156,4.657750606536865,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0040_s00,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.685047149658203,5.127949237823486,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0040_s01,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.5846004486084,5.444007396697998,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0040_s02,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.291337966918945,5.543297290802002,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0040_s03,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.028759002685547,5.348587512969971,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0040_s04,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.723976135253906,3.892010450363159,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0040_s05,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.598615646362305,4.536297798156738,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0040_s06,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.702844619750977,4.481345176696777,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0040_s07,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.60017967224121,4.388566017150879,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0040_s08,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.651182174682617,4.4517974853515625,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0041_s00,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.63852882385254,5.2263922691345215,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0041_s01,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.65855598449707,5.269045352935791,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0041_s02,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.723398208618164,4.951213359832764,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0041_s03,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.377683639526367,5.694906234741211,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0041_s04,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.028629302978516,5.343134880065918,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0041_s05,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.654451370239258,4.470594882965088,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0041_s06,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.625560760498047,3.961160182952881,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0041_s07,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.56645393371582,4.520213603973389,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s00,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.304813385009766,3.767535924911499,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s01,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.29874038696289,4.295060157775879,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s02,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.472383499145508,4.936685562133789,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s03,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.751914978027344,5.026937007904053,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s04,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.075071334838867,3.8326547145843506,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s05,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.08339500427246,5.6212992668151855,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s06,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.849279403686523,5.405052185058594,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s07,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.74457550048828,3.991990327835083,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s08,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.148244857788086,4.014362335205078,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s09,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.21670150756836,3.978184461593628,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s10,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.659347534179688,3.932664155960083,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s11,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.001123428344727,4.041594505310059,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0048_s12,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.96402359008789,3.9578428268432617,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s00,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.552276611328125,3.8715953826904297,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s01,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.494709014892578,4.416372776031494,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s02,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.614694595336914,4.955859184265137,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s03,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.663433074951172,5.130367755889893,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s04,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.24020004272461,3.7226226329803467,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s05,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.309772491455078,5.547421932220459,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s06,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.916929244995117,5.463140487670898,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s07,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.864870071411133,5.2504191398620605,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s08,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,22.398225784301758,3.893625020980835,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s09,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.896240234375,4.006255626678467,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s10,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.776697158813477,3.9628145694732666,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s11,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.782577514648438,4.057495594024658,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s12,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.96626853942871,3.9662790298461914,run_exp02_mert_lora_r8_seed1
+ccm_zhongruan_0049_s13,2,中阮,mert_lora_r8,MERT+LoRA (r=8),seed1,test,21.856037139892578,3.805391788482666,run_exp02_mert_lora_r8_seed1
+ccm_dizi_0032_s00,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.733284950256348,16.22565269470215,run_exp02_mert_full_ft_seed1
+ccm_dizi_0033_s00,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.584186553955078,16.29161834716797,run_exp02_mert_full_ft_seed1
+ccm_dizi_0042_s00,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.328453063964844,15.983198165893555,run_exp02_mert_full_ft_seed1
+ccm_dizi_0042_s01,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.998363494873047,15.722916603088379,run_exp02_mert_full_ft_seed1
+ccm_dizi_0042_s02,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.732737064361572,15.706385612487793,run_exp02_mert_full_ft_seed1
+ccm_dizi_0042_s03,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.129302024841309,16.53667640686035,run_exp02_mert_full_ft_seed1
+ccm_dizi_0042_s04,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.84152603149414,16.08323097229004,run_exp02_mert_full_ft_seed1
+ccm_dizi_0043_s00,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.266401290893555,15.907959938049316,run_exp02_mert_full_ft_seed1
+ccm_dizi_0043_s01,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.9659295082092285,15.908525466918945,run_exp02_mert_full_ft_seed1
+ccm_dizi_0043_s02,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.9308977127075195,16.089494705200195,run_exp02_mert_full_ft_seed1
+ccm_dizi_0043_s03,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.006990432739258,16.453397750854492,run_exp02_mert_full_ft_seed1
+ccm_dizi_0043_s04,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-5.773446083068848,-1.5461171865463257,run_exp02_mert_full_ft_seed1
+ccm_dizi_0046_s00,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.739555835723877,16.344379425048828,run_exp02_mert_full_ft_seed1
+ccm_dizi_0046_s01,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.962173938751221,16.609418869018555,run_exp02_mert_full_ft_seed1
+ccm_dizi_0046_s02,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.63444709777832,16.424659729003906,run_exp02_mert_full_ft_seed1
+ccm_dizi_0046_s03,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-9.243775367736816,15.817553520202637,run_exp02_mert_full_ft_seed1
+ccm_dizi_0047_s00,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.901416301727295,16.376134872436523,run_exp02_mert_full_ft_seed1
+ccm_dizi_0047_s01,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.912618637084961,16.675262451171875,run_exp02_mert_full_ft_seed1
+ccm_dizi_0047_s02,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.373554229736328,16.550018310546875,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s00,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.376626014709473,15.788926124572754,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s01,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.501609802246094,15.790461540222168,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s02,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-9.089941024780273,16.20121955871582,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s03,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.942028522491455,16.17311668395996,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s04,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.803576469421387,16.256223678588867,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s05,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.063247680664062,15.908246994018555,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s06,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.748463153839111,15.676610946655273,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s07,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.692015647888184,15.653523445129395,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s08,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.77673864364624,15.74169921875,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s09,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.037574768066406,16.78131866455078,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s10,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.735238075256348,15.991473197937012,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s11,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-9.176451683044434,16.1041259765625,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s12,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-9.266947746276855,15.73544692993164,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s13,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-9.180936813354492,15.885461807250977,run_exp02_mert_full_ft_seed1
+ccm_dizi_0064_s14,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.55614185333252,15.900999069213867,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s00,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.353287696838379,15.899680137634277,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s01,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.45891284942627,15.84300708770752,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s02,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-9.09175968170166,16.198593139648438,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s03,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-9.065999984741211,16.213218688964844,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s04,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.921500205993652,16.296266555786133,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s05,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.703840255737305,15.717971801757812,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s06,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.984322547912598,16.727922439575195,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s07,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.593791484832764,16.044092178344727,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s08,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-7.833372592926025,16.62664794921875,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s09,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.096500396728516,16.35810089111328,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s10,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-9.313477516174316,16.017826080322266,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s11,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-9.333280563354492,16.06189727783203,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s12,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.716922760009766,15.90175724029541,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s13,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.585827827453613,15.544966697692871,run_exp02_mert_full_ft_seed1
+ccm_dizi_0065_s14,3,笛子,mert_full_ft,MERT full fine-tuning,seed1,test,-8.347702026367188,15.645001411437988,run_exp02_mert_full_ft_seed1
+ccm_erhu_0003_s00,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.708120822906494,-1.9038752317428589,run_exp02_mert_full_ft_seed1
+ccm_erhu_0003_s01,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.691441059112549,-1.9485474824905396,run_exp02_mert_full_ft_seed1
+ccm_erhu_0003_s02,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-4.634512424468994,-0.8844535946846008,run_exp02_mert_full_ft_seed1
+ccm_erhu_0003_s03,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-4.6925129890441895,-0.8469061851501465,run_exp02_mert_full_ft_seed1
+ccm_erhu_0003_s04,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.310543537139893,-1.8547366857528687,run_exp02_mert_full_ft_seed1
+ccm_erhu_0003_s05,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.011122703552246,-1.3415955305099487,run_exp02_mert_full_ft_seed1
+ccm_erhu_0003_s06,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.126030921936035,-1.3988099098205566,run_exp02_mert_full_ft_seed1
+ccm_erhu_0003_s07,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.181204795837402,-1.8029624223709106,run_exp02_mert_full_ft_seed1
+ccm_erhu_0003_s08,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.490408420562744,-2.458686351776123,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s00,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.921595096588135,-1.9875653982162476,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s01,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.927463531494141,-2.0630438327789307,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s02,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-4.620632171630859,-0.761641263961792,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s03,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.539591312408447,-1.9087707996368408,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s04,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-4.659337997436523,-1.0018179416656494,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s05,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.3836493492126465,-2.224477767944336,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s06,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-4.691681385040283,-0.9056606292724609,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s07,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.392017841339111,-1.731788158416748,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s08,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.580395221710205,-2.155316114425659,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s09,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.6086506843566895,-2.5122435092926025,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s10,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.161041736602783,-1.5999385118484497,run_exp02_mert_full_ft_seed1
+ccm_erhu_0009_s11,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.374380588531494,-2.5045690536499023,run_exp02_mert_full_ft_seed1
+ccm_erhu_0023_s00,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-4.919427394866943,-1.1707491874694824,run_exp02_mert_full_ft_seed1
+ccm_erhu_0023_s01,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.339626312255859,-2.4344141483306885,run_exp02_mert_full_ft_seed1
+ccm_erhu_0051_s00,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-6.103413105010986,-1.8658727407455444,run_exp02_mert_full_ft_seed1
+ccm_erhu_0051_s01,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-6.112748622894287,-1.9982883930206299,run_exp02_mert_full_ft_seed1
+ccm_erhu_0051_s02,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.961313724517822,-1.8748093843460083,run_exp02_mert_full_ft_seed1
+ccm_erhu_0051_s03,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-6.036816120147705,-1.840620517730713,run_exp02_mert_full_ft_seed1
+ccm_erhu_0051_s04,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.673686504364014,-2.3400909900665283,run_exp02_mert_full_ft_seed1
+ccm_erhu_0051_s05,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-6.096645832061768,-1.8528919219970703,run_exp02_mert_full_ft_seed1
+ccm_erhu_0053_s00,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-6.148386478424072,-1.6971180438995361,run_exp02_mert_full_ft_seed1
+ccm_erhu_0101_s00,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-4.63543176651001,-0.9249938130378723,run_exp02_mert_full_ft_seed1
+ccm_erhu_0101_s01,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-4.696748733520508,-1.0441895723342896,run_exp02_mert_full_ft_seed1
+ccm_erhu_0101_s02,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.313592433929443,-1.4391833543777466,run_exp02_mert_full_ft_seed1
+ccm_erhu_0101_s03,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-4.89432430267334,-1.2385025024414062,run_exp02_mert_full_ft_seed1
+ccm_erhu_0101_s04,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-4.8751044273376465,-0.8863805532455444,run_exp02_mert_full_ft_seed1
+ccm_erhu_0101_s05,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.004814147949219,-1.1921634674072266,run_exp02_mert_full_ft_seed1
+ccm_erhu_0101_s06,0,二胡,mert_full_ft,MERT full fine-tuning,seed1,test,-5.435299396514893,-2.5443010330200195,run_exp02_mert_full_ft_seed1
+ccm_pipa_0003_s00,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.301931858062744,15.508199691772461,run_exp02_mert_full_ft_seed1
+ccm_pipa_0003_s01,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.354119300842285,15.512373924255371,run_exp02_mert_full_ft_seed1
+ccm_pipa_0041_s00,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,8.29843521118164,14.574687004089355,run_exp02_mert_full_ft_seed1
+ccm_pipa_0041_s01,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.9940185546875,14.727384567260742,run_exp02_mert_full_ft_seed1
+ccm_pipa_0041_s02,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.775612831115723,14.992815017700195,run_exp02_mert_full_ft_seed1
+ccm_pipa_0041_s03,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.539570331573486,15.159826278686523,run_exp02_mert_full_ft_seed1
+ccm_pipa_0041_s04,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.585649490356445,15.750484466552734,run_exp02_mert_full_ft_seed1
+ccm_pipa_0041_s05,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,6.951572418212891,15.746392250061035,run_exp02_mert_full_ft_seed1
+ccm_pipa_0041_s06,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.165572643280029,15.999298095703125,run_exp02_mert_full_ft_seed1
+ccm_pipa_0042_s00,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,8.29171085357666,14.57900333404541,run_exp02_mert_full_ft_seed1
+ccm_pipa_0042_s01,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,8.073999404907227,14.797758102416992,run_exp02_mert_full_ft_seed1
+ccm_pipa_0042_s02,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.765684604644775,15.017300605773926,run_exp02_mert_full_ft_seed1
+ccm_pipa_0042_s03,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.354126930236816,15.348613739013672,run_exp02_mert_full_ft_seed1
+ccm_pipa_0042_s04,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.658692836761475,15.802687644958496,run_exp02_mert_full_ft_seed1
+ccm_pipa_0042_s05,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,6.924487590789795,15.614984512329102,run_exp02_mert_full_ft_seed1
+ccm_pipa_0042_s06,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.15255880355835,15.993868827819824,run_exp02_mert_full_ft_seed1
+ccm_pipa_0049_s00,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,8.277764320373535,14.592296600341797,run_exp02_mert_full_ft_seed1
+ccm_pipa_0049_s01,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,8.07032585144043,14.672797203063965,run_exp02_mert_full_ft_seed1
+ccm_pipa_0049_s02,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.670280456542969,15.280069351196289,run_exp02_mert_full_ft_seed1
+ccm_pipa_0049_s03,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.860668659210205,14.916055679321289,run_exp02_mert_full_ft_seed1
+ccm_pipa_0049_s04,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.410080909729004,15.329736709594727,run_exp02_mert_full_ft_seed1
+ccm_pipa_0049_s05,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.618083477020264,15.866238594055176,run_exp02_mert_full_ft_seed1
+ccm_pipa_0049_s06,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.120682716369629,15.53433609008789,run_exp02_mert_full_ft_seed1
+ccm_pipa_0049_s07,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.130704879760742,15.938102722167969,run_exp02_mert_full_ft_seed1
+ccm_pipa_0050_s00,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,8.253493309020996,14.61605453491211,run_exp02_mert_full_ft_seed1
+ccm_pipa_0050_s01,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,8.14995288848877,14.827568054199219,run_exp02_mert_full_ft_seed1
+ccm_pipa_0050_s02,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.879322052001953,15.091601371765137,run_exp02_mert_full_ft_seed1
+ccm_pipa_0050_s03,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.8351054191589355,14.960741996765137,run_exp02_mert_full_ft_seed1
+ccm_pipa_0050_s04,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.304627418518066,15.418643951416016,run_exp02_mert_full_ft_seed1
+ccm_pipa_0050_s05,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.692795276641846,15.896297454833984,run_exp02_mert_full_ft_seed1
+ccm_pipa_0050_s06,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.007028102874756,15.655180931091309,run_exp02_mert_full_ft_seed1
+ccm_pipa_0050_s07,1,琵琶,mert_full_ft,MERT full fine-tuning,seed1,test,7.0921478271484375,15.969841003417969,run_exp02_mert_full_ft_seed1
+ccm_sheng_0003_s00,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.539345741271973,2.200948715209961,run_exp02_mert_full_ft_seed1
+ccm_sheng_0003_s01,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.427345275878906,2.2198750972747803,run_exp02_mert_full_ft_seed1
+ccm_sheng_0003_s02,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.547875881195068,2.2312848567962646,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s00,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.785566806793213,2.53309965133667,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s01,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.946239709854126,2.365567684173584,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s02,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.9221556186676025,2.4407119750976562,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s03,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,4.046895980834961,2.2033116817474365,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s04,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.9650917053222656,2.304896116256714,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s05,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.986189603805542,2.2639389038085938,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s06,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.954489231109619,2.1687588691711426,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s07,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.8668642044067383,2.0162839889526367,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s08,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,4.324277877807617,1.946866750717163,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s09,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.711925745010376,2.043989896774292,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s10,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.7066996097564697,2.175105094909668,run_exp02_mert_full_ft_seed1
+ccm_sheng_0015_s11,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,4.041620254516602,1.8123224973678589,run_exp02_mert_full_ft_seed1
+ccm_sheng_0023_s00,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.5891976356506348,2.5413990020751953,run_exp02_mert_full_ft_seed1
+ccm_sheng_0023_s01,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.551457643508911,2.6002988815307617,run_exp02_mert_full_ft_seed1
+ccm_sheng_0023_s02,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.6982808113098145,2.63034725189209,run_exp02_mert_full_ft_seed1
+ccm_sheng_0023_s03,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.718456983566284,2.4492433071136475,run_exp02_mert_full_ft_seed1
+ccm_sheng_0023_s04,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.802889585494995,2.3442206382751465,run_exp02_mert_full_ft_seed1
+ccm_sheng_0060_s00,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.832964897155762,2.560544729232788,run_exp02_mert_full_ft_seed1
+ccm_sheng_0060_s01,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.840506553649902,2.4913694858551025,run_exp02_mert_full_ft_seed1
+ccm_sheng_0060_s02,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.888811111450195,2.3188087940216064,run_exp02_mert_full_ft_seed1
+ccm_sheng_0060_s03,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.4683518409729,2.012354850769043,run_exp02_mert_full_ft_seed1
+ccm_sheng_0060_s04,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.746850967407227,2.2594971656799316,run_exp02_mert_full_ft_seed1
+ccm_sheng_0066_s00,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.6702394485473633,1.8992955684661865,run_exp02_mert_full_ft_seed1
+ccm_sheng_0066_s01,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.663611650466919,1.851678490638733,run_exp02_mert_full_ft_seed1
+ccm_sheng_0071_s00,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,1.0758154392242432,-8.460180282592773,run_exp02_mert_full_ft_seed1
+ccm_sheng_0071_s01,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.233710289001465,2.0464930534362793,run_exp02_mert_full_ft_seed1
+ccm_sheng_0071_s02,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.848158836364746,2.5204341411590576,run_exp02_mert_full_ft_seed1
+ccm_sheng_0071_s03,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.301772594451904,2.109504461288452,run_exp02_mert_full_ft_seed1
+ccm_sheng_0071_s04,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,3.529628276824951,2.166795492172241,run_exp02_mert_full_ft_seed1
+ccm_sheng_0072_s00,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,4.210739612579346,1.852226972579956,run_exp02_mert_full_ft_seed1
+ccm_sheng_0072_s01,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.609790802001953,2.3570010662078857,run_exp02_mert_full_ft_seed1
+ccm_sheng_0072_s02,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,4.713914394378662,1.9628926515579224,run_exp02_mert_full_ft_seed1
+ccm_sheng_0072_s03,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.552577495574951,2.075392484664917,run_exp02_mert_full_ft_seed1
+ccm_sheng_0089_s00,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,4.318467617034912,2.2052087783813477,run_exp02_mert_full_ft_seed1
+ccm_sheng_0089_s01,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,4.583338260650635,2.1209263801574707,run_exp02_mert_full_ft_seed1
+ccm_sheng_0089_s02,5,笙,mert_full_ft,MERT full fine-tuning,seed1,test,5.377364158630371,1.949155330657959,run_exp02_mert_full_ft_seed1
+ccm_suona_0004_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.3290735483169556,-7.988213539123535,run_exp02_mert_full_ft_seed1
+ccm_suona_0004_s01,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.8411469459533691,-7.672153472900391,run_exp02_mert_full_ft_seed1
+ccm_suona_0034_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.508635997772217,-8.282809257507324,run_exp02_mert_full_ft_seed1
+ccm_suona_0042_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.245192050933838,-8.239760398864746,run_exp02_mert_full_ft_seed1
+ccm_suona_0046_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.8842685222625732,-8.170814514160156,run_exp02_mert_full_ft_seed1
+ccm_suona_0060_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,0.8625703454017639,-8.414916038513184,run_exp02_mert_full_ft_seed1
+ccm_suona_0060_s01,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.2362290620803833,-7.925782203674316,run_exp02_mert_full_ft_seed1
+ccm_suona_0060_s02,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,0.8750996589660645,-8.33083438873291,run_exp02_mert_full_ft_seed1
+ccm_suona_0062_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,0.9477226734161377,-8.216545104980469,run_exp02_mert_full_ft_seed1
+ccm_suona_0091_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.2015026807785034,-8.22724437713623,run_exp02_mert_full_ft_seed1
+ccm_suona_0113_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.2128040790557861,-8.195886611938477,run_exp02_mert_full_ft_seed1
+ccm_suona_0113_s01,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.1963083744049072,-8.324204444885254,run_exp02_mert_full_ft_seed1
+ccm_suona_0118_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.5369012355804443,-8.24169635772705,run_exp02_mert_full_ft_seed1
+ccm_suona_0122_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.4591268301010132,-8.033604621887207,run_exp02_mert_full_ft_seed1
+ccm_suona_0123_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.490475058555603,-8.172431945800781,run_exp02_mert_full_ft_seed1
+ccm_suona_0123_s01,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.714856505393982,-8.017427444458008,run_exp02_mert_full_ft_seed1
+ccm_suona_0123_s02,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.0336732864379883,-8.348862648010254,run_exp02_mert_full_ft_seed1
+ccm_suona_0123_s03,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,0.8147236704826355,-8.33319091796875,run_exp02_mert_full_ft_seed1
+ccm_suona_0125_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.5396807193756104,-8.112090110778809,run_exp02_mert_full_ft_seed1
+ccm_suona_0129_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.0643736124038696,-8.407394409179688,run_exp02_mert_full_ft_seed1
+ccm_suona_0129_s01,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.089343786239624,-8.49663257598877,run_exp02_mert_full_ft_seed1
+ccm_suona_0149_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.8637382984161377,-7.850088596343994,run_exp02_mert_full_ft_seed1
+ccm_suona_0149_s01,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.642626404762268,-7.90956449508667,run_exp02_mert_full_ft_seed1
+ccm_suona_0149_s02,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,0.9400012493133545,-8.633593559265137,run_exp02_mert_full_ft_seed1
+ccm_suona_0169_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.400660753250122,-8.24598217010498,run_exp02_mert_full_ft_seed1
+ccm_suona_0169_s01,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.075683832168579,-7.892334938049316,run_exp02_mert_full_ft_seed1
+ccm_suona_0169_s02,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.9780926704406738,-7.904512882232666,run_exp02_mert_full_ft_seed1
+ccm_suona_0169_s03,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.4447243213653564,-7.883196830749512,run_exp02_mert_full_ft_seed1
+ccm_suona_0169_s04,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,1.6150585412979126,-7.831845283508301,run_exp02_mert_full_ft_seed1
+ccm_suona_0169_s05,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.3119468688964844,-7.890768527984619,run_exp02_mert_full_ft_seed1
+ccm_suona_0169_s06,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.6552748680114746,-8.185477256774902,run_exp02_mert_full_ft_seed1
+ccm_suona_0169_s07,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.594187021255493,-8.017060279846191,run_exp02_mert_full_ft_seed1
+ccm_suona_0169_s08,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.325143337249756,-8.108360290527344,run_exp02_mert_full_ft_seed1
+ccm_suona_0183_s00,4,唢呐,mert_full_ft,MERT full fine-tuning,seed1,test,2.410959243774414,-8.248147010803223,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0039_s00,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.82141876220703,0.39039260149002075,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0039_s01,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.862398147583008,0.7379074692726135,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0039_s02,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.760583877563477,0.08638057857751846,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0039_s03,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,19.011951446533203,0.5350748300552368,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0039_s04,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.955238342285156,0.5781782865524292,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0039_s05,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.68108558654785,0.8096843361854553,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0039_s06,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.29838752746582,0.8563016057014465,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0040_s00,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.534832000732422,0.7963114380836487,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0040_s01,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.882522583007812,0.6257701516151428,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0040_s02,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.792346954345703,0.5195366740226746,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0040_s03,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.493633270263672,0.5119249820709229,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0040_s04,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.92767333984375,-0.030681489035487175,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0040_s05,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.301876068115234,0.7537293434143066,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0040_s06,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.42974281311035,0.6069383025169373,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0040_s07,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.358776092529297,0.6672824025154114,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0040_s08,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.577180862426758,0.6965039968490601,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0041_s00,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.80082130432129,0.9165607690811157,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0041_s01,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.45552635192871,0.2400684505701065,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0041_s02,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.319725036621094,0.26967155933380127,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0041_s03,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,19.03502655029297,0.6454466581344604,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0041_s04,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.41748046875,0.6240893006324768,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0041_s05,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.77141761779785,0.4903603792190552,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0041_s06,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.02763557434082,-0.07375159114599228,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0041_s07,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.935760498046875,0.19188766181468964,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s00,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.99082374572754,0.026616716757416725,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s01,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.344654083251953,0.08787407726049423,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s02,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.983436584472656,0.6182578206062317,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s03,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.36482810974121,0.16503243148326874,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s04,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.48105812072754,0.21178412437438965,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s05,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.066665649414062,0.6437411308288574,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s06,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.680158615112305,0.7166978716850281,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s07,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.54690933227539,0.6575914621353149,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s08,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.539165496826172,0.2430274933576584,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s09,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.60111427307129,0.5247814059257507,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s10,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.914743423461914,0.2785082459449768,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s11,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.5880069732666,0.3069431185722351,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0048_s12,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.576025009155273,0.47786349058151245,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s00,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.19982147216797,0.41099804639816284,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s01,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.236141204833984,0.1451965570449829,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s02,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.214635848999023,0.41908612847328186,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s03,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.46538543701172,0.32249176502227783,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s04,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.9610595703125,0.1838918924331665,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s05,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.160030364990234,0.7533178925514221,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s06,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,18.286361694335938,0.5244214534759521,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s07,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,17.508302688598633,0.38464057445526123,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s08,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.709026336669922,0.2106475681066513,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s09,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.52210807800293,0.56891930103302,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s10,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.338109970092773,0.7245333194732666,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s11,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.432321548461914,0.7121753096580505,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s12,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.834150314331055,0.14089655876159668,run_exp02_mert_full_ft_seed1
+ccm_zhongruan_0049_s13,2,中阮,mert_full_ft,MERT full fine-tuning,seed1,test,16.439626693725586,0.4162161946296692,run_exp02_mert_full_ft_seed1

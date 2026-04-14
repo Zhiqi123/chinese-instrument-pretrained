@@ -1,0 +1,13 @@
+ratio_name,ratio_value,seed_name,subset_seed,full_train_group_count,subset_train_group_count,actual_group_ratio_overall,full_train_record_count,subset_train_record_count,full_train_segment_count,subset_train_segment_count,actual_segment_ratio_overall
+train10,0.1,seed0,4417,192,23,0.1198,230,29,1067,97,0.0909
+train10,0.1,seed1,3037,192,23,0.1198,227,29,1065,114,0.107
+train10,0.1,seed2,10423,195,23,0.1179,229,27,1029,151,0.1467
+train100,1.0,seed0,4507,192,192,1.0,230,230,1067,1067,1.0
+train100,1.0,seed1,3127,192,192,1.0,227,227,1065,1065,1.0
+train100,1.0,seed2,10513,195,195,1.0,229,229,1029,1029,1.0
+train25,0.25,seed0,4432,192,50,0.2604,230,61,1067,231,0.2165
+train25,0.25,seed1,3052,192,50,0.2604,227,59,1065,314,0.2948
+train25,0.25,seed2,10438,195,51,0.2615,229,61,1029,271,0.2634
+train50,0.5,seed0,4457,192,97,0.5052,230,116,1067,553,0.5183
+train50,0.5,seed1,3077,192,98,0.5104,227,114,1065,482,0.4526
+train50,0.5,seed2,10463,195,99,0.5077,229,118,1029,490,0.4762

@@ -1,0 +1,49 @@
+experiment_id,run_id,method,model,ratio_name,ratio_value,seed_name,device_type,total_params,trainable_params,trainable_ratio,feature_prep_time_sec,train_wall_time_sec,total_method_time_sec,mean_epoch_time_sec,mean_train_step_time_ms,peak_device_memory_mb,memory_metric_available,subset_train_group_count,subset_train_segment_count
+exp03_mert_linear,run_exp03_mert_linear_train10_seed0,MERT linear probe,mert_v1_95m,train10,0.1,seed0,mps,94376326,4614,4.888937931319768e-05,115.687,0.338,116.025,0.023,0.908,,False,23,97
+exp03_mert_linear,run_exp03_mert_linear_train10_seed1,MERT linear probe,mert_v1_95m,train10,0.1,seed1,mps,94376326,4614,4.888937931319768e-05,120.431,0.67,121.102,0.022,0.662,,False,23,114
+exp03_mert_linear,run_exp03_mert_linear_train10_seed2,MERT linear probe,mert_v1_95m,train10,0.1,seed2,mps,94376326,4614,4.888937931319768e-05,117.027,0.941,117.968,0.024,0.562,,False,23,151
+exp03_mert_linear,run_exp03_mert_linear_train25_seed0,MERT linear probe,mert_v1_95m,train25,0.25,seed0,mps,94376326,4614,4.888937931319768e-05,122.662,1.563,124.225,0.031,0.553,,False,50,231
+exp03_mert_linear,run_exp03_mert_linear_train25_seed1,MERT linear probe,mert_v1_95m,train25,0.25,seed1,mps,94376326,4614,4.888937931319768e-05,129.702,0.973,130.675,0.04,0.637,,False,50,314
+exp03_mert_linear,run_exp03_mert_linear_train25_seed2,MERT linear probe,mert_v1_95m,train25,0.25,seed2,mps,94376326,4614,4.888937931319768e-05,124.676,1.015,125.691,0.036,0.589,,False,51,271
+exp03_mert_linear,run_exp03_mert_linear_train50_seed0,MERT linear probe,mert_v1_95m,train50,0.5,seed0,mps,94376326,4614,4.888937931319768e-05,129.3,2.352,131.652,0.073,0.725,,False,97,553
+exp03_mert_linear,run_exp03_mert_linear_train50_seed1,MERT linear probe,mert_v1_95m,train50,0.5,seed1,mps,94376326,4614,4.888937931319768e-05,133.08,1.827,134.907,0.049,0.507,,False,98,482
+exp03_mert_linear,run_exp03_mert_linear_train50_seed2,MERT linear probe,mert_v1_95m,train50,0.5,seed2,mps,94376326,4614,4.888937931319768e-05,128.613,0.743,129.356,0.056,0.596,,False,99,490
+exp03_mert_linear,run_exp03_mert_linear_train100_seed0,MERT linear probe,mert_v1_95m,train100,1.0,seed0,mps,94376326,4614,4.888937931319768e-05,139.584,3.988,143.572,0.092,0.495,,False,192,1067
+exp03_mert_linear,run_exp03_mert_linear_train100_seed1,MERT linear probe,mert_v1_95m,train100,1.0,seed1,mps,94376326,4614,4.888937931319768e-05,143.395,2.394,145.789,0.095,0.503,,False,192,1065
+exp03_mert_linear,run_exp03_mert_linear_train100_seed2,MERT linear probe,mert_v1_95m,train100,1.0,seed2,mps,94376326,4614,4.888937931319768e-05,139.022,2.436,141.458,0.089,0.476,,False,195,1029
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train10_seed0,MERT+LoRA (r=4),mert_v1_95m,train10,0.1,seed0,mps,94523782,152070,0.0016088014760137295,0.0,1044.248,1044.248,54.942,150.863,,False,23,97
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train10_seed1,MERT+LoRA (r=4),mert_v1_95m,train10,0.1,seed1,mps,94523782,152070,0.0016088014760137295,0.0,1329.137,1329.137,55.36,152.471,,False,23,114
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train10_seed2,MERT+LoRA (r=4),mert_v1_95m,train10,0.1,seed2,mps,94523782,152070,0.0016088014760137295,0.0,1762.588,1762.588,58.733,154.742,,False,23,151
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train25_seed0,MERT+LoRA (r=4),mert_v1_95m,train25,0.25,seed0,mps,94523782,152070,0.0016088014760137295,0.0,1012.607,1012.607,67.492,153.192,,False,50,231
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train25_seed1,MERT+LoRA (r=4),mert_v1_95m,train25,0.25,seed1,mps,94523782,152070,0.0016088014760137295,0.0,1445.591,1445.591,72.262,153.946,,False,50,314
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train25_seed2,MERT+LoRA (r=4),mert_v1_95m,train25,0.25,seed2,mps,94523782,152070,0.0016088014760137295,0.0,1052.612,1052.612,70.154,153.419,,False,51,271
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train50_seed0,MERT+LoRA (r=4),mert_v1_95m,train50,0.5,seed0,mps,94523782,152070,0.0016088014760137295,0.0,874.124,874.124,87.386,152.631,,False,97,553
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train50_seed1,MERT+LoRA (r=4),mert_v1_95m,train50,0.5,seed1,mps,94523782,152070,0.0016088014760137295,0.0,1151.354,1151.354,82.214,152.939,,False,98,482
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train50_seed2,MERT+LoRA (r=4),mert_v1_95m,train50,0.5,seed2,mps,94523782,152070,0.0016088014760137295,0.0,1094.345,1094.345,84.158,154.22,,False,99,490
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train100_seed0,MERT+LoRA (r=4),mert_v1_95m,train100,1.0,seed0,mps,94523782,152070,0.0016088014760137295,0.0,954.598,954.598,119.3,153.723,,False,192,1067
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train100_seed1,MERT+LoRA (r=4),mert_v1_95m,train100,1.0,seed1,mps,94523782,152070,0.0016088014760137295,0.0,1535.398,1535.398,118.087,152.962,,False,192,1065
+exp03_mert_lora_r4,run_exp03_mert_lora_r4_train100_seed2,MERT+LoRA (r=4),mert_v1_95m,train100,1.0,seed2,mps,94523782,152070,0.0016088014760137295,0.0,1283.27,1283.27,116.637,152.833,,False,195,1029
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train10_seed0,MERT+LoRA (r=8),mert_v1_95m,train10,0.1,seed0,mps,94671238,299526,0.0031638542637416446,0.0,1374.951,1374.951,54.976,152.337,,False,23,97
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train10_seed1,MERT+LoRA (r=8),mert_v1_95m,train10,0.1,seed1,mps,94671238,299526,0.0031638542637416446,0.0,1494.579,1494.579,55.334,153.523,,False,23,114
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train10_seed2,MERT+LoRA (r=8),mert_v1_95m,train10,0.1,seed2,mps,94671238,299526,0.0031638542637416446,0.0,881.204,881.204,58.722,155.634,,False,23,151
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train25_seed0,MERT+LoRA (r=8),mert_v1_95m,train25,0.25,seed0,mps,94671238,299526,0.0031638542637416446,0.0,811.55,811.55,67.609,155.198,,False,50,231
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train25_seed1,MERT+LoRA (r=8),mert_v1_95m,train25,0.25,seed1,mps,94671238,299526,0.0031638542637416446,0.0,1730.397,1730.397,72.076,154.446,,False,50,314
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train25_seed2,MERT+LoRA (r=8),mert_v1_95m,train25,0.25,seed2,mps,94671238,299526,0.0031638542637416446,0.0,773.24,773.24,70.27,155.229,,False,51,271
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train50_seed0,MERT+LoRA (r=8),mert_v1_95m,train50,0.5,seed0,mps,94671238,299526,0.0031638542637416446,0.0,1225.945,1225.945,87.549,154.596,,False,97,553
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train50_seed1,MERT+LoRA (r=8),mert_v1_95m,train50,0.5,seed1,mps,94671238,299526,0.0031638542637416446,0.0,1482.785,1482.785,82.355,154.497,,False,98,482
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train50_seed2,MERT+LoRA (r=8),mert_v1_95m,train50,0.5,seed2,mps,94671238,299526,0.0031638542637416446,0.0,922.05,922.05,83.802,154.762,,False,99,490
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train100_seed0,MERT+LoRA (r=8),mert_v1_95m,train100,1.0,seed0,mps,94671238,299526,0.0031638542637416446,0.0,1323.196,1323.196,120.265,157.794,,False,192,1067
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train100_seed1,MERT+LoRA (r=8),mert_v1_95m,train100,1.0,seed1,mps,94671238,299526,0.0031638542637416446,0.0,2368.342,2368.342,118.398,154.574,,False,192,1065
+exp03_mert_lora_r8,run_exp03_mert_lora_r8_train100_seed2,MERT+LoRA (r=8),mert_v1_95m,train100,1.0,seed2,mps,94671238,299526,0.0031638542637416446,0.0,1054.219,1054.219,117.112,154.555,,False,195,1029
+exp03_mert_full_ft,run_exp03_mert_full_ft_train10_seed0,MERT full fine-tuning,mert_v1_95m,train10,0.1,seed0,mps,94376326,94376326,1.0,0.0,809.982,809.982,57.625,318.506,,False,23,97
+exp03_mert_full_ft,run_exp03_mert_full_ft_train10_seed1,MERT full fine-tuning,mert_v1_95m,train10,0.1,seed1,mps,94376326,94376326,1.0,0.0,647.012,647.012,58.526,315.884,,False,23,114
+exp03_mert_full_ft,run_exp03_mert_full_ft_train10_seed2,MERT full fine-tuning,mert_v1_95m,train10,0.1,seed2,mps,94376326,94376326,1.0,0.0,882.634,882.634,62.787,319.618,,False,23,151
+exp03_mert_full_ft,run_exp03_mert_full_ft_train25_seed0,MERT full fine-tuning,mert_v1_95m,train25,0.25,seed0,mps,94376326,94376326,1.0,0.0,1041.185,1041.185,74.142,324.762,,False,50,231
+exp03_mert_full_ft,run_exp03_mert_full_ft_train25_seed1,MERT full fine-tuning,mert_v1_95m,train25,0.25,seed1,mps,94376326,94376326,1.0,0.0,730.855,730.855,80.936,321.683,,False,50,314
+exp03_mert_full_ft,run_exp03_mert_full_ft_train25_seed2,MERT full fine-tuning,mert_v1_95m,train25,0.25,seed2,mps,94376326,94376326,1.0,0.0,779.295,779.295,77.697,320.468,,False,51,271
+exp03_mert_full_ft,run_exp03_mert_full_ft_train50_seed0,MERT full fine-tuning,mert_v1_95m,train50,0.5,seed0,mps,94376326,94376326,1.0,0.0,1254.55,1254.55,104.353,328.031,,False,97,553
+exp03_mert_full_ft,run_exp03_mert_full_ft_train50_seed1,MERT full fine-tuning,mert_v1_95m,train50,0.5,seed1,mps,94376326,94376326,1.0,0.0,770.088,770.088,96.033,321.111,,False,98,482
+exp03_mert_full_ft,run_exp03_mert_full_ft_train50_seed2,MERT full fine-tuning,mert_v1_95m,train50,0.5,seed2,mps,94376326,94376326,1.0,0.0,880.182,880.182,97.589,319.997,,False,99,490
+exp03_mert_full_ft,run_exp03_mert_full_ft_train100_seed0,MERT full fine-tuning,mert_v1_95m,train100,1.0,seed0,mps,94376326,94376326,1.0,0.0,902.046,902.046,150.193,326.438,,False,192,1067
+exp03_mert_full_ft,run_exp03_mert_full_ft_train100_seed1,MERT full fine-tuning,mert_v1_95m,train100,1.0,seed1,mps,94376326,94376326,1.0,0.0,1933.343,1933.343,148.538,321.53,,False,192,1065
+exp03_mert_full_ft,run_exp03_mert_full_ft_train100_seed2,MERT full fine-tuning,mert_v1_95m,train100,1.0,seed2,mps,94376326,94376326,1.0,0.0,1172.15,1172.15,146.29,322.243,,False,195,1029

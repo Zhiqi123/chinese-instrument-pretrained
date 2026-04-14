@@ -1,0 +1,6 @@
+case_rank,source_phase,method_short,method_display,seed_name,split,segment_id,segment_abs_path,dataset_name,true_label,pred_label,top1_score,error_pair
+1,2,mert_full_ft,MERT full fine-tuning,seed1,external_test,chm_zhongruan_0003_s03,dataset_cleaning/output/segments_seed1/external_test/chm_zhongruan_0003_s03.wav,ChMusic,中阮,琵琶,0.9998225569725036,中阮 → 琵琶
+2,2,mert_full_ft,MERT full fine-tuning,seed1,external_test,chm_sheng_0001_s31,dataset_cleaning/output/segments_seed1/external_test/chm_sheng_0001_s31.wav,ChMusic,笙,唢呐,0.9997615218162536,笙 → 唢呐
+3,2,mert_full_ft,MERT full fine-tuning,seed1,external_test,chm_pipa_0003_s03,dataset_cleaning/output/segments_seed1/external_test/chm_pipa_0003_s03.wav,ChMusic,琵琶,唢呐,0.9997578263282776,琵琶 → 唢呐
+4,2,mert_full_ft,MERT full fine-tuning,seed1,external_test,chm_dizi_0004_s01,dataset_cleaning/output/segments_seed1/external_test/chm_dizi_0004_s01.wav,ChMusic,笛子,唢呐,0.999750554561615,笛子 → 唢呐
+5,2,mert_full_ft,MERT full fine-tuning,seed1,external_test,chm_zhongruan_0002_s02,dataset_cleaning/output/segments_seed1/external_test/chm_zhongruan_0002_s02.wav,ChMusic,中阮,唢呐,0.9997279047966005,中阮 → 唢呐

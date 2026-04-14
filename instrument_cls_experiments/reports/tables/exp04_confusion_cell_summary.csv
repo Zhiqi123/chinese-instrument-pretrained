@@ -1,0 +1,1729 @@
+source_phase,experiment_id,method,method_short,model,seed_name,split,true_label,pred_label,count,row_total,row_rate
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,二胡,二胡,31,31,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,二胡,琵琶,0,31,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,二胡,中阮,0,31,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,二胡,笛子,0,31,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,二胡,唢呐,0,31,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,二胡,笙,0,31,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,琵琶,二胡,0,4,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,琵琶,琵琶,4,4,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,琵琶,中阮,0,4,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,琵琶,笛子,0,4,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,琵琶,唢呐,0,4,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,琵琶,笙,0,4,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,中阮,二胡,0,41,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,中阮,琵琶,0,41,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,中阮,中阮,41,41,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,中阮,笛子,0,41,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,中阮,唢呐,0,41,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,中阮,笙,0,41,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笛子,二胡,0,40,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笛子,琵琶,0,40,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笛子,中阮,0,40,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笛子,笛子,40,40,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笛子,唢呐,0,40,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笛子,笙,0,40,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,唢呐,二胡,0,52,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,唢呐,琵琶,0,52,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,唢呐,中阮,1,52,0.019230769230769232
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,唢呐,笛子,0,52,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,唢呐,唢呐,50,52,0.9615384615384616
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,唢呐,笙,1,52,0.019230769230769232
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笙,二胡,0,36,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笙,琵琶,0,36,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笙,中阮,1,36,0.027777777777777776
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笙,笛子,0,36,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笙,唢呐,1,36,0.027777777777777776
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,test,笙,笙,34,36,0.9444444444444444
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,二胡,二胡,0,113,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,二胡,琵琶,0,113,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,二胡,中阮,0,113,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,二胡,笛子,1,113,0.008849557522123894
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,二胡,唢呐,34,113,0.3008849557522124
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,二胡,笙,78,113,0.6902654867256637
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,琵琶,二胡,0,85,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,琵琶,琵琶,2,85,0.023529411764705882
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,琵琶,中阮,0,85,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,琵琶,笛子,5,85,0.058823529411764705
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,琵琶,唢呐,35,85,0.4117647058823529
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,琵琶,笙,43,85,0.5058823529411764
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,中阮,二胡,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,中阮,琵琶,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,中阮,中阮,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,中阮,笛子,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,中阮,唢呐,13,94,0.13829787234042554
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,中阮,笙,81,94,0.8617021276595744
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笛子,二胡,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笛子,琵琶,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笛子,中阮,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笛子,笛子,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笛子,唢呐,93,94,0.9893617021276596
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笛子,笙,1,94,0.010638297872340425
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,唢呐,二胡,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,唢呐,琵琶,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,唢呐,中阮,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,唢呐,笛子,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,唢呐,唢呐,45,45,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,唢呐,笙,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笙,二胡,0,179,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笙,琵琶,0,179,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笙,中阮,0,179,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笙,笛子,7,179,0.03910614525139665
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笙,唢呐,115,179,0.6424581005586593
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed0,external_test,笙,笙,57,179,0.31843575418994413
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,二胡,二胡,37,37,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,二胡,琵琶,0,37,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,二胡,中阮,0,37,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,二胡,笛子,0,37,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,二胡,唢呐,0,37,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,二胡,笙,0,37,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,琵琶,二胡,0,32,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,琵琶,琵琶,32,32,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,琵琶,中阮,0,32,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,琵琶,笛子,0,32,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,琵琶,唢呐,0,32,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,琵琶,笙,0,32,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,中阮,二胡,0,51,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,中阮,琵琶,0,51,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,中阮,中阮,51,51,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,中阮,笛子,0,51,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,中阮,唢呐,0,51,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,中阮,笙,0,51,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笛子,二胡,0,49,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笛子,琵琶,0,49,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笛子,中阮,0,49,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笛子,笛子,49,49,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笛子,唢呐,0,49,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笛子,笙,0,49,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,唢呐,二胡,0,34,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,唢呐,琵琶,0,34,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,唢呐,中阮,0,34,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,唢呐,笛子,0,34,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,唢呐,唢呐,34,34,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,唢呐,笙,0,34,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笙,二胡,0,39,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笙,琵琶,0,39,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笙,中阮,0,39,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笙,笛子,0,39,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笙,唢呐,0,39,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,test,笙,笙,39,39,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,二胡,二胡,3,113,0.02654867256637168
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,二胡,琵琶,0,113,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,二胡,中阮,0,113,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,二胡,笛子,1,113,0.008849557522123894
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,二胡,唢呐,42,113,0.37168141592920356
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,二胡,笙,67,113,0.5929203539823009
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,琵琶,二胡,0,85,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,琵琶,琵琶,14,85,0.16470588235294117
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,琵琶,中阮,0,85,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,琵琶,笛子,1,85,0.011764705882352941
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,琵琶,唢呐,48,85,0.5647058823529412
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,琵琶,笙,22,85,0.25882352941176473
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,中阮,二胡,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,中阮,琵琶,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,中阮,中阮,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,中阮,笛子,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,中阮,唢呐,20,94,0.2127659574468085
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,中阮,笙,74,94,0.7872340425531915
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笛子,二胡,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笛子,琵琶,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笛子,中阮,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笛子,笛子,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笛子,唢呐,94,94,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笛子,笙,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,唢呐,二胡,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,唢呐,琵琶,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,唢呐,中阮,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,唢呐,笛子,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,唢呐,唢呐,45,45,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,唢呐,笙,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笙,二胡,0,179,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笙,琵琶,0,179,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笙,中阮,0,179,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笙,笛子,6,179,0.0335195530726257
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笙,唢呐,113,179,0.6312849162011173
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed1,external_test,笙,笙,60,179,0.33519553072625696
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,二胡,二胡,30,30,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,二胡,琵琶,0,30,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,二胡,中阮,0,30,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,二胡,笛子,0,30,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,二胡,唢呐,0,30,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,二胡,笙,0,30,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,琵琶,二胡,0,9,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,琵琶,琵琶,9,9,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,琵琶,中阮,0,9,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,琵琶,笛子,0,9,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,琵琶,唢呐,0,9,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,琵琶,笙,0,9,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,中阮,二胡,0,34,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,中阮,琵琶,0,34,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,中阮,中阮,34,34,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,中阮,笛子,0,34,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,中阮,唢呐,0,34,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,中阮,笙,0,34,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笛子,二胡,0,66,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笛子,琵琶,0,66,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笛子,中阮,0,66,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笛子,笛子,63,66,0.9545454545454546
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笛子,唢呐,1,66,0.015151515151515152
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笛子,笙,2,66,0.030303030303030304
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,唢呐,二胡,0,51,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,唢呐,琵琶,0,51,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,唢呐,中阮,0,51,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,唢呐,笛子,0,51,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,唢呐,唢呐,50,51,0.9803921568627451
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,唢呐,笙,1,51,0.0196078431372549
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笙,二胡,0,43,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笙,琵琶,0,43,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笙,中阮,0,43,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笙,笛子,0,43,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笙,唢呐,0,43,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,test,笙,笙,43,43,1.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,二胡,二胡,0,113,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,二胡,琵琶,0,113,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,二胡,中阮,0,113,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,二胡,笛子,3,113,0.02654867256637168
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,二胡,唢呐,19,113,0.168141592920354
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,二胡,笙,91,113,0.8053097345132744
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,琵琶,二胡,0,85,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,琵琶,琵琶,3,85,0.03529411764705882
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,琵琶,中阮,0,85,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,琵琶,笛子,3,85,0.03529411764705882
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,琵琶,唢呐,24,85,0.2823529411764706
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,琵琶,笙,55,85,0.6470588235294118
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,中阮,二胡,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,中阮,琵琶,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,中阮,中阮,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,中阮,笛子,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,中阮,唢呐,10,94,0.10638297872340426
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,中阮,笙,84,94,0.8936170212765957
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笛子,二胡,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笛子,琵琶,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笛子,中阮,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笛子,笛子,0,94,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笛子,唢呐,91,94,0.9680851063829787
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笛子,笙,3,94,0.031914893617021274
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,唢呐,二胡,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,唢呐,琵琶,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,唢呐,中阮,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,唢呐,笛子,0,45,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,唢呐,唢呐,44,45,0.9777777777777777
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,唢呐,笙,1,45,0.022222222222222223
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笙,二胡,0,179,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笙,琵琶,0,179,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笙,中阮,0,179,0.0
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笙,笛子,5,179,0.027932960893854747
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笙,唢呐,83,179,0.46368715083798884
+1,exp01_mfcc_svm,MFCC+SVM,mfcc_svm,mfcc_svm,seed2,external_test,笙,笙,91,179,0.5083798882681564
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,二胡,二胡,0,31,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,二胡,琵琶,9,31,0.2903225806451613
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,二胡,中阮,0,31,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,二胡,笛子,12,31,0.3870967741935484
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,二胡,唢呐,0,31,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,二胡,笙,10,31,0.3225806451612903
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,琵琶,二胡,0,4,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,琵琶,琵琶,0,4,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,琵琶,中阮,0,4,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,琵琶,笛子,4,4,1.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,琵琶,唢呐,0,4,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,琵琶,笙,0,4,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,中阮,二胡,0,41,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,中阮,琵琶,6,41,0.14634146341463414
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,中阮,中阮,0,41,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,中阮,笛子,23,41,0.5609756097560976
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,中阮,唢呐,0,41,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,中阮,笙,12,41,0.2926829268292683
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笛子,二胡,0,40,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笛子,琵琶,20,40,0.5
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笛子,中阮,0,40,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笛子,笛子,6,40,0.15
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笛子,唢呐,2,40,0.05
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笛子,笙,12,40,0.3
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,唢呐,二胡,0,52,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,唢呐,琵琶,15,52,0.28846153846153844
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,唢呐,中阮,0,52,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,唢呐,笛子,19,52,0.36538461538461536
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,唢呐,唢呐,0,52,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,唢呐,笙,18,52,0.34615384615384615
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笙,二胡,0,36,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笙,琵琶,6,36,0.16666666666666666
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笙,中阮,0,36,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笙,笛子,12,36,0.3333333333333333
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笙,唢呐,4,36,0.1111111111111111
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,test,笙,笙,14,36,0.3888888888888889
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,二胡,二胡,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,二胡,琵琶,9,113,0.07964601769911504
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,二胡,中阮,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,二胡,笛子,104,113,0.9203539823008849
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,二胡,唢呐,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,二胡,笙,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,琵琶,二胡,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,琵琶,琵琶,1,85,0.011764705882352941
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,琵琶,中阮,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,琵琶,笛子,84,85,0.9882352941176471
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,琵琶,唢呐,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,琵琶,笙,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,中阮,二胡,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,中阮,琵琶,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,中阮,中阮,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,中阮,笛子,94,94,1.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,中阮,唢呐,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,中阮,笙,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笛子,二胡,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笛子,琵琶,1,94,0.010638297872340425
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笛子,中阮,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笛子,笛子,92,94,0.9787234042553191
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笛子,唢呐,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笛子,笙,1,94,0.010638297872340425
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,唢呐,二胡,0,45,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,唢呐,琵琶,1,45,0.022222222222222223
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,唢呐,中阮,0,45,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,唢呐,笛子,43,45,0.9555555555555556
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,唢呐,唢呐,0,45,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,唢呐,笙,1,45,0.022222222222222223
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笙,二胡,0,179,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笙,琵琶,6,179,0.0335195530726257
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笙,中阮,0,179,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笙,笛子,137,179,0.7653631284916201
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笙,唢呐,0,179,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed0,external_test,笙,笙,36,179,0.2011173184357542
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,二胡,二胡,0,37,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,二胡,琵琶,5,37,0.13513513513513514
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,二胡,中阮,0,37,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,二胡,笛子,6,37,0.16216216216216217
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,二胡,唢呐,0,37,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,二胡,笙,26,37,0.7027027027027027
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,琵琶,二胡,0,32,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,琵琶,琵琶,0,32,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,琵琶,中阮,0,32,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,琵琶,笛子,31,32,0.96875
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,琵琶,唢呐,0,32,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,琵琶,笙,1,32,0.03125
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,中阮,二胡,0,51,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,中阮,琵琶,0,51,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,中阮,中阮,0,51,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,中阮,笛子,46,51,0.9019607843137255
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,中阮,唢呐,0,51,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,中阮,笙,5,51,0.09803921568627451
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笛子,二胡,0,49,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笛子,琵琶,32,49,0.6530612244897959
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笛子,中阮,0,49,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笛子,笛子,9,49,0.1836734693877551
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笛子,唢呐,3,49,0.061224489795918366
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笛子,笙,5,49,0.10204081632653061
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,唢呐,二胡,0,34,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,唢呐,琵琶,10,34,0.29411764705882354
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,唢呐,中阮,0,34,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,唢呐,笛子,16,34,0.47058823529411764
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,唢呐,唢呐,0,34,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,唢呐,笙,8,34,0.23529411764705882
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笙,二胡,1,39,0.02564102564102564
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笙,琵琶,10,39,0.2564102564102564
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笙,中阮,3,39,0.07692307692307693
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笙,笛子,16,39,0.41025641025641024
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笙,唢呐,2,39,0.05128205128205128
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,test,笙,笙,7,39,0.1794871794871795
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,二胡,二胡,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,二胡,琵琶,9,113,0.07964601769911504
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,二胡,中阮,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,二胡,笛子,104,113,0.9203539823008849
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,二胡,唢呐,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,二胡,笙,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,琵琶,二胡,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,琵琶,琵琶,1,85,0.011764705882352941
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,琵琶,中阮,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,琵琶,笛子,84,85,0.9882352941176471
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,琵琶,唢呐,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,琵琶,笙,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,中阮,二胡,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,中阮,琵琶,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,中阮,中阮,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,中阮,笛子,94,94,1.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,中阮,唢呐,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,中阮,笙,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笛子,二胡,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笛子,琵琶,1,94,0.010638297872340425
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笛子,中阮,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笛子,笛子,92,94,0.9787234042553191
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笛子,唢呐,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笛子,笙,1,94,0.010638297872340425
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,唢呐,二胡,0,45,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,唢呐,琵琶,1,45,0.022222222222222223
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,唢呐,中阮,0,45,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,唢呐,笛子,43,45,0.9555555555555556
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,唢呐,唢呐,0,45,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,唢呐,笙,1,45,0.022222222222222223
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笙,二胡,0,179,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笙,琵琶,6,179,0.0335195530726257
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笙,中阮,0,179,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笙,笛子,137,179,0.7653631284916201
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笙,唢呐,0,179,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed1,external_test,笙,笙,36,179,0.2011173184357542
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,二胡,二胡,0,30,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,二胡,琵琶,0,30,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,二胡,中阮,0,30,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,二胡,笛子,19,30,0.6333333333333333
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,二胡,唢呐,0,30,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,二胡,笙,11,30,0.36666666666666664
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,琵琶,二胡,0,9,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,琵琶,琵琶,0,9,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,琵琶,中阮,0,9,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,琵琶,笛子,9,9,1.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,琵琶,唢呐,0,9,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,琵琶,笙,0,9,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,中阮,二胡,0,34,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,中阮,琵琶,7,34,0.20588235294117646
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,中阮,中阮,0,34,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,中阮,笛子,14,34,0.4117647058823529
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,中阮,唢呐,0,34,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,中阮,笙,13,34,0.38235294117647056
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笛子,二胡,0,66,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笛子,琵琶,51,66,0.7727272727272727
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笛子,中阮,0,66,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笛子,笛子,0,66,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笛子,唢呐,3,66,0.045454545454545456
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笛子,笙,12,66,0.18181818181818182
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,唢呐,二胡,0,51,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,唢呐,琵琶,14,51,0.27450980392156865
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,唢呐,中阮,0,51,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,唢呐,笛子,18,51,0.35294117647058826
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,唢呐,唢呐,0,51,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,唢呐,笙,19,51,0.37254901960784315
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笙,二胡,1,43,0.023255813953488372
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笙,琵琶,17,43,0.3953488372093023
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笙,中阮,1,43,0.023255813953488372
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笙,笛子,9,43,0.20930232558139536
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笙,唢呐,4,43,0.09302325581395349
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,test,笙,笙,11,43,0.2558139534883721
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,二胡,二胡,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,二胡,琵琶,9,113,0.07964601769911504
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,二胡,中阮,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,二胡,笛子,104,113,0.9203539823008849
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,二胡,唢呐,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,二胡,笙,0,113,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,琵琶,二胡,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,琵琶,琵琶,1,85,0.011764705882352941
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,琵琶,中阮,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,琵琶,笛子,84,85,0.9882352941176471
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,琵琶,唢呐,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,琵琶,笙,0,85,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,中阮,二胡,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,中阮,琵琶,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,中阮,中阮,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,中阮,笛子,94,94,1.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,中阮,唢呐,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,中阮,笙,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笛子,二胡,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笛子,琵琶,1,94,0.010638297872340425
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笛子,中阮,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笛子,笛子,92,94,0.9787234042553191
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笛子,唢呐,0,94,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笛子,笙,1,94,0.010638297872340425
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,唢呐,二胡,0,45,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,唢呐,琵琶,1,45,0.022222222222222223
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,唢呐,中阮,0,45,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,唢呐,笛子,43,45,0.9555555555555556
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,唢呐,唢呐,0,45,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,唢呐,笙,1,45,0.022222222222222223
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笙,二胡,0,179,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笙,琵琶,6,179,0.0335195530726257
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笙,中阮,0,179,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笙,笛子,137,179,0.7653631284916201
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笙,唢呐,0,179,0.0
+1,exp01_clap_zeroshot,CLAP zero-shot,clap_zeroshot,clap_htsat_unfused,seed2,external_test,笙,笙,36,179,0.2011173184357542
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,二胡,二胡,25,31,0.8064516129032258
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,二胡,琵琶,0,31,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,二胡,中阮,0,31,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,二胡,笛子,2,31,0.06451612903225806
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,二胡,唢呐,3,31,0.0967741935483871
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,二胡,笙,1,31,0.03225806451612903
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,琵琶,二胡,0,4,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,琵琶,琵琶,4,4,1.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,琵琶,中阮,0,4,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,琵琶,笛子,0,4,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,琵琶,唢呐,0,4,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,琵琶,笙,0,4,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,中阮,二胡,0,41,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,中阮,琵琶,0,41,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,中阮,中阮,41,41,1.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,中阮,笛子,0,41,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,中阮,唢呐,0,41,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,中阮,笙,0,41,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笛子,二胡,4,40,0.1
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笛子,琵琶,0,40,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笛子,中阮,0,40,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笛子,笛子,35,40,0.875
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笛子,唢呐,1,40,0.025
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笛子,笙,0,40,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,唢呐,二胡,0,52,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,唢呐,琵琶,0,52,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,唢呐,中阮,0,52,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,唢呐,笛子,0,52,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,唢呐,唢呐,52,52,1.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,唢呐,笙,0,52,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笙,二胡,0,36,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笙,琵琶,0,36,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笙,中阮,0,36,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笙,笛子,0,36,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笙,唢呐,0,36,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,test,笙,笙,36,36,1.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,二胡,二胡,80,113,0.7079646017699115
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,二胡,琵琶,0,113,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,二胡,中阮,0,113,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,二胡,笛子,0,113,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,二胡,唢呐,30,113,0.26548672566371684
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,二胡,笙,3,113,0.02654867256637168
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,琵琶,二胡,8,85,0.09411764705882353
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,琵琶,琵琶,23,85,0.27058823529411763
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,琵琶,中阮,54,85,0.6352941176470588
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,琵琶,笛子,0,85,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,琵琶,唢呐,0,85,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,琵琶,笙,0,85,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,中阮,二胡,2,94,0.02127659574468085
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,中阮,琵琶,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,中阮,中阮,78,94,0.8297872340425532
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,中阮,笛子,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,中阮,唢呐,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,中阮,笙,14,94,0.14893617021276595
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笛子,二胡,68,94,0.723404255319149
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笛子,琵琶,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笛子,中阮,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笛子,笛子,26,94,0.2765957446808511
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笛子,唢呐,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笛子,笙,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,唢呐,二胡,22,45,0.4888888888888889
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,唢呐,琵琶,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,唢呐,中阮,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,唢呐,笛子,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,唢呐,唢呐,23,45,0.5111111111111111
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,唢呐,笙,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笙,二胡,16,179,0.0893854748603352
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笙,琵琶,2,179,0.0111731843575419
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笙,中阮,4,179,0.0223463687150838
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笙,笛子,2,179,0.0111731843575419
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笙,唢呐,1,179,0.00558659217877095
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed0,external_test,笙,笙,154,179,0.8603351955307262
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,二胡,二胡,28,37,0.7567567567567568
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,二胡,琵琶,0,37,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,二胡,中阮,0,37,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,二胡,笛子,4,37,0.10810810810810811
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,二胡,唢呐,1,37,0.02702702702702703
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,二胡,笙,4,37,0.10810810810810811
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,琵琶,二胡,0,32,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,琵琶,琵琶,32,32,1.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,琵琶,中阮,0,32,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,琵琶,笛子,0,32,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,琵琶,唢呐,0,32,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,琵琶,笙,0,32,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,中阮,二胡,0,51,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,中阮,琵琶,0,51,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,中阮,中阮,51,51,1.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,中阮,笛子,0,51,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,中阮,唢呐,0,51,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,中阮,笙,0,51,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笛子,二胡,1,49,0.02040816326530612
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笛子,琵琶,0,49,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笛子,中阮,0,49,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笛子,笛子,47,49,0.9591836734693877
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笛子,唢呐,0,49,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笛子,笙,1,49,0.02040816326530612
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,唢呐,二胡,0,34,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,唢呐,琵琶,0,34,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,唢呐,中阮,0,34,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,唢呐,笛子,0,34,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,唢呐,唢呐,34,34,1.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,唢呐,笙,0,34,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笙,二胡,0,39,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笙,琵琶,0,39,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笙,中阮,0,39,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笙,笛子,0,39,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笙,唢呐,0,39,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,test,笙,笙,39,39,1.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,二胡,二胡,82,113,0.7256637168141593
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,二胡,琵琶,0,113,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,二胡,中阮,0,113,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,二胡,笛子,0,113,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,二胡,唢呐,28,113,0.24778761061946902
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,二胡,笙,3,113,0.02654867256637168
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,琵琶,二胡,12,85,0.1411764705882353
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,琵琶,琵琶,22,85,0.25882352941176473
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,琵琶,中阮,50,85,0.5882352941176471
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,琵琶,笛子,0,85,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,琵琶,唢呐,0,85,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,琵琶,笙,1,85,0.011764705882352941
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,中阮,二胡,2,94,0.02127659574468085
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,中阮,琵琶,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,中阮,中阮,76,94,0.8085106382978723
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,中阮,笛子,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,中阮,唢呐,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,中阮,笙,16,94,0.1702127659574468
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笛子,二胡,78,94,0.8297872340425532
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笛子,琵琶,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笛子,中阮,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笛子,笛子,16,94,0.1702127659574468
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笛子,唢呐,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笛子,笙,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,唢呐,二胡,26,45,0.5777777777777777
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,唢呐,琵琶,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,唢呐,中阮,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,唢呐,笛子,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,唢呐,唢呐,19,45,0.4222222222222222
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,唢呐,笙,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笙,二胡,8,179,0.0446927374301676
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笙,琵琶,0,179,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笙,中阮,2,179,0.0111731843575419
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笙,笛子,1,179,0.00558659217877095
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笙,唢呐,1,179,0.00558659217877095
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed1,external_test,笙,笙,167,179,0.9329608938547486
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,二胡,二胡,29,30,0.9666666666666667
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,二胡,琵琶,0,30,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,二胡,中阮,0,30,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,二胡,笛子,0,30,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,二胡,唢呐,0,30,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,二胡,笙,1,30,0.03333333333333333
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,琵琶,二胡,0,9,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,琵琶,琵琶,9,9,1.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,琵琶,中阮,0,9,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,琵琶,笛子,0,9,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,琵琶,唢呐,0,9,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,琵琶,笙,0,9,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,中阮,二胡,0,34,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,中阮,琵琶,0,34,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,中阮,中阮,34,34,1.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,中阮,笛子,0,34,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,中阮,唢呐,0,34,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,中阮,笙,0,34,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笛子,二胡,2,66,0.030303030303030304
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笛子,琵琶,0,66,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笛子,中阮,0,66,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笛子,笛子,58,66,0.8787878787878788
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笛子,唢呐,5,66,0.07575757575757576
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笛子,笙,1,66,0.015151515151515152
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,唢呐,二胡,0,51,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,唢呐,琵琶,0,51,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,唢呐,中阮,0,51,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,唢呐,笛子,0,51,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,唢呐,唢呐,50,51,0.9803921568627451
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,唢呐,笙,1,51,0.0196078431372549
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笙,二胡,0,43,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笙,琵琶,0,43,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笙,中阮,0,43,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笙,笛子,0,43,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笙,唢呐,1,43,0.023255813953488372
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,test,笙,笙,42,43,0.9767441860465116
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,二胡,二胡,60,113,0.5309734513274337
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,二胡,琵琶,0,113,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,二胡,中阮,0,113,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,二胡,笛子,0,113,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,二胡,唢呐,29,113,0.25663716814159293
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,二胡,笙,24,113,0.21238938053097345
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,琵琶,二胡,1,85,0.011764705882352941
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,琵琶,琵琶,44,85,0.5176470588235295
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,琵琶,中阮,36,85,0.4235294117647059
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,琵琶,笛子,0,85,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,琵琶,唢呐,0,85,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,琵琶,笙,4,85,0.047058823529411764
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,中阮,二胡,1,94,0.010638297872340425
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,中阮,琵琶,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,中阮,中阮,75,94,0.7978723404255319
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,中阮,笛子,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,中阮,唢呐,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,中阮,笙,18,94,0.19148936170212766
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笛子,二胡,34,94,0.3617021276595745
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笛子,琵琶,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笛子,中阮,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笛子,笛子,58,94,0.6170212765957447
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笛子,唢呐,0,94,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笛子,笙,2,94,0.02127659574468085
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,唢呐,二胡,17,45,0.37777777777777777
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,唢呐,琵琶,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,唢呐,中阮,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,唢呐,笛子,0,45,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,唢呐,唢呐,23,45,0.5111111111111111
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,唢呐,笙,5,45,0.1111111111111111
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笙,二胡,3,179,0.01675977653631285
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笙,琵琶,0,179,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笙,中阮,0,179,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笙,笛子,1,179,0.00558659217877095
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笙,唢呐,0,179,0.0
+1,exp01_clap_linear,CLAP linear probe,clap_linear,clap_htsat_unfused,seed2,external_test,笙,笙,175,179,0.9776536312849162
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,二胡,31,31,1.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,琵琶,0,31,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,中阮,0,31,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,笛子,0,31,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,唢呐,0,31,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,笙,0,31,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,二胡,0,4,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,琵琶,4,4,1.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,中阮,0,4,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,笛子,0,4,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,唢呐,0,4,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,笙,0,4,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,二胡,0,41,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,琵琶,0,41,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,中阮,40,41,0.975609756097561
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,笛子,0,41,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,唢呐,0,41,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,笙,1,41,0.024390243902439025
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,二胡,0,40,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,琵琶,0,40,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,中阮,0,40,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,笛子,40,40,1.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,唢呐,0,40,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,笙,0,40,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,二胡,0,52,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,琵琶,0,52,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,中阮,0,52,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,笛子,2,52,0.038461538461538464
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,唢呐,49,52,0.9423076923076923
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,笙,1,52,0.019230769230769232
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,二胡,0,36,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,琵琶,0,36,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,中阮,0,36,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,笛子,0,36,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,唢呐,1,36,0.027777777777777776
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,笙,35,36,0.9722222222222222
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,二胡,21,113,0.18584070796460178
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,琵琶,16,113,0.1415929203539823
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,中阮,0,113,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,笛子,24,113,0.21238938053097345
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,唢呐,21,113,0.18584070796460178
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,笙,31,113,0.2743362831858407
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,二胡,0,85,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,琵琶,82,85,0.9647058823529412
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,中阮,0,85,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,笛子,0,85,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,唢呐,1,85,0.011764705882352941
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,笙,2,85,0.023529411764705882
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,二胡,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,琵琶,55,94,0.5851063829787234
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,中阮,1,94,0.010638297872340425
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,笛子,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,唢呐,31,94,0.32978723404255317
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,笙,7,94,0.07446808510638298
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,二胡,8,94,0.0851063829787234
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,琵琶,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,中阮,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,笛子,40,94,0.425531914893617
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,唢呐,25,94,0.26595744680851063
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,笙,21,94,0.22340425531914893
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,二胡,2,45,0.044444444444444446
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,琵琶,1,45,0.022222222222222223
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,中阮,0,45,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,笛子,0,45,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,唢呐,41,45,0.9111111111111111
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,笙,1,45,0.022222222222222223
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,二胡,3,179,0.01675977653631285
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,琵琶,2,179,0.0111731843575419
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,中阮,5,179,0.027932960893854747
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,笛子,8,179,0.0446927374301676
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,唢呐,77,179,0.4301675977653631
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,笙,84,179,0.4692737430167598
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,二胡,37,37,1.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,琵琶,0,37,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,中阮,0,37,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,笛子,0,37,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,唢呐,0,37,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,笙,0,37,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,二胡,0,32,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,琵琶,32,32,1.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,中阮,0,32,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,笛子,0,32,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,唢呐,0,32,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,笙,0,32,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,二胡,0,51,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,琵琶,0,51,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,中阮,51,51,1.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,笛子,0,51,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,唢呐,0,51,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,笙,0,51,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,二胡,0,49,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,琵琶,0,49,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,中阮,0,49,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,笛子,47,49,0.9591836734693877
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,唢呐,0,49,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,笙,2,49,0.04081632653061224
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,二胡,0,34,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,琵琶,0,34,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,中阮,0,34,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,笛子,0,34,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,唢呐,34,34,1.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,笙,0,34,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,二胡,0,39,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,琵琶,0,39,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,中阮,1,39,0.02564102564102564
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,笛子,0,39,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,唢呐,0,39,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,笙,38,39,0.9743589743589743
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,二胡,45,113,0.39823008849557523
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,琵琶,20,113,0.17699115044247787
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,中阮,0,113,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,笛子,4,113,0.035398230088495575
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,唢呐,17,113,0.1504424778761062
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,笙,27,113,0.23893805309734514
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,二胡,5,85,0.058823529411764705
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,琵琶,77,85,0.9058823529411765
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,中阮,0,85,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,笛子,0,85,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,唢呐,1,85,0.011764705882352941
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,笙,2,85,0.023529411764705882
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,二胡,4,94,0.0425531914893617
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,琵琶,46,94,0.48936170212765956
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,中阮,1,94,0.010638297872340425
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,笛子,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,唢呐,30,94,0.3191489361702128
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,笙,13,94,0.13829787234042554
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,二胡,14,94,0.14893617021276595
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,琵琶,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,中阮,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,笛子,35,94,0.3723404255319149
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,唢呐,25,94,0.26595744680851063
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,笙,20,94,0.2127659574468085
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,二胡,5,45,0.1111111111111111
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,琵琶,2,45,0.044444444444444446
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,中阮,0,45,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,笛子,0,45,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,唢呐,37,45,0.8222222222222222
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,笙,1,45,0.022222222222222223
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,二胡,5,179,0.027932960893854747
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,琵琶,0,179,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,中阮,3,179,0.01675977653631285
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,笛子,8,179,0.0446927374301676
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,唢呐,82,179,0.4581005586592179
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,笙,81,179,0.45251396648044695
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,二胡,30,30,1.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,琵琶,0,30,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,中阮,0,30,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,笛子,0,30,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,唢呐,0,30,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,笙,0,30,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,二胡,0,9,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,琵琶,9,9,1.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,中阮,0,9,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,笛子,0,9,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,唢呐,0,9,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,笙,0,9,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,二胡,0,34,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,琵琶,0,34,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,中阮,34,34,1.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,笛子,0,34,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,唢呐,0,34,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,笙,0,34,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,二胡,1,66,0.015151515151515152
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,琵琶,0,66,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,中阮,0,66,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,笛子,50,66,0.7575757575757576
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,唢呐,6,66,0.09090909090909091
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,笙,9,66,0.13636363636363635
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,二胡,0,51,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,琵琶,0,51,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,中阮,0,51,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,笛子,1,51,0.0196078431372549
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,唢呐,48,51,0.9411764705882353
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,笙,2,51,0.0392156862745098
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,二胡,0,43,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,琵琶,0,43,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,中阮,0,43,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,笛子,1,43,0.023255813953488372
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,唢呐,1,43,0.023255813953488372
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,笙,41,43,0.9534883720930233
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,二胡,8,113,0.07079646017699115
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,琵琶,24,113,0.21238938053097345
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,中阮,0,113,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,笛子,60,113,0.5309734513274337
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,唢呐,5,113,0.04424778761061947
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,笙,16,113,0.1415929203539823
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,二胡,0,85,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,琵琶,82,85,0.9647058823529412
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,中阮,0,85,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,笛子,3,85,0.03529411764705882
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,唢呐,0,85,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,笙,0,85,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,二胡,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,琵琶,76,94,0.8085106382978723
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,中阮,2,94,0.02127659574468085
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,笛子,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,唢呐,9,94,0.09574468085106383
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,笙,7,94,0.07446808510638298
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,二胡,3,94,0.031914893617021274
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,琵琶,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,中阮,0,94,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,笛子,83,94,0.8829787234042553
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,唢呐,3,94,0.031914893617021274
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,笙,5,94,0.05319148936170213
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,二胡,2,45,0.044444444444444446
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,琵琶,2,45,0.044444444444444446
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,中阮,0,45,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,笛子,6,45,0.13333333333333333
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,唢呐,35,45,0.7777777777777778
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,笙,0,45,0.0
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,二胡,3,179,0.01675977653631285
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,琵琶,2,179,0.0111731843575419
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,中阮,3,179,0.01675977653631285
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,笛子,19,179,0.10614525139664804
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,唢呐,77,179,0.4301675977653631
+1,exp01_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,笙,75,179,0.41899441340782123
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,二胡,31,31,1.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,琵琶,0,31,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,中阮,0,31,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,笛子,0,31,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,唢呐,0,31,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,二胡,笙,0,31,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,二胡,0,4,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,琵琶,4,4,1.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,中阮,0,4,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,笛子,0,4,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,唢呐,0,4,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,琵琶,笙,0,4,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,二胡,0,41,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,琵琶,0,41,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,中阮,40,41,0.975609756097561
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,笛子,0,41,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,唢呐,0,41,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,中阮,笙,1,41,0.024390243902439025
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,二胡,0,40,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,琵琶,0,40,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,中阮,0,40,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,笛子,40,40,1.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,唢呐,0,40,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笛子,笙,0,40,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,二胡,0,52,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,琵琶,0,52,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,中阮,0,52,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,笛子,2,52,0.038461538461538464
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,唢呐,49,52,0.9423076923076923
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,唢呐,笙,1,52,0.019230769230769232
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,二胡,0,36,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,琵琶,0,36,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,中阮,0,36,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,笛子,0,36,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,唢呐,1,36,0.027777777777777776
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,test,笙,笙,35,36,0.9722222222222222
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,二胡,21,113,0.18584070796460178
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,琵琶,16,113,0.1415929203539823
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,中阮,0,113,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,笛子,24,113,0.21238938053097345
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,唢呐,21,113,0.18584070796460178
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,二胡,笙,31,113,0.2743362831858407
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,二胡,0,85,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,琵琶,82,85,0.9647058823529412
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,中阮,0,85,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,笛子,0,85,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,唢呐,1,85,0.011764705882352941
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,琵琶,笙,2,85,0.023529411764705882
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,二胡,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,琵琶,55,94,0.5851063829787234
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,中阮,1,94,0.010638297872340425
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,唢呐,31,94,0.32978723404255317
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,中阮,笙,7,94,0.07446808510638298
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,二胡,8,94,0.0851063829787234
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,琵琶,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,中阮,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,笛子,40,94,0.425531914893617
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,唢呐,25,94,0.26595744680851063
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笛子,笙,21,94,0.22340425531914893
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,二胡,2,45,0.044444444444444446
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,琵琶,1,45,0.022222222222222223
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,笛子,0,45,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,唢呐,41,45,0.9111111111111111
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,唢呐,笙,1,45,0.022222222222222223
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,二胡,3,179,0.01675977653631285
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,琵琶,2,179,0.0111731843575419
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,中阮,5,179,0.027932960893854747
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,笛子,8,179,0.0446927374301676
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,唢呐,77,179,0.4301675977653631
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed0,external_test,笙,笙,84,179,0.4692737430167598
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,二胡,37,37,1.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,琵琶,0,37,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,中阮,0,37,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,笛子,0,37,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,唢呐,0,37,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,二胡,笙,0,37,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,二胡,0,32,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,琵琶,32,32,1.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,中阮,0,32,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,笛子,0,32,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,唢呐,0,32,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,琵琶,笙,0,32,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,二胡,0,51,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,琵琶,0,51,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,中阮,51,51,1.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,笛子,0,51,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,唢呐,0,51,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,中阮,笙,0,51,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,二胡,0,49,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,琵琶,0,49,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,中阮,0,49,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,笛子,47,49,0.9591836734693877
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,唢呐,0,49,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笛子,笙,2,49,0.04081632653061224
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,二胡,0,34,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,琵琶,0,34,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,中阮,0,34,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,笛子,0,34,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,唢呐,34,34,1.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,唢呐,笙,0,34,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,二胡,0,39,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,琵琶,0,39,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,中阮,1,39,0.02564102564102564
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,笛子,0,39,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,唢呐,0,39,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,test,笙,笙,38,39,0.9743589743589743
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,二胡,45,113,0.39823008849557523
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,琵琶,20,113,0.17699115044247787
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,中阮,0,113,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,笛子,4,113,0.035398230088495575
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,唢呐,17,113,0.1504424778761062
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,二胡,笙,27,113,0.23893805309734514
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,二胡,5,85,0.058823529411764705
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,琵琶,77,85,0.9058823529411765
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,中阮,0,85,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,笛子,0,85,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,唢呐,1,85,0.011764705882352941
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,琵琶,笙,2,85,0.023529411764705882
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,二胡,4,94,0.0425531914893617
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,琵琶,46,94,0.48936170212765956
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,中阮,1,94,0.010638297872340425
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,唢呐,30,94,0.3191489361702128
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,中阮,笙,13,94,0.13829787234042554
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,二胡,14,94,0.14893617021276595
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,琵琶,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,中阮,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,笛子,35,94,0.3723404255319149
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,唢呐,25,94,0.26595744680851063
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笛子,笙,20,94,0.2127659574468085
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,二胡,5,45,0.1111111111111111
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,琵琶,2,45,0.044444444444444446
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,笛子,0,45,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,唢呐,37,45,0.8222222222222222
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,唢呐,笙,1,45,0.022222222222222223
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,二胡,5,179,0.027932960893854747
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,琵琶,0,179,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,中阮,3,179,0.01675977653631285
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,笛子,8,179,0.0446927374301676
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,唢呐,82,179,0.4581005586592179
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed1,external_test,笙,笙,81,179,0.45251396648044695
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,二胡,30,30,1.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,琵琶,0,30,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,中阮,0,30,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,笛子,0,30,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,唢呐,0,30,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,二胡,笙,0,30,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,二胡,0,9,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,琵琶,9,9,1.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,中阮,0,9,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,笛子,0,9,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,唢呐,0,9,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,琵琶,笙,0,9,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,二胡,0,34,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,琵琶,0,34,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,中阮,34,34,1.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,笛子,0,34,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,唢呐,0,34,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,中阮,笙,0,34,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,二胡,1,66,0.015151515151515152
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,琵琶,0,66,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,中阮,0,66,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,笛子,50,66,0.7575757575757576
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,唢呐,6,66,0.09090909090909091
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笛子,笙,9,66,0.13636363636363635
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,二胡,0,51,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,琵琶,0,51,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,中阮,0,51,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,笛子,1,51,0.0196078431372549
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,唢呐,48,51,0.9411764705882353
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,唢呐,笙,2,51,0.0392156862745098
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,二胡,0,43,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,琵琶,0,43,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,中阮,0,43,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,笛子,1,43,0.023255813953488372
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,唢呐,1,43,0.023255813953488372
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,test,笙,笙,41,43,0.9534883720930233
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,二胡,8,113,0.07079646017699115
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,琵琶,24,113,0.21238938053097345
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,中阮,0,113,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,笛子,60,113,0.5309734513274337
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,唢呐,5,113,0.04424778761061947
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,二胡,笙,16,113,0.1415929203539823
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,二胡,0,85,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,琵琶,82,85,0.9647058823529412
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,中阮,0,85,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,笛子,3,85,0.03529411764705882
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,唢呐,0,85,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,琵琶,笙,0,85,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,二胡,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,琵琶,76,94,0.8085106382978723
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,中阮,2,94,0.02127659574468085
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,唢呐,9,94,0.09574468085106383
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,中阮,笙,7,94,0.07446808510638298
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,二胡,3,94,0.031914893617021274
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,琵琶,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,中阮,0,94,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,笛子,83,94,0.8829787234042553
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,唢呐,3,94,0.031914893617021274
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笛子,笙,5,94,0.05319148936170213
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,二胡,2,45,0.044444444444444446
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,琵琶,2,45,0.044444444444444446
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,笛子,6,45,0.13333333333333333
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,唢呐,35,45,0.7777777777777778
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,唢呐,笙,0,45,0.0
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,二胡,3,179,0.01675977653631285
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,琵琶,2,179,0.0111731843575419
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,中阮,3,179,0.01675977653631285
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,笛子,19,179,0.10614525139664804
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,唢呐,77,179,0.4301675977653631
+2,exp02_mert_linear,MERT linear probe,mert_linear,mert_v1_95m,seed2,external_test,笙,笙,75,179,0.41899441340782123
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,二胡,二胡,25,31,0.8064516129032258
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,二胡,琵琶,3,31,0.0967741935483871
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,二胡,中阮,3,31,0.0967741935483871
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,二胡,笛子,0,31,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,二胡,唢呐,0,31,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,二胡,笙,0,31,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,琵琶,二胡,0,4,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,琵琶,琵琶,3,4,0.75
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,琵琶,中阮,0,4,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,琵琶,笛子,0,4,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,琵琶,唢呐,0,4,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,琵琶,笙,1,4,0.25
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,中阮,二胡,0,41,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,中阮,琵琶,0,41,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,中阮,中阮,41,41,1.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,中阮,笛子,0,41,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,中阮,唢呐,0,41,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,中阮,笙,0,41,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笛子,二胡,0,40,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笛子,琵琶,0,40,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笛子,中阮,0,40,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笛子,笛子,17,40,0.425
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笛子,唢呐,20,40,0.5
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笛子,笙,3,40,0.075
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,唢呐,二胡,0,52,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,唢呐,琵琶,0,52,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,唢呐,中阮,0,52,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,唢呐,笛子,0,52,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,唢呐,唢呐,47,52,0.9038461538461539
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,唢呐,笙,5,52,0.09615384615384616
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笙,二胡,0,36,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笙,琵琶,0,36,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笙,中阮,0,36,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笙,笛子,0,36,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笙,唢呐,4,36,0.1111111111111111
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,test,笙,笙,32,36,0.8888888888888888
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,二胡,二胡,53,113,0.4690265486725664
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,二胡,琵琶,19,113,0.168141592920354
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,二胡,中阮,1,113,0.008849557522123894
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,二胡,笛子,0,113,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,二胡,唢呐,1,113,0.008849557522123894
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,二胡,笙,39,113,0.34513274336283184
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,琵琶,二胡,14,85,0.16470588235294117
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,琵琶,琵琶,45,85,0.5294117647058824
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,琵琶,中阮,1,85,0.011764705882352941
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,琵琶,笛子,1,85,0.011764705882352941
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,琵琶,唢呐,0,85,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,琵琶,笙,24,85,0.2823529411764706
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,中阮,二胡,2,94,0.02127659574468085
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,中阮,琵琶,7,94,0.07446808510638298
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,中阮,中阮,11,94,0.11702127659574468
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,中阮,唢呐,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,中阮,笙,74,94,0.7872340425531915
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笛子,二胡,12,94,0.1276595744680851
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笛子,琵琶,1,94,0.010638297872340425
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笛子,中阮,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笛子,笛子,15,94,0.1595744680851064
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笛子,唢呐,7,94,0.07446808510638298
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笛子,笙,59,94,0.6276595744680851
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,唢呐,二胡,1,45,0.022222222222222223
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,唢呐,琵琶,0,45,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,唢呐,笛子,2,45,0.044444444444444446
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,唢呐,唢呐,28,45,0.6222222222222222
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,唢呐,笙,14,45,0.3111111111111111
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笙,二胡,3,179,0.01675977653631285
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笙,琵琶,1,179,0.00558659217877095
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笙,中阮,2,179,0.0111731843575419
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笙,笛子,0,179,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笙,唢呐,43,179,0.24022346368715083
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed0,external_test,笙,笙,130,179,0.7262569832402235
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,二胡,二胡,35,37,0.9459459459459459
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,二胡,琵琶,0,37,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,二胡,中阮,0,37,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,二胡,笛子,0,37,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,二胡,唢呐,0,37,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,二胡,笙,2,37,0.05405405405405406
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,琵琶,二胡,0,32,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,琵琶,琵琶,17,32,0.53125
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,琵琶,中阮,7,32,0.21875
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,琵琶,笛子,0,32,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,琵琶,唢呐,0,32,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,琵琶,笙,8,32,0.25
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,中阮,二胡,0,51,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,中阮,琵琶,0,51,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,中阮,中阮,51,51,1.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,中阮,笛子,0,51,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,中阮,唢呐,0,51,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,中阮,笙,0,51,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笛子,二胡,0,49,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笛子,琵琶,0,49,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笛子,中阮,0,49,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笛子,笛子,41,49,0.8367346938775511
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笛子,唢呐,1,49,0.02040816326530612
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笛子,笙,7,49,0.14285714285714285
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,唢呐,二胡,0,34,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,唢呐,琵琶,0,34,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,唢呐,中阮,0,34,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,唢呐,笛子,0,34,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,唢呐,唢呐,31,34,0.9117647058823529
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,唢呐,笙,3,34,0.08823529411764706
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笙,二胡,0,39,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笙,琵琶,0,39,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笙,中阮,0,39,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笙,笛子,0,39,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笙,唢呐,0,39,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,test,笙,笙,39,39,1.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,二胡,二胡,0,113,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,二胡,琵琶,0,113,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,二胡,中阮,19,113,0.168141592920354
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,二胡,笛子,2,113,0.017699115044247787
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,二胡,唢呐,0,113,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,二胡,笙,92,113,0.8141592920353983
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,琵琶,二胡,0,85,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,琵琶,琵琶,11,85,0.12941176470588237
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,琵琶,中阮,5,85,0.058823529411764705
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,琵琶,笛子,0,85,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,琵琶,唢呐,0,85,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,琵琶,笙,69,85,0.8117647058823529
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,中阮,二胡,1,94,0.010638297872340425
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,中阮,琵琶,7,94,0.07446808510638298
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,中阮,中阮,4,94,0.0425531914893617
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,中阮,唢呐,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,中阮,笙,82,94,0.8723404255319149
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笛子,二胡,3,94,0.031914893617021274
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笛子,琵琶,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笛子,中阮,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笛子,笛子,2,94,0.02127659574468085
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笛子,唢呐,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笛子,笙,89,94,0.9468085106382979
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,唢呐,二胡,0,45,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,唢呐,琵琶,0,45,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,唢呐,笛子,0,45,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,唢呐,唢呐,4,45,0.08888888888888889
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,唢呐,笙,41,45,0.9111111111111111
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笙,二胡,0,179,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笙,琵琶,0,179,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笙,中阮,2,179,0.0111731843575419
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笙,笛子,3,179,0.01675977653631285
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笙,唢呐,17,179,0.09497206703910614
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed1,external_test,笙,笙,157,179,0.8770949720670391
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,二胡,二胡,30,30,1.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,二胡,琵琶,0,30,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,二胡,中阮,0,30,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,二胡,笛子,0,30,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,二胡,唢呐,0,30,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,二胡,笙,0,30,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,琵琶,二胡,0,9,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,琵琶,琵琶,0,9,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,琵琶,中阮,2,9,0.2222222222222222
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,琵琶,笛子,0,9,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,琵琶,唢呐,0,9,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,琵琶,笙,7,9,0.7777777777777778
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,中阮,二胡,0,34,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,中阮,琵琶,0,34,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,中阮,中阮,34,34,1.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,中阮,笛子,0,34,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,中阮,唢呐,0,34,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,中阮,笙,0,34,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笛子,二胡,4,66,0.06060606060606061
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笛子,琵琶,0,66,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笛子,中阮,0,66,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笛子,笛子,13,66,0.19696969696969696
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笛子,唢呐,25,66,0.3787878787878788
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笛子,笙,24,66,0.36363636363636365
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,唢呐,二胡,0,51,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,唢呐,琵琶,0,51,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,唢呐,中阮,0,51,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,唢呐,笛子,0,51,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,唢呐,唢呐,47,51,0.9215686274509803
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,唢呐,笙,4,51,0.0784313725490196
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笙,二胡,0,43,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笙,琵琶,0,43,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笙,中阮,0,43,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笙,笛子,0,43,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笙,唢呐,1,43,0.023255813953488372
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,test,笙,笙,42,43,0.9767441860465116
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,二胡,二胡,0,113,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,二胡,琵琶,35,113,0.30973451327433627
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,二胡,中阮,73,113,0.6460176991150443
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,二胡,笛子,0,113,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,二胡,唢呐,2,113,0.017699115044247787
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,二胡,笙,3,113,0.02654867256637168
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,琵琶,二胡,0,85,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,琵琶,琵琶,52,85,0.611764705882353
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,琵琶,中阮,7,85,0.08235294117647059
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,琵琶,笛子,0,85,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,琵琶,唢呐,8,85,0.09411764705882353
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,琵琶,笙,18,85,0.21176470588235294
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,中阮,二胡,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,中阮,琵琶,18,94,0.19148936170212766
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,中阮,中阮,61,94,0.648936170212766
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,中阮,唢呐,0,94,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,中阮,笙,15,94,0.1595744680851064
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笛子,二胡,5,94,0.05319148936170213
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笛子,琵琶,2,94,0.02127659574468085
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笛子,中阮,7,94,0.07446808510638298
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笛子,笛子,51,94,0.5425531914893617
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笛子,唢呐,22,94,0.23404255319148937
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笛子,笙,7,94,0.07446808510638298
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,唢呐,二胡,0,45,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,唢呐,琵琶,2,45,0.044444444444444446
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,唢呐,笛子,3,45,0.06666666666666667
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,唢呐,唢呐,39,45,0.8666666666666667
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,唢呐,笙,1,45,0.022222222222222223
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笙,二胡,2,179,0.0111731843575419
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笙,琵琶,1,179,0.00558659217877095
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笙,中阮,18,179,0.1005586592178771
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笙,笛子,5,179,0.027932960893854747
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笙,唢呐,37,179,0.20670391061452514
+2,exp02_mert_lora_r4,MERT+LoRA (r=4),mert_lora_r4,mert_v1_95m,seed2,external_test,笙,笙,116,179,0.6480446927374302
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,二胡,二胡,23,31,0.7419354838709677
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,二胡,琵琶,6,31,0.1935483870967742
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,二胡,中阮,2,31,0.06451612903225806
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,二胡,笛子,0,31,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,二胡,唢呐,0,31,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,二胡,笙,0,31,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,琵琶,二胡,0,4,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,琵琶,琵琶,4,4,1.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,琵琶,中阮,0,4,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,琵琶,笛子,0,4,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,琵琶,唢呐,0,4,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,琵琶,笙,0,4,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,中阮,二胡,0,41,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,中阮,琵琶,0,41,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,中阮,中阮,41,41,1.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,中阮,笛子,0,41,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,中阮,唢呐,0,41,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,中阮,笙,0,41,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笛子,二胡,0,40,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笛子,琵琶,0,40,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笛子,中阮,0,40,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笛子,笛子,6,40,0.15
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笛子,唢呐,13,40,0.325
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笛子,笙,21,40,0.525
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,唢呐,二胡,0,52,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,唢呐,琵琶,0,52,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,唢呐,中阮,0,52,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,唢呐,笛子,0,52,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,唢呐,唢呐,49,52,0.9423076923076923
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,唢呐,笙,3,52,0.057692307692307696
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笙,二胡,0,36,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笙,琵琶,0,36,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笙,中阮,0,36,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笙,笛子,0,36,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笙,唢呐,1,36,0.027777777777777776
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,test,笙,笙,35,36,0.9722222222222222
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,二胡,二胡,4,113,0.035398230088495575
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,二胡,琵琶,17,113,0.1504424778761062
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,二胡,中阮,11,113,0.09734513274336283
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,二胡,笛子,0,113,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,二胡,唢呐,1,113,0.008849557522123894
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,二胡,笙,80,113,0.7079646017699115
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,琵琶,二胡,0,85,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,琵琶,琵琶,44,85,0.5176470588235295
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,琵琶,中阮,6,85,0.07058823529411765
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,琵琶,笛子,0,85,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,琵琶,唢呐,0,85,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,琵琶,笙,35,85,0.4117647058823529
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,中阮,二胡,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,中阮,琵琶,9,94,0.09574468085106383
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,中阮,中阮,17,94,0.18085106382978725
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,中阮,唢呐,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,中阮,笙,68,94,0.723404255319149
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笛子,二胡,1,94,0.010638297872340425
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笛子,琵琶,1,94,0.010638297872340425
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笛子,中阮,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笛子,笛子,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笛子,唢呐,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笛子,笙,92,94,0.9787234042553191
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,唢呐,二胡,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,唢呐,琵琶,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,唢呐,笛子,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,唢呐,唢呐,22,45,0.4888888888888889
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,唢呐,笙,23,45,0.5111111111111111
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笙,二胡,0,179,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笙,琵琶,1,179,0.00558659217877095
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笙,中阮,2,179,0.0111731843575419
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笙,笛子,0,179,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笙,唢呐,23,179,0.12849162011173185
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed0,external_test,笙,笙,153,179,0.8547486033519553
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,二胡,二胡,35,37,0.9459459459459459
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,二胡,琵琶,0,37,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,二胡,中阮,2,37,0.05405405405405406
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,二胡,笛子,0,37,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,二胡,唢呐,0,37,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,二胡,笙,0,37,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,琵琶,二胡,0,32,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,琵琶,琵琶,20,32,0.625
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,琵琶,中阮,12,32,0.375
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,琵琶,笛子,0,32,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,琵琶,唢呐,0,32,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,琵琶,笙,0,32,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,中阮,二胡,0,51,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,中阮,琵琶,0,51,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,中阮,中阮,51,51,1.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,中阮,笛子,0,51,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,中阮,唢呐,0,51,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,中阮,笙,0,51,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笛子,二胡,7,49,0.14285714285714285
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笛子,琵琶,0,49,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笛子,中阮,0,49,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笛子,笛子,31,49,0.6326530612244898
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笛子,唢呐,9,49,0.1836734693877551
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笛子,笙,2,49,0.04081632653061224
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,唢呐,二胡,0,34,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,唢呐,琵琶,0,34,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,唢呐,中阮,0,34,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,唢呐,笛子,0,34,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,唢呐,唢呐,34,34,1.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,唢呐,笙,0,34,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笙,二胡,0,39,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笙,琵琶,0,39,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笙,中阮,0,39,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笙,笛子,0,39,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笙,唢呐,0,39,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,test,笙,笙,39,39,1.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,二胡,二胡,71,113,0.6283185840707964
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,二胡,琵琶,0,113,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,二胡,中阮,38,113,0.336283185840708
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,二胡,笛子,2,113,0.017699115044247787
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,二胡,唢呐,1,113,0.008849557522123894
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,二胡,笙,1,113,0.008849557522123894
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,琵琶,二胡,11,85,0.12941176470588237
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,琵琶,琵琶,35,85,0.4117647058823529
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,琵琶,中阮,6,85,0.07058823529411765
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,琵琶,笛子,0,85,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,琵琶,唢呐,2,85,0.023529411764705882
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,琵琶,笙,31,85,0.36470588235294116
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,中阮,二胡,18,94,0.19148936170212766
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,中阮,琵琶,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,中阮,中阮,27,94,0.2872340425531915
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,中阮,唢呐,1,94,0.010638297872340425
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,中阮,笙,48,94,0.5106382978723404
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笛子,二胡,24,94,0.2553191489361702
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笛子,琵琶,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笛子,中阮,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笛子,笛子,16,94,0.1702127659574468
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笛子,唢呐,18,94,0.19148936170212766
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笛子,笙,36,94,0.3829787234042553
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,唢呐,二胡,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,唢呐,琵琶,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,唢呐,笛子,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,唢呐,唢呐,30,45,0.6666666666666666
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,唢呐,笙,15,45,0.3333333333333333
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笙,二胡,21,179,0.11731843575418995
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笙,琵琶,0,179,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笙,中阮,2,179,0.0111731843575419
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笙,笛子,7,179,0.03910614525139665
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笙,唢呐,47,179,0.26256983240223464
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed1,external_test,笙,笙,102,179,0.5698324022346368
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,二胡,二胡,30,30,1.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,二胡,琵琶,0,30,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,二胡,中阮,0,30,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,二胡,笛子,0,30,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,二胡,唢呐,0,30,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,二胡,笙,0,30,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,琵琶,二胡,0,9,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,琵琶,琵琶,0,9,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,琵琶,中阮,2,9,0.2222222222222222
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,琵琶,笛子,0,9,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,琵琶,唢呐,0,9,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,琵琶,笙,7,9,0.7777777777777778
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,中阮,二胡,0,34,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,中阮,琵琶,0,34,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,中阮,中阮,34,34,1.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,中阮,笛子,0,34,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,中阮,唢呐,0,34,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,中阮,笙,0,34,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笛子,二胡,0,66,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笛子,琵琶,0,66,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笛子,中阮,0,66,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笛子,笛子,34,66,0.5151515151515151
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笛子,唢呐,28,66,0.42424242424242425
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笛子,笙,4,66,0.06060606060606061
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,唢呐,二胡,0,51,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,唢呐,琵琶,0,51,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,唢呐,中阮,0,51,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,唢呐,笛子,0,51,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,唢呐,唢呐,50,51,0.9803921568627451
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,唢呐,笙,1,51,0.0196078431372549
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笙,二胡,0,43,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笙,琵琶,0,43,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笙,中阮,0,43,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笙,笛子,0,43,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笙,唢呐,2,43,0.046511627906976744
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,test,笙,笙,41,43,0.9534883720930233
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,二胡,二胡,0,113,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,二胡,琵琶,0,113,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,二胡,中阮,46,113,0.40707964601769914
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,二胡,笛子,66,113,0.584070796460177
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,二胡,唢呐,0,113,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,二胡,笙,1,113,0.008849557522123894
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,琵琶,二胡,0,85,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,琵琶,琵琶,23,85,0.27058823529411763
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,琵琶,中阮,11,85,0.12941176470588237
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,琵琶,笛子,23,85,0.27058823529411763
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,琵琶,唢呐,1,85,0.011764705882352941
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,琵琶,笙,27,85,0.3176470588235294
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,中阮,二胡,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,中阮,琵琶,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,中阮,中阮,73,94,0.776595744680851
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,中阮,笛子,4,94,0.0425531914893617
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,中阮,唢呐,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,中阮,笙,17,94,0.18085106382978725
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笛子,二胡,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笛子,琵琶,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笛子,中阮,1,94,0.010638297872340425
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笛子,笛子,92,94,0.9787234042553191
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笛子,唢呐,0,94,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笛子,笙,1,94,0.010638297872340425
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,唢呐,二胡,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,唢呐,琵琶,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,唢呐,笛子,13,45,0.28888888888888886
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,唢呐,唢呐,32,45,0.7111111111111111
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,唢呐,笙,0,45,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笙,二胡,1,179,0.00558659217877095
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笙,琵琶,0,179,0.0
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笙,中阮,8,179,0.0446927374301676
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笙,笛子,53,179,0.29608938547486036
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笙,唢呐,34,179,0.18994413407821228
+2,exp02_mert_lora_r8,MERT+LoRA (r=8),mert_lora_r8,mert_v1_95m,seed2,external_test,笙,笙,83,179,0.46368715083798884
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,二胡,二胡,31,31,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,二胡,琵琶,0,31,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,二胡,中阮,0,31,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,二胡,笛子,0,31,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,二胡,唢呐,0,31,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,二胡,笙,0,31,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,琵琶,二胡,0,4,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,琵琶,琵琶,4,4,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,琵琶,中阮,0,4,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,琵琶,笛子,0,4,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,琵琶,唢呐,0,4,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,琵琶,笙,0,4,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,中阮,二胡,0,41,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,中阮,琵琶,0,41,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,中阮,中阮,41,41,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,中阮,笛子,0,41,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,中阮,唢呐,0,41,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,中阮,笙,0,41,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笛子,二胡,0,40,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笛子,琵琶,0,40,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笛子,中阮,0,40,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笛子,笛子,40,40,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笛子,唢呐,0,40,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笛子,笙,0,40,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,唢呐,二胡,1,52,0.019230769230769232
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,唢呐,琵琶,0,52,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,唢呐,中阮,0,52,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,唢呐,笛子,0,52,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,唢呐,唢呐,49,52,0.9423076923076923
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,唢呐,笙,2,52,0.038461538461538464
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笙,二胡,0,36,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笙,琵琶,1,36,0.027777777777777776
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笙,中阮,0,36,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笙,笛子,1,36,0.027777777777777776
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笙,唢呐,0,36,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,test,笙,笙,34,36,0.9444444444444444
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,二胡,二胡,98,113,0.8672566371681416
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,二胡,琵琶,9,113,0.07964601769911504
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,二胡,中阮,0,113,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,二胡,笛子,5,113,0.04424778761061947
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,二胡,唢呐,1,113,0.008849557522123894
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,二胡,笙,0,113,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,琵琶,二胡,1,85,0.011764705882352941
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,琵琶,琵琶,79,85,0.9294117647058824
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,琵琶,中阮,0,85,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,琵琶,笛子,0,85,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,琵琶,唢呐,2,85,0.023529411764705882
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,琵琶,笙,3,85,0.03529411764705882
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,中阮,二胡,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,中阮,琵琶,57,94,0.6063829787234043
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,中阮,中阮,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,中阮,唢呐,3,94,0.031914893617021274
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,中阮,笙,34,94,0.3617021276595745
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笛子,二胡,38,94,0.40425531914893614
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笛子,琵琶,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笛子,中阮,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笛子,笛子,22,94,0.23404255319148937
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笛子,唢呐,18,94,0.19148936170212766
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笛子,笙,16,94,0.1702127659574468
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,唢呐,二胡,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,唢呐,琵琶,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,唢呐,笛子,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,唢呐,唢呐,44,45,0.9777777777777777
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,唢呐,笙,1,45,0.022222222222222223
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笙,二胡,13,179,0.07262569832402235
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笙,琵琶,0,179,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笙,中阮,2,179,0.0111731843575419
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笙,笛子,8,179,0.0446927374301676
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笙,唢呐,95,179,0.5307262569832403
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed0,external_test,笙,笙,61,179,0.3407821229050279
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,二胡,二胡,37,37,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,二胡,琵琶,0,37,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,二胡,中阮,0,37,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,二胡,笛子,0,37,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,二胡,唢呐,0,37,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,二胡,笙,0,37,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,琵琶,二胡,0,32,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,琵琶,琵琶,32,32,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,琵琶,中阮,0,32,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,琵琶,笛子,0,32,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,琵琶,唢呐,0,32,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,琵琶,笙,0,32,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,中阮,二胡,0,51,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,中阮,琵琶,0,51,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,中阮,中阮,51,51,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,中阮,笛子,0,51,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,中阮,唢呐,0,51,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,中阮,笙,0,51,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笛子,二胡,1,49,0.02040816326530612
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笛子,琵琶,0,49,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笛子,中阮,0,49,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笛子,笛子,48,49,0.9795918367346939
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笛子,唢呐,0,49,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笛子,笙,0,49,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,唢呐,二胡,0,34,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,唢呐,琵琶,0,34,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,唢呐,中阮,0,34,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,唢呐,笛子,0,34,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,唢呐,唢呐,34,34,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,唢呐,笙,0,34,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笙,二胡,0,39,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笙,琵琶,0,39,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笙,中阮,0,39,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笙,笛子,0,39,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笙,唢呐,1,39,0.02564102564102564
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,test,笙,笙,38,39,0.9743589743589743
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,二胡,二胡,29,113,0.25663716814159293
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,二胡,琵琶,1,113,0.008849557522123894
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,二胡,中阮,0,113,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,二胡,笛子,13,113,0.11504424778761062
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,二胡,唢呐,70,113,0.6194690265486725
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,二胡,笙,0,113,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,琵琶,二胡,0,85,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,琵琶,琵琶,46,85,0.5411764705882353
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,琵琶,中阮,0,85,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,琵琶,笛子,0,85,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,琵琶,唢呐,39,85,0.4588235294117647
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,琵琶,笙,0,85,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,中阮,二胡,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,中阮,琵琶,54,94,0.574468085106383
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,中阮,中阮,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,中阮,唢呐,39,94,0.4148936170212766
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,中阮,笙,1,94,0.010638297872340425
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笛子,二胡,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笛子,琵琶,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笛子,中阮,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笛子,笛子,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笛子,唢呐,94,94,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笛子,笙,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,唢呐,二胡,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,唢呐,琵琶,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,唢呐,笛子,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,唢呐,唢呐,45,45,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,唢呐,笙,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笙,二胡,8,179,0.0446927374301676
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笙,琵琶,2,179,0.0111731843575419
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笙,中阮,0,179,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笙,笛子,2,179,0.0111731843575419
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笙,唢呐,167,179,0.9329608938547486
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed1,external_test,笙,笙,0,179,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,二胡,二胡,30,30,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,二胡,琵琶,0,30,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,二胡,中阮,0,30,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,二胡,笛子,0,30,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,二胡,唢呐,0,30,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,二胡,笙,0,30,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,琵琶,二胡,0,9,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,琵琶,琵琶,9,9,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,琵琶,中阮,0,9,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,琵琶,笛子,0,9,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,琵琶,唢呐,0,9,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,琵琶,笙,0,9,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,中阮,二胡,0,34,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,中阮,琵琶,0,34,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,中阮,中阮,34,34,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,中阮,笛子,0,34,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,中阮,唢呐,0,34,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,中阮,笙,0,34,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笛子,二胡,3,66,0.045454545454545456
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笛子,琵琶,0,66,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笛子,中阮,0,66,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笛子,笛子,63,66,0.9545454545454546
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笛子,唢呐,0,66,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笛子,笙,0,66,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,唢呐,二胡,0,51,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,唢呐,琵琶,0,51,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,唢呐,中阮,0,51,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,唢呐,笛子,1,51,0.0196078431372549
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,唢呐,唢呐,49,51,0.9607843137254902
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,唢呐,笙,1,51,0.0196078431372549
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笙,二胡,0,43,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笙,琵琶,0,43,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笙,中阮,0,43,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笙,笛子,1,43,0.023255813953488372
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笙,唢呐,0,43,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,test,笙,笙,42,43,0.9767441860465116
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,二胡,二胡,0,113,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,二胡,琵琶,2,113,0.017699115044247787
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,二胡,中阮,3,113,0.02654867256637168
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,二胡,笛子,98,113,0.8672566371681416
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,二胡,唢呐,7,113,0.061946902654867256
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,二胡,笙,3,113,0.02654867256637168
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,琵琶,二胡,0,85,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,琵琶,琵琶,54,85,0.6352941176470588
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,琵琶,中阮,0,85,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,琵琶,笛子,0,85,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,琵琶,唢呐,31,85,0.36470588235294116
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,琵琶,笙,0,85,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,中阮,二胡,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,中阮,琵琶,32,94,0.3404255319148936
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,中阮,中阮,20,94,0.2127659574468085
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,中阮,笛子,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,中阮,唢呐,38,94,0.40425531914893614
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,中阮,笙,4,94,0.0425531914893617
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笛子,二胡,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笛子,琵琶,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笛子,中阮,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笛子,笛子,12,94,0.1276595744680851
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笛子,唢呐,82,94,0.8723404255319149
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笛子,笙,0,94,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,唢呐,二胡,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,唢呐,琵琶,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,唢呐,中阮,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,唢呐,笛子,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,唢呐,唢呐,45,45,1.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,唢呐,笙,0,45,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笙,二胡,0,179,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笙,琵琶,0,179,0.0
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笙,中阮,1,179,0.00558659217877095
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笙,笛子,5,179,0.027932960893854747
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笙,唢呐,163,179,0.9106145251396648
+2,exp02_mert_full_ft,MERT full fine-tuning,mert_full_ft,mert_v1_95m,seed2,external_test,笙,笙,10,179,0.055865921787709494
