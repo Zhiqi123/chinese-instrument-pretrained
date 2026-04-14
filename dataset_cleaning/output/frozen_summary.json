@@ -1,0 +1,382 @@
+{
+  "freeze_config_snapshot": {
+    "active_classes": [
+      "二胡",
+      "琵琶",
+      "中阮",
+      "笛子",
+      "唢呐",
+      "笙"
+    ],
+    "family_abbr": {
+      "二胡": "erhu",
+      "琵琶": "pipa",
+      "古筝": "guzheng",
+      "笛子": "dizi",
+      "唢呐": "suona",
+      "笙": "sheng",
+      "扬琴": "yangqin",
+      "三弦": "sanxian",
+      "柳琴": "liuqin",
+      "中阮": "zhongruan"
+    },
+    "ccmusic_whitelist": {
+      "二胡": [
+        "二胡"
+      ],
+      "琵琶": [
+        "琵琶"
+      ],
+      "中阮": [
+        "中阮"
+      ],
+      "笛子": [
+        "A调曲笛",
+        "G调梆笛"
+      ],
+      "唢呐": [
+        "唢呐",
+        "唢呐2",
+        "高音唢呐",
+        "中音加键唢呐",
+        "低音加键唢呐",
+        "低音唢呐",
+        "长唢呐"
+      ],
+      "笙": [
+        "传统笙",
+        "中音笙",
+        "高音键笙"
+      ]
+    },
+    "chmusic_enabled_ids": [
+      1,
+      2,
+      4,
+      5,
+      7,
+      11
+    ],
+    "chmusic_excluded_ids": [
+      6
+    ],
+    "chmusic_id_map": {
+      "1": "二胡",
+      "2": "琵琶",
+      "3": "三弦",
+      "4": "笛子",
+      "5": "唢呐",
+      "7": "中阮",
+      "8": "柳琴",
+      "9": "古筝",
+      "10": "扬琴",
+      "11": "笙"
+    },
+    "thresholds": {
+      "d05a_default": 0.7,
+      "silence_frame_dbfs": -40,
+      "silence_frame_ms": 25,
+      "silence_hop_ms": 10,
+      "d06a_default": 0.02,
+      "clipping_abs_threshold": 0.998,
+      "active_frame_ratio": 0.2,
+      "phrase_ratio_cap": 0.15,
+      "concentration_cap_floor": 15
+    },
+    "threshold_overrides": [
+      {
+        "family_label": "琵琶",
+        "d05a": 0.9,
+        "scope": "ccmusic_only",
+        "concentration_cap_floor": 15,
+        "justification": "弹拨乐器无持续激励，单音衰减快导致 silence_ratio 系统性偏高"
+      },
+      {
+        "family_label": "中阮",
+        "d05a": 0.92,
+        "scope": "ccmusic_only",
+        "justification": "弹拨乐器衰减型尾韵，默认 0.70 仅保留 8/49 条；0.92 保留 35 条"
+      }
+    ],
+    "split_seeds": [
+      3407,
+      2027,
+      9413
+    ],
+    "seed_namespaces": {
+      "split": 0,
+      "phrase_downsampling": 101
+    },
+    "class_replacement": {
+      "enabled": true,
+      "replaced_out": "古筝",
+      "replaced_in": "中阮",
+      "justification": "古筝仅 38 条 CCMusic 录音；中阮(49 条)单条录音时长长(平均 143s)，切片潜力远高于三弦/柳琴"
+    },
+    "whitelist_expansion": {
+      "enabled": false
+    },
+    "chmusic_r05_decisions": null,
+    "external_test_exemptions": null
+  },
+  "classes": [
+    "二胡",
+    "琵琶",
+    "中阮",
+    "笛子",
+    "唢呐",
+    "笙"
+  ],
+  "per_class_stats": {
+    "二胡": {
+      "ccmusic_kept_recordings": 44,
+      "external_kept_recordings": 0,
+      "chmusic_kept_recordings": 5,
+      "primary_unique_groups": 44,
+      "content_type_distribution": {
+        "controlled": 8,
+        "technique": 36
+      }
+    },
+    "琵琶": {
+      "ccmusic_kept_recordings": 33,
+      "external_kept_recordings": 0,
+      "chmusic_kept_recordings": 5,
+      "primary_unique_groups": 19,
+      "content_type_distribution": {
+        "phrase": 4,
+        "technique": 21,
+        "controlled": 8
+      }
+    },
+    "中阮": {
+      "ccmusic_kept_recordings": 35,
+      "external_kept_recordings": 0,
+      "chmusic_kept_recordings": 5,
+      "primary_unique_groups": 19,
+      "content_type_distribution": {
+        "technique": 35
+      }
+    },
+    "笛子": {
+      "ccmusic_kept_recordings": 54,
+      "external_kept_recordings": 0,
+      "chmusic_kept_recordings": 5,
+      "primary_unique_groups": 33,
+      "content_type_distribution": {
+        "phrase": 1,
+        "technique": 32,
+        "controlled": 21
+      }
+    },
+    "唢呐": {
+      "ccmusic_kept_recordings": 108,
+      "external_kept_recordings": 0,
+      "chmusic_kept_recordings": 5,
+      "primary_unique_groups": 108,
+      "content_type_distribution": {
+        "phrase": 4,
+        "technique": 60,
+        "controlled": 44
+      }
+    },
+    "笙": {
+      "ccmusic_kept_recordings": 54,
+      "external_kept_recordings": 0,
+      "chmusic_kept_recordings": 5,
+      "primary_unique_groups": 54,
+      "content_type_distribution": {
+        "technique": 38,
+        "phrase": 8,
+        "controlled": 8
+      }
+    }
+  },
+  "drop_reason_counts": {
+    "excessive_silence": 91,
+    "redundant_near_duplicate": 137,
+    "too_short": 7,
+    "phrase_quota_downsampled": 3
+  },
+  "split_deviation_log": [
+    {
+      "seed_index": 0,
+      "base_seed": 3407,
+      "total_primary": 328,
+      "split_counts": {
+        "train": 231,
+        "val": 49,
+        "test": 48
+      },
+      "deviation_from_target": {
+        "train": 0.004268,
+        "val": -0.00061,
+        "test": -0.003659
+      }
+    },
+    {
+      "seed_index": 1,
+      "base_seed": 2027,
+      "total_primary": 328,
+      "split_counts": {
+        "train": 230,
+        "val": 50,
+        "test": 48
+      },
+      "deviation_from_target": {
+        "train": 0.00122,
+        "val": 0.002439,
+        "test": -0.003659
+      }
+    },
+    {
+      "seed_index": 2,
+      "base_seed": 9413,
+      "total_primary": 328,
+      "split_counts": {
+        "train": 231,
+        "val": 49,
+        "test": 48
+      },
+      "deviation_from_target": {
+        "train": 0.004268,
+        "val": -0.00061,
+        "test": -0.003659
+      }
+    }
+  ],
+  "post_segmentation_checks": [
+    {
+      "seed_index": 0,
+      "total_segments": 2102,
+      "per_class_per_split": {
+        "笛子": {
+          "train": 184,
+          "val": 17,
+          "test": 40,
+          "external_test": 94
+        },
+        "二胡": {
+          "train": 146,
+          "test": 31,
+          "val": 21,
+          "external_test": 113
+        },
+        "琵琶": {
+          "val": 15,
+          "test": 4,
+          "train": 65,
+          "external_test": 85
+        },
+        "笙": {
+          "train": 245,
+          "test": 36,
+          "val": 68,
+          "external_test": 179
+        },
+        "唢呐": {
+          "train": 198,
+          "val": 39,
+          "test": 52,
+          "external_test": 45
+        },
+        "中阮": {
+          "test": 41,
+          "val": 61,
+          "train": 229,
+          "external_test": 94
+        }
+      }
+    },
+    {
+      "seed_index": 1,
+      "total_segments": 2102,
+      "per_class_per_split": {
+        "笛子": {
+          "val": 16,
+          "train": 176,
+          "test": 49,
+          "external_test": 94
+        },
+        "二胡": {
+          "val": 27,
+          "test": 37,
+          "train": 134,
+          "external_test": 113
+        },
+        "琵琶": {
+          "val": 12,
+          "train": 40,
+          "test": 32,
+          "external_test": 85
+        },
+        "笙": {
+          "val": 50,
+          "train": 260,
+          "test": 39,
+          "external_test": 179
+        },
+        "唢呐": {
+          "train": 213,
+          "val": 42,
+          "test": 34,
+          "external_test": 45
+        },
+        "中阮": {
+          "train": 242,
+          "val": 38,
+          "test": 51,
+          "external_test": 94
+        }
+      }
+    },
+    {
+      "seed_index": 2,
+      "total_segments": 2102,
+      "per_class_per_split": {
+        "笛子": {
+          "train": 126,
+          "test": 66,
+          "val": 49,
+          "external_test": 94
+        },
+        "二胡": {
+          "test": 30,
+          "train": 135,
+          "val": 33,
+          "external_test": 113
+        },
+        "琵琶": {
+          "test": 9,
+          "train": 72,
+          "val": 3,
+          "external_test": 85
+        },
+        "笙": {
+          "test": 43,
+          "train": 251,
+          "val": 55,
+          "external_test": 179
+        },
+        "唢呐": {
+          "test": 51,
+          "train": 197,
+          "val": 41,
+          "external_test": 45
+        },
+        "中阮": {
+          "test": 34,
+          "train": 248,
+          "val": 49,
+          "external_test": 94
+        }
+      }
+    }
+  ],
+  "audio_processing_config": {
+    "librosa": "0.11.0",
+    "soundfile": "0.13.1",
+    "soxr": "1.0.0",
+    "python": "3.12.0"
+  }
+}
