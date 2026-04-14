@@ -1,0 +1,143 @@
+# frozen experiment config template
+# All decisions locked before production run; immutable at runtime.
+# Copy this template to freeze_config.yaml and fill in before running.
+
+# 1. Active classes
+
+# Final 6 classes (from default or replacement set)
+active_classes:
+  - 二胡
+  - 琵琶
+  - 古筝
+  - 笛子
+  - 唢呐
+  - 笙
+
+# family_label -> family_abbr mapping (for ID generation)
+family_abbr:
+  二胡: erhu
+  琵琶: pipa
+  古筝: guzheng
+  笛子: dizi
+  唢呐: suona
+  笙: sheng
+  扬琴: yangqin
+  三弦: sanxian
+  柳琴: liuqin
+  中阮: zhongruan
+  坠琴: zhuiqin
+
+# 2. CCMusic whitelist
+
+# source_subtype_dir -> family_label mapping
+# Directories not listed here are marked out_of_scope
+ccmusic_whitelist:
+  二胡: [二胡]
+  琵琶: [琵琶]
+  古筝: [古筝]
+  笛子: [A调曲笛, G调梆笛]
+  唢呐: [唢呐, 唢呐2, 高音唢呐, 中音加键唢呐, 低音加键唢呐, 低音唢呐, 长唢呐]
+  笙: [传统笙, 中音笙, 高音键笙]
+
+# 3. ChMusic IDs
+
+chmusic_enabled_ids: [1, 2, 4, 5, 9, 11]
+
+# ChMusic class_id -> family_label (full mapping)
+chmusic_id_map:
+  1: 二胡
+  2: 琵琶
+  3: 三弦
+  4: 笛子
+  5: 唢呐
+  6: 坠琴
+  7: 中阮
+  8: 柳琴
+  9: 古筝
+  10: 扬琴
+  11: 笙
+
+# 4. Quality control thresholds
+
+thresholds:
+  # Silence
+  d05a_default: 0.70         # silence_ratio auto-reject
+  silence_frame_dbfs: -40    # frame-level silence threshold (dBFS)
+  silence_frame_ms: 25       # frame length (ms)
+  silence_hop_ms: 10         # hop (ms)
+
+  # Clipping
+  d06a_default: 0.02         # clipping_ratio auto-reject
+  clipping_abs_threshold: 0.998  # |sample| >= threshold -> clipping
+
+  # Segment energy
+  active_frame_ratio: 0.20   # default segment energy screening threshold
+
+  # Quota
+  phrase_ratio_cap: 0.15     # max phrase ratio per class
+
+  # Concentration cap
+  concentration_cap_floor: 15 # min slices per recording (cap = max(floor, ceil(N*0.10)))
+
+# Per-family threshold overrides (optional, leave empty to use defaults)
+threshold_overrides:
+  # Example:
+  # - family_label: 古筝
+  #   d05a: 0.85               # range 0.70~0.95
+  #   scope: all               # all (CCMusic+ChMusic) | chmusic_only
+  #   justification: "Decay instrument natural tail causes systematic mislabeling"
+  #
+  # - family_label: 笛子
+  #   active_frame_ratio: 0.15 # range 0.10~0.19
+  #   justification: "Default threshold filters all candidates"
+  #
+  # - family_label: 笛子
+  #   d06a: 0.05               # range 0.02~0.10, chmusic_only only
+  #   scope: chmusic_only
+  #   justification: "R05 gate insufficient, relax clipping threshold"
+  #
+  # - family_label: 琵琶
+  #   concentration_cap_floor: 8  # range 1~50, overrides default
+  #   justification: "Few recordings but long duration, improve slice utilization"
+
+# 5. Random seeds
+
+split_seeds: [3407, 2027, 9413]
+seed_namespaces:
+  split: 0                   # actual seed = base_seed + 0
+  phrase_downsampling: 101   # actual seed = base_seed + 101
+
+# 6. Class replacement (optional)
+
+class_replacement:
+  enabled: false
+  # replaced_out: 笙           # family_label to replace out
+  # replaced_in: 扬琴          # family_label to replace in
+  # justification: "Class has only 18 recordings after cleaning, triggers R01"
+
+# 7. Whitelist expansion (optional, dizi only)
+
+whitelist_expansion:
+  enabled: false
+  # added_subtypes: [高音横笛, 中音横笛, 低音横笛]
+  # justification: "Dizi class triggers R01, expand flute whitelist"
+
+# 8. ChMusic R05 decisions (optional)
+
+# When a class has ChMusic kept_recordings < 4
+chmusic_r05_decisions:
+  # - family_label: 笛子
+  #   decision: accept_limited   # accept_limited | threshold_override
+  #   justification: "Only 3 recordings but quality acceptable"
+  #   # threshold_override only:
+  #   d05a: null
+  #   d06a: null
+
+# 9. external_test exemptions (optional)
+
+# When a (family_label, seed) has 0 external_test segments
+external_test_exemptions:
+  # - family_label: 笛子
+  #   seed: 0
+  #   resolution: noted_limitation   # noted_limitation | external_test_exempted
+  #   notes: "All recordings < 5s, zero-padded still fails energy screening"
