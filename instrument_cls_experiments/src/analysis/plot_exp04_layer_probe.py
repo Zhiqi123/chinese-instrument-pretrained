@@ -6,6 +6,7 @@ import sys
 from pathlib import Path
 
 import os as _os
+
 # fix matplotlib cache dir to avoid permission issues
 _os.environ.setdefault(
     "MPLCONFIGDIR",
@@ -13,6 +14,7 @@ _os.environ.setdefault(
 )
 
 import matplotlib
+
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
@@ -46,24 +48,18 @@ def main() -> None:
 
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
 
-    # plot separate charts for test / external_test
-    split_styles = {
-        "test": {"color": "#2196F3", "marker": "o", "label": "Test",
-                 "filename": "exp04_layer_probe_macro_f1_test.pdf", "above": False},
-        "external_test": {"color": "#FF9800", "marker": "s", "label": "External Test",
-                          "filename": "exp04_layer_probe_macro_f1_external_test.pdf", "above": True},
-    }
+    # 两条折线合并到同一张图
+    split_styles = [
+        ("test", {"color": "#2196F3", "marker": "o", "label": "Test", "above": False}),
+        ("external_test", {"color": "#FF9800", "marker": "s", "label": "External Test", "above": True}),
+    ]
 
     max_layer = int(df["layer_index"].max())
+    fig, ax = plt.subplots(figsize=(6, 5))
 
-    for split, style in split_styles.items():
-        fig, ax = plt.subplots(figsize=(6, 5))
+    for split, style in split_styles:
         split_df = df[df["split"] == split].sort_values("layer_index")
         if split_df.empty:
-            ax.set_title(f"({split}: no data)")
-            output_path = FIGURES_DIR / style["filename"]
-            fig.savefig(output_path, dpi=fig_defaults.get("dpi", 150), bbox_inches="tight")
-            plt.close(fig)
             continue
 
         x = split_df["layer_index"].values
@@ -87,23 +83,23 @@ def main() -> None:
             color=style["color"], fontweight="bold",
         )
 
-        ax.set_xlabel("MERT Layer Index",
-                       fontsize=fig_defaults.get("label_fontsize", 12))
-        ax.set_ylabel("Macro F1 (mean ± std)",
-                       fontsize=fig_defaults.get("label_fontsize", 12))
-        ax.set_title(f"MERT Layer-wise Probing — {style['label']}",
-                     fontsize=fig_defaults.get("title_fontsize", 13), pad=10)
+    ax.set_xlabel("MERT Layer Index",
+                  fontsize=fig_defaults.get("label_fontsize", 12))
+    ax.set_ylabel("Macro F1 (mean ± std)",
+                  fontsize=fig_defaults.get("label_fontsize", 12))
+    ax.set_title("MERT Layer-wise Probing",
+                 fontsize=fig_defaults.get("title_fontsize", 13), pad=10)
 
-        ax.set_xticks(range(max_layer + 1))
-        ax.set_ylim(0, 1.05)
-        ax.legend(loc="lower right", fontsize=10)
-        ax.grid(True, alpha=0.3)
+    ax.set_xticks(range(max_layer + 1))
+    ax.set_ylim(0, 1.05)
+    ax.legend(loc="lower right", fontsize=10)
+    ax.grid(True, alpha=0.3)
 
-        fig.tight_layout()
-        output_path = FIGURES_DIR / style["filename"]
-        fig.savefig(output_path, dpi=fig_defaults.get("dpi", 150), bbox_inches="tight")
-        plt.close(fig)
-        print(f"  Saved: {output_path.relative_to(EXP_ROOT)}")
+    fig.tight_layout()
+    output_path = FIGURES_DIR / "exp04_layer_probe_macro_f1.pdf"
+    fig.savefig(output_path, dpi=fig_defaults.get("dpi", 150), bbox_inches="tight")
+    plt.close(fig)
+    print(f"  Saved: {output_path.relative_to(EXP_ROOT)}")
 
     print("=" * 60)
     print("plot_exp04_layer_probe: done")
